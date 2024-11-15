@@ -1,0 +1,156 @@
+﻿sninamn,is--sninamn,name
+jrbk_serv,TRUE,jordbruksföretag och serviceföretag till jordbruk
+skgb,TRUE,skogsbruksföretag
+fsk_vatn,TRUE,fiskare och vattenbrukare 
+_mtl_serv,TRUE,utvinning av metallmalmer och annan utvinning av mineral samt service till utvinning
+livs,TRUE,livsmedelsindustri
+drk_tbk,TRUE,dryckesvaru- och tobaksindustri
+drk,TRUE,dryckesvaruindustri
+tbk,TRUE,tobaksindustri
+txtl,TRUE,textilindustri
+bekl_ind,TRUE,beklädnadsindustri
+ind_ldr,TRUE,industri för läder och lädervaror
+ind_tra,TRUE,industri för trä och varor av trä: kork och rotting o.d. utom möbler
+msa_ppr,TRUE,massa-: pappers- och pappersvaruindustri
+grf_rep,TRUE,grafisk och annan reproduktionsindustri
+kmk_ind,TRUE,kemisk industri: petroleumprodukter och läkemedelsindustri
+stn_pet,TRUE,tillverkning av stenkolsprodukter och raffinerade petroleumprodukter
+tlv_kmk,TRUE,tillverkning av kemikalier och kemiska produkter
+ind_far,TRUE,industri för farmaceutiska basprodukter och läkemedel
+gmi_pls,TRUE,gummi- och plastvaruindustri
+ind_min,TRUE,industri för andra icke-metalliska mineraliska produkter
+stl_met,TRUE,stål- och metallverk
+ind_met_,TRUE,industri för metallvaror utom maskiner och apparater
+ind_dat,TRUE,industri för datorer: elektronikvaror: optik och elapparatur
+ind_dat_ejel,TRUE,industri för datorer: elektronikvaror och optik
+ind_elap,TRUE,industri för elapparatur
+elap,TRUE,övrig maskinindustri
+ind_mot_vag,TRUE,industri för motorfordon: släpfordon och påhängsvagnar
+ann_transp,TRUE,annan transportmedelsindustri
+mblind,TRUE,möbelindustri
+ann_tilv,TRUE,annan tillverkningsindustri
+rep_inst,TRUE,reparationsverkstäder och installationsföretag för maskiner och apparater
+el_gs_vrm,TRUE,el-: gas- och värmeverk
+vtnv,TRUE,vattenverk
+rngv,TRUE,reningsverk
+avf_trv,TRUE,avfallshanteringsanläggningar: återvinningsanläggningar
+san_ftrb,TRUE,anläggningar för sanering: efterbehandling av jord och vatten samt annan verksamhet för föroreningsbekämpning 
+bgg_ent,TRUE,byggentreprenörer
+anl_ent,TRUE,anläggningsentreprenörer
+spec_bgg,TRUE,specialiserade bygg- och anläggningsentreprenörer
+hnd_motc,TRUE,handel med och serviceverkstäder för motorfordon och motorcyklar
+prt_prv,TRUE,parti - och provisionshandel utom med motorfordon
+det_hnd,TRUE,detaljhandel utom med motorfordon och motorcyklar
+lnd_transp,TRUE,landtransportföretag: rörtransportföretag
+red,TRUE,rederier
+flg,TRUE,flygbolag
+mgs_pst,TRUE,magasinering och stödtjänster till transport samt post- och kurirverksamhet
+mgs_transp,TRUE,magasin och serviceföretag till transport
+pst,TRUE,post- och kurirföretag
+htl_cmp,TRUE,hotell: semesterbostäder: vandrarhem: campingplatser m.m.
+rst_bar,TRUE,restauranger: cateringföretag: barer och pubar
+frlg,TRUE,förlag
+flm_ljd,TRUE,film-: video och tv-programföretag: ljudinspelningsstudior och fonogramutgivare
+rdio_tv,TRUE,radio- och tv-bolag
+tlekom,TRUE,telekommunikationsbolag
+prgm_prod,TRUE,programvaruproducenter: datakonsulter o.d.
+inf_frlg,TRUE,informationstjänstföretag
+fst_frv,TRUE,fastighetsbolag och fastighetsförvaltare
+jur_ek,TRUE,juridiska och ekonomiska konsultbyråer
+pr_kom,TRUE,huvudkontor: konsultbyråer inom pr och kommunikation samt företags organisation
+ark_frs,TRUE,arkitekter: teknisk provnings- och konsultverksamhet samt vetenskaplig forskning
+ark_tek,TRUE,arkitektkontor: tekniska konsultbyråer: tekniska provnings- och analysföretag
+forsk,TRUE,forsknings- och utvecklingsinstitutioner
+rklm_mrk,TRUE,reklam- och marknadsföringsbyråer: marknadsundersökningsbyråer o.d.
+and_jur_ek,TRUE,andra företag inom juridik: ekonomi: vetenskap och teknik
+vetr,TRUE,veterinärkliniker
+uthyr,TRUE,uthyrningsfirmor   
+arbf,TRUE,arbetsförmedlingar: rekryteringsföretag: personaluthyrningsföretag o.d.
+rese,TRUE,resebyråer och researrangörer: turistbyråer
+bev_skrhet,TRUE,företag för bevakning och säkerhetstjänst: detektivbyråer
+frt_fstserv,TRUE,företag för fastighetsservice samt skötsel och underhåll av grönytor
+knt_and,TRUE,kontors- och andra företagstjänstföretag
+utb,TRUE,utbildningsväsendet
+hls_vrd,TRUE,enheter för hälso- och sjukvård
+vrdhm,TRUE,vårdhem och bostäder med omsorg
+soc_open,TRUE,sociala öppenvårdsenheter: socialkontor
+enh_knst,TRUE,enheter för konstnärlig och kulturell verksamhet samt underhållningsverksamhet
+bibl_arkv,TRUE,bibliotek: arkiv och museer m.m.
+spl_vad,TRUE,spel- och vadhållningsföretag
+sprt_nje,TRUE,sport-: fritids- och nöjesanläggningar
+intrss_rel,TRUE,intresseorganisationer och religiösa samfund
+rep_dat_hsh,TRUE,reparationsverkstäder för datorer: hushållsartiklar och personliga artiklar
+and_kons,TRUE,andra konsumenttjänstföretag
+tot,TRUE,totalt
+fsk_vtn,TRUE,fiskare och vattenbrukare
+utv_min,TRUE,utvinning av mineral
+livs_dk,TRUE,livsmedel: drycker och tobak
+tilv_txtl,TRUE,tillverkning av textilier: kläder och läderprodukter
+ind_stn,TRUE,industri för stenkolsprodukter och raffinerade petroleumprodukter
+tilv_kem,TRUE,tillverkning av kemikalier och kemiska produkter: farmaceutiska basprodukter och läkemedel
+tilv_mob,TRUE,tillverkning av möbler och annan tillverkning
+vtnf,TRUE,vattenförsörjning
+avl_ren,TRUE,avloppsrening: avfallhantering: återvinning och sanering
+bygg,TRUE,byggverksamhet
+hand,TRUE,handel
+mag_std_trans,TRUE,magasinering och stödtjänster till transport: post och kurirverksamhet
+htl_rest,TRUE,hotell- och restaurang
+flm_ljd_vid,TRUE,film: video: ljud: planering och sändning av program
+telekom,TRUE,telekommunikation
+prog_inf,TRUE,dataprogrammering: datakonsulter och informationstjänster
+bnk_kred,TRUE,banker och andra kreditinstitut
+frsk_pens,TRUE,försäkrings- och återförsäkringsbolag: pensionsfonder
+serv_frsk,TRUE,serviceföretag till finans- och försäkringsverksamhet
+jur_ek_hvd,TRUE,juridisk och ekonomisk verksamhet: verksamheter som utövas av huvudkontor: konsulttjänster till företag
+ark_tek_vet,TRUE,arkitekt- och tekniska tjänster: vetenskaplig forskning och utveckling
+rek_mrknd,TRUE,reklam och marknadsundersökning: annan verksamhet inom juridik: ekonomi: vetenskap: teknik: veterinärverksamhet
+uthyrf,TRUE,uthyrningsfirmor
+arbf_res,TRUE,arbetsförmedling: resetjänster: andra stödtjänster
+utbild,TRUE,utbildning
+hls_sjkvrd,TRUE,hälso- och sjukvård
+vrd_oms,TRUE,vård och omsorg med boende: öppna sociala insatser
+kult_frit,TRUE,kultur: nöje och fritid
+ann_serv,TRUE,annan serviceverksamhet och förvärvsarbete i hushåll m.m.
+int_org,TRUE,internationella organisationer: utländska ambassader o.d.
+off_sek,TRUE,offentlig sektor
+hsh_icke,TRUE,hushållens icke-vinstdrivande organisationer
+priv_kom,TRUE,privat konsumtion
+nat_tot_exk,TRUE,NATIONELL TOTAL (exklusive LULUCF: exklusive internationella transporter)
+nat_tot_int,TRUE,NATIONELL TOTAL (exklusive LULUCF: inklusive internationella transporter)
+nat_tot_ink,TRUE,NATIONELL TOTAL (inklusive LULUCF: inklusive internationella transporter)
+ind_stnkl,TRUE,industri för stenkolsprodukter och raffinerade petroleumprodukter 
+nrg_tot,TRUE,näringslivet totalt
+varuprod,TRUE,varuproducenter
+jrd_skg,TRUE,jordbruk: skogsbruk och fiske
+grv_min,TRUE,gruvor: mineralutvinnings- och tillverkningsindustri
+tilv_ind,TRUE,tillverkningsindustrin
+trv_msa,TRUE,trävaru-: massa-: pappers- och grafisk industri
+gmi_plst,TRUE,gummi- och plastvaruindustri: och andra icke metalliska mineraliska produkter
+stl_mtl,TRUE,stål- och metallframställning: samt tillverkning av metallvaror (ej maskiner)
+tilv_mbler,TRUE,tillverkning av möbler: övrig tillverkning: reparation och installation av maskiner och apparater
+frsg_el_gas,TRUE,försörjning av el: gas: värme och kyla samt vattenförsörjning: avloppsrening: avfallshantering och sanering
+tjnste_prod,TRUE,tjänsteproducenter
+transp_mag,TRUE,transport och magasinering
+frlg_flm,TRUE,förlagsverksamhet: film: video: TV: ljudinspelning: fonogramutgivning: planering och sändning av program
+fnans_frsk,TRUE,finans- och försäkringsverksamhet
+sm_hus,TRUE,småhus
+fast_ovrg,TRUE,övrig fastighetsförvaltning
+hyr_fast,TRUE,uthyrning av fastighetsservice: resetjänster och andra stödtjänster
+off_myn,TRUE,offentliga myndigheter
+stat_myn,TRUE,statliga myndigheter och sociala trygghetsfonder
+kom_mynd,TRUE,kommunala myndigheter
+prim_myn,TRUE,primärkommunala myndigheter och kommunalförbund
+reg_mynd,TRUE,regionala myndigheter
+tilv_sten,TRUE,tillverkning av stenkolsprodukter: raffinerade petroleum-: kemikalie- och kemiska produkter samt av farmaceutiska basprodukter och läkemedel
+tilv_dat,TRUE,tillverkning av datorer: elektronikvaror och optik och elapparatur
+livs_tb_kld,TRUE,livsmedel: drycker och tobak: tillverkning av textilier: kläder och läderprodukter
+transp_ind,TRUE,transportmedelsindustri
+vatn_frsg,TRUE,vattenförsörjning: avloppsrening: avfallshantering: återvinning och sanering
+inf_kom,TRUE,informations- och kommunikationsverksamhet
+jur_ek_kons,TRUE,juridisk och ekonomisk konsultverksamhet: huvudkontors- och konsulttjänster till företag: arkitekt- och teknisk konsultverksamhet samt FoU
+utb_hls,TRUE,utbildning: hälso- och sjukvård
+pers_kult,TRUE,personliga och kulturella tjänster
+htl_log,TRUE,Hotell- och logiverksamhet
+inf_komm,TRUE,Information och kommunikation
+finns_frtg,TRUE,Finans-: fastighets- och företajgstjänster
+ospec,TRUE,Bransch ospecificerad
