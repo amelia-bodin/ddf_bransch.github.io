@@ -1,4 +1,14 @@
 ﻿tag,name,parent
-emissions,Emissions,environment
-environment,Environment,
-workforce,Workforce,
+handel,Handel,
+utslapp,Utsläpp,miljo_sek
+energi,Energi,
+ekonomi,Ekonomi,
+miljo_sek,Miljösektorn,
+bioek,Bioekonomi,
+transp,Transportsektorn,
+natur,Naturresurser,
+farligt,Farligt avfall,natur
+ej_farligt,Icke-farligt avfall,natur
+eko_styr,Ekonomiska Styrmedel,
+kompetens,Kompetens,
+konsum,Konsumtion,
