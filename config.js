@@ -1,10 +1,10 @@
 var CONFIG = {
  "data": {
-  "_lastModified": 1731677305633,
+  "_lastModified": 1733043393719,
   "assetsPath": "C:\\Users\\amelia.bodin\\AppData\\Local\\Programs\\Gapminder Offline\\resources\\preview-data\\",
-  "ddfPath": "./data/ddf_bransch",
-  "lastModified": 1731677305633,
-  "path": "./data/ddf_bransch",
+  "ddfPath": "./data/bransch_ddf",
+  "lastModified": 1733043393719,
+  "path": "./data/bransch_ddf",
   "reader": "ddf"
  },
  "locale": {
@@ -64,7 +64,7 @@ var CONFIG = {
     "spaceRef": null,
     "syncModels": [],
     "use": "indicator",
-    "which": "arbk_med",
+    "which": "ant_for_tot",
     "zoomedMax": null,
     "zoomedMin": null
    },
@@ -90,7 +90,7 @@ var CONFIG = {
     "spaceRef": null,
     "syncModels": [],
     "use": "indicator",
-    "which": "arbk_tim",
+    "which": "utsl_kilo_tonne",
     "zoomedMax": null,
     "zoomedMin": null
    },
@@ -108,7 +108,7 @@ var CONFIG = {
     "autoconfig": {},
     "data": "data",
     "palette": {
-     "_default": "#4f6366"
+     "_default": "#ffb600"
     },
     "paletteHiddenKeys": [],
     "paletteLabels": null,
@@ -243,10 +243,10 @@ var CONFIG = {
    "delayThresholdX2": 90,
    "delayThresholdX4": 45,
    "dim": "year",
-   "end": "2022",
+   "end": "2019",
    "endBeforeForecast": "2023",
    "endOrigin": null,
-   "endSelected": "2022",
+   "endSelected": "2019",
    "format": {
     "data": null,
     "ui": null
@@ -265,7 +265,7 @@ var CONFIG = {
    "startSelected": "2008",
    "step": 1,
    "unit": "year",
-   "value": "2022"
+   "value": "2019"
   }
  },
  "ui": {
@@ -347,7 +347,7 @@ var CONFIG = {
   "show_ticks": true,
   "sidebarCollapse": false,
   "splash": false,
-  "zoomOnScrolling": true
+  "zoomOnScrolling": false
  },
  "chartType": "BubbleChart"
 };
