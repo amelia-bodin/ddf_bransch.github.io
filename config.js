@@ -9,7 +9,7 @@ var CONFIG = {
  },
  "locale": {
   "filePath": "assets/translation/",
-  "id": "en"
+  "id": "sv-SE"
  },
  "state": {
   "entities": {
@@ -108,7 +108,7 @@ var CONFIG = {
     "autoconfig": {},
     "data": "data",
     "palette": {
-     "_default": "#ffb600"
+     "_default": "#4f6366"
     },
     "paletteHiddenKeys": [],
     "paletteLabels": null,
@@ -347,7 +347,7 @@ var CONFIG = {
   "show_ticks": true,
   "sidebarCollapse": false,
   "splash": false,
-  "zoomOnScrolling": false
+  "zoomOnScrolling": true
  },
  "chartType": "BubbleChart"
 };
