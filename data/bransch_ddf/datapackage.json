@@ -1671,6 +1671,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--kem_tonne--by--sni_id--year.csv",
+      "name": "kem_tonne--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "kem_tonne"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--koldi_skatt--by--sni_id--year.csv",
       "name": "koldi_skatt--by--sni_id--year",
       "schema": {
@@ -3815,6 +3836,16 @@
           "geog",
           "year"
         ],
+        "value": "kem_tonne",
+        "resources": [
+          "kem_tonne--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "koldi_skatt",
         "resources": [
           "koldi_skatt--by--sni_id--year"
@@ -5208,6 +5239,16 @@
         "value": "kem_icke_farl",
         "resources": [
           "kem_icke_farl--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "kem_tonne",
+        "resources": [
+          "kem_tonne--by--sni_id--year"
         ]
       },
       {
