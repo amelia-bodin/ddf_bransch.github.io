@@ -17790,6 +17790,7 @@ var About = _dialog2.default.extend("about", {
     this.element = d3.select(this.element);
     this.element.select(".vzb-about-text0").html("This chart is made with Vizabi,");
     this.element.select(".vzb-about-text1").html("a project by <a href='http://gapminder.org' target='_blank'>Gapminder Foundation</a>");
+    this.element.select(".vzb-about-text1").html("Edited by Amelia Bodin and <a href='https://www.statistikkonsulterna.se/'> Statistikkonsulterna Väst AB</a>");
     this.element.select(".vzb-about-version").html("<a href='https://github.com/Gapminder/vizabi/releases/tag/v" + version + "' target='_blank'>Version: " + version + "</a>");
     this.element.select(".vzb-about-updated").html("Build: " + d3.time.format("%Y-%m-%d at %H:%M")(updated));
     this.element.select(".vzb-about-report").html("<a href='https://getsatisfaction.com/gapminder/' target='_blank'>Report a problem</a>");
