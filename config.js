@@ -90,7 +90,7 @@ var CONFIG = {
     "spaceRef": null,
     "syncModels": [],
     "use": "indicator",
-    "which": "utsl_kilo_tonne",
+    "which": "forbr_bio",
     "zoomedMax": null,
     "zoomedMin": null
    },
