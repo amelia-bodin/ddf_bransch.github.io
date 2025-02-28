@@ -1461,27 +1461,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--int_kem--by--sni_id--year.csv",
-      "name": "int_kem--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "int_kem"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--inv_miljo--by--sni_id--year.csv",
       "name": "inv_miljo--by--sni_id--year",
       "schema": {
@@ -1578,48 +1557,6 @@
           },
           {
             "name": "kass_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--kem_anv--by--sni_id--year.csv",
-      "name": "kem_anv--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "kem_anv"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--kem_anv_tonne_msek--by--sni_id--year.csv",
-      "name": "kem_anv_tonne_msek--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "kem_anv_tonne_msek"
           }
         ],
         "primaryKey": [
@@ -2196,27 +2133,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--prod_v--by--sni_id--year.csv",
-      "name": "prod_v--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "prod_v"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--reg_foradl--by--sni_id--year.csv",
       "name": "reg_foradl--by--sni_id--year",
       "schema": {
@@ -2355,27 +2271,6 @@
           },
           {
             "name": "slam_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--slut_eft--by--sni_id--year.csv",
-      "name": "slut_eft--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "slut_eft"
           }
         ],
         "primaryKey": [
@@ -2721,27 +2616,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--utsl_kilo_tonne--by--sni_id--year.csv",
-      "name": "utsl_kilo_tonne--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "utsl_kilo_tonne"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--utsl_koldi--by--sni_id--year.csv",
       "name": "utsl_koldi--by--sni_id--year",
       "schema": {
@@ -2754,27 +2628,6 @@
           },
           {
             "name": "utsl_koldi"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--utsl_p_prod--by--sni_id--year.csv",
-      "name": "utsl_p_prod--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "utsl_p_prod"
           }
         ],
         "primaryKey": [
@@ -2901,27 +2754,6 @@
           },
           {
             "name": "vaxthusg"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vaxt_int--by--sni_id--year.csv",
-      "name": "vaxt_int--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vaxt_int"
           }
         ],
         "primaryKey": [
@@ -3736,16 +3568,6 @@
           "geog",
           "year"
         ],
-        "value": "int_kem",
-        "resources": [
-          "int_kem--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "inv_miljo",
         "resources": [
           "inv_miljo--by--sni_id--year"
@@ -3789,26 +3611,6 @@
         "value": "kass_icke_farl",
         "resources": [
           "kass_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "kem_anv",
-        "resources": [
-          "kem_anv--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "kem_anv_tonne_msek",
-        "resources": [
-          "kem_anv_tonne_msek--by--sni_id--year"
         ]
       },
       {
@@ -4086,16 +3888,6 @@
           "geog",
           "year"
         ],
-        "value": "prod_v",
-        "resources": [
-          "prod_v--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "reg_foradl",
         "resources": [
           "reg_foradl--by--sni_id--year"
@@ -4159,16 +3951,6 @@
         "value": "slam_icke_farl",
         "resources": [
           "slam_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "slut_eft",
-        "resources": [
-          "slut_eft--by--sni_id--year"
         ]
       },
       {
@@ -4336,29 +4118,9 @@
           "geog",
           "year"
         ],
-        "value": "utsl_kilo_tonne",
-        "resources": [
-          "utsl_kilo_tonne--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "utsl_koldi",
         "resources": [
           "utsl_koldi--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "utsl_p_prod",
-        "resources": [
-          "utsl_p_prod--by--sni_id--year"
         ]
       },
       {
@@ -4409,16 +4171,6 @@
         "value": "varuimp",
         "resources": [
           "varuimp--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "vaxt_int",
-        "resources": [
-          "vaxt_int--by--sni_id--year"
         ]
       },
       {
@@ -5146,16 +4898,6 @@
           "sni_id",
           "year"
         ],
-        "value": "int_kem",
-        "resources": [
-          "int_kem--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
         "value": "inv_miljo",
         "resources": [
           "inv_miljo--by--sni_id--year"
@@ -5199,26 +4941,6 @@
         "value": "kass_icke_farl",
         "resources": [
           "kass_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "kem_anv",
-        "resources": [
-          "kem_anv--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "kem_anv_tonne_msek",
-        "resources": [
-          "kem_anv_tonne_msek--by--sni_id--year"
         ]
       },
       {
@@ -5496,16 +5218,6 @@
           "sni_id",
           "year"
         ],
-        "value": "prod_v",
-        "resources": [
-          "prod_v--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
         "value": "reg_foradl",
         "resources": [
           "reg_foradl--by--sni_id--year"
@@ -5569,16 +5281,6 @@
         "value": "slam_icke_farl",
         "resources": [
           "slam_icke_farl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "slut_eft",
-        "resources": [
-          "slut_eft--by--sni_id--year"
         ]
       },
       {
@@ -5746,29 +5448,9 @@
           "sni_id",
           "year"
         ],
-        "value": "utsl_kilo_tonne",
-        "resources": [
-          "utsl_kilo_tonne--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
         "value": "utsl_koldi",
         "resources": [
           "utsl_koldi--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "utsl_p_prod",
-        "resources": [
-          "utsl_p_prod--by--sni_id--year"
         ]
       },
       {
@@ -5819,16 +5501,6 @@
         "value": "varuimp",
         "resources": [
           "varuimp--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "vaxt_int",
-        "resources": [
-          "vaxt_int--by--sni_id--year"
         ]
       },
       {
