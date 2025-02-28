@@ -13284,12 +13284,11 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var defaultPalettes = {
   "_continuous": {
     "_default": "#4F6366",
-    //Idéer för grafisk profil-färger
-    "0": "#B284BE" //"#8c30e8", //"hsl(270, 80%, 55%)",  //( #C5A7C1 )
-    "25": "#60849A" //"#30a3e8", //"hsl(202.5, 80%, 55%)", // #60849A
-    "50": "#8DAF59" //"#30e85e", //"hsl(135, 80%, 55%)", //
-    "75": "#F5D033" //"#e2c75a", //"hsl(48, 70%, 62%)", //Färgen mellan 75 och 100 ska bli #F79F57
-    "100": "#FF6159" //"#e83030" //"hsl(0, 80%, 55%)"   // #FF6159
+    "0": "#8c30e8", //"hsl(270, 80%, 55%)",  
+    "25": "#30a3e8", //"hsl(202.5, 80%, 55%)",
+    "50": "#30e85e", //"hsl(135, 80%, 55%)",
+    "75": "#e2c75a", //"hsl(48, 70%, 62%)",
+    "100": "#e83030" //"hsl(0, 80%, 55%)"
   },
   "_discrete": {
     "_default": "#4F6366",
