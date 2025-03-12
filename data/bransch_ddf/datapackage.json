@@ -12,48 +12,6 @@
   "author": "",
   "resources": [
     {
-      "path": "ddf--datapoints/ddf--datapoints--and_d_fast--by--sni_id--year.csv",
-      "name": "and_d_fast--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "and_d_fast"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--and_d_lop--by--sni_id--year.csv",
-      "name": "and_d_lop--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "and_d_lop"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--and_forb_inv--by--sni_id--year.csv",
       "name": "and_forb_inv--by--sni_id--year",
       "schema": {
@@ -108,48 +66,6 @@
           },
           {
             "name": "and_milj_tot"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--and_reg_foradl--by--sni_id--year.csv",
-      "name": "and_reg_foradl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "and_reg_foradl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--and_syssel--by--sni_id--year.csv",
-      "name": "and_syssel--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "and_syssel"
           }
         ],
         "primaryKey": [
@@ -579,27 +495,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_syssel--by--sni_id--year.csv",
-      "name": "ant_syssel--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_syssel"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--ant_syss_miljo--by--sni_id--year.csv",
       "name": "ant_syss_miljo--by--sni_id--year",
       "schema": {
@@ -810,48 +705,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--bnp_prod_fast--by--sni_id--year.csv",
-      "name": "bnp_prod_fast--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "bnp_prod_fast"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--bnp_prod_lop--by--sni_id--year.csv",
-      "name": "bnp_prod_lop--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "bnp_prod_lop"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--brp--by--sni_id--year.csv",
       "name": "brp--by--sni_id--year",
       "schema": {
@@ -906,27 +759,6 @@
           },
           {
             "name": "export"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--fastfaktor--by--sni_id--year.csv",
-      "name": "fastfaktor--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "fastfaktor"
           }
         ],
         "primaryKey": [
@@ -1566,6 +1398,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--kem_anv--by--sni_id--year.csv",
+      "name": "kem_anv--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "kem_anv"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--kem_farl--by--sni_id--year.csv",
       "name": "kem_farl--by--sni_id--year",
       "schema": {
@@ -2133,48 +1986,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--reg_foradl--by--sni_id--year.csv",
-      "name": "reg_foradl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "reg_foradl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--reg_foradl_ber_lop--by--sni_id--year.csv",
-      "name": "reg_foradl_ber_lop--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "reg_foradl_ber_lop"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--res_rakn--by--sni_id--year.csv",
       "name": "res_rakn--by--sni_id--year",
       "schema": {
@@ -2511,27 +2322,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--tot_syssel_ant--by--sni_id--year.csv",
-      "name": "tot_syssel_ant--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_syssel_ant"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--tot_syssel_ex--by--sni_id--year.csv",
       "name": "tot_syssel_ex--by--sni_id--year",
       "schema": {
@@ -2607,27 +2397,6 @@
           },
           {
             "name": "utsl_ghg"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--utsl_koldi--by--sni_id--year.csv",
-      "name": "utsl_koldi--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "utsl_koldi"
           }
         ],
         "primaryKey": [
@@ -2878,26 +2647,6 @@
           "geog",
           "year"
         ],
-        "value": "and_d_fast",
-        "resources": [
-          "and_d_fast--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "and_d_lop",
-        "resources": [
-          "and_d_lop--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "and_forb_inv",
         "resources": [
           "and_forb_inv--by--sni_id--year"
@@ -2921,26 +2670,6 @@
         "value": "and_milj_tot",
         "resources": [
           "and_milj_tot--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "and_reg_foradl",
-        "resources": [
-          "and_reg_foradl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "and_syssel",
-        "resources": [
-          "and_syssel--by--sni_id--year"
         ]
       },
       {
@@ -3158,16 +2887,6 @@
           "geog",
           "year"
         ],
-        "value": "ant_syssel",
-        "resources": [
-          "ant_syssel--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "arb_tim",
         "resources": [
           "arb_tim--by--sni_id--year"
@@ -3258,26 +2977,6 @@
           "geog",
           "year"
         ],
-        "value": "bnp_prod_fast",
-        "resources": [
-          "bnp_prod_fast--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "bnp_prod_lop",
-        "resources": [
-          "bnp_prod_lop--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "brp",
         "resources": [
           "brp--by--sni_id--year"
@@ -3301,16 +3000,6 @@
         "value": "export",
         "resources": [
           "export--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "fastfaktor",
-        "resources": [
-          "fastfaktor--by--sni_id--year"
         ]
       },
       {
@@ -3618,6 +3307,16 @@
           "geog",
           "year"
         ],
+        "value": "kem_anv",
+        "resources": [
+          "kem_anv--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "kem_farl",
         "resources": [
           "kem_farl--by--sni_id--year"
@@ -3888,26 +3587,6 @@
           "geog",
           "year"
         ],
-        "value": "reg_foradl",
-        "resources": [
-          "reg_foradl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "reg_foradl_ber_lop",
-        "resources": [
-          "reg_foradl_ber_lop--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "res_rakn",
         "resources": [
           "res_rakn--by--sni_id--year"
@@ -4058,16 +3737,6 @@
           "geog",
           "year"
         ],
-        "value": "tot_syssel_ant",
-        "resources": [
-          "tot_syssel_ant--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "tot_syssel_ex",
         "resources": [
           "tot_syssel_ex--by--sni_id--year"
@@ -4111,16 +3780,6 @@
         "value": "utsl_ghg",
         "resources": [
           "utsl_ghg--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "utsl_koldi",
-        "resources": [
-          "utsl_koldi--by--sni_id--year"
         ]
       },
       {
@@ -4208,26 +3867,6 @@
           "sni_id",
           "year"
         ],
-        "value": "and_d_fast",
-        "resources": [
-          "and_d_fast--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "and_d_lop",
-        "resources": [
-          "and_d_lop--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
         "value": "and_forb_inv",
         "resources": [
           "and_forb_inv--by--sni_id--year"
@@ -4251,26 +3890,6 @@
         "value": "and_milj_tot",
         "resources": [
           "and_milj_tot--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "and_reg_foradl",
-        "resources": [
-          "and_reg_foradl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "and_syssel",
-        "resources": [
-          "and_syssel--by--sni_id--year"
         ]
       },
       {
@@ -4488,16 +4107,6 @@
           "sni_id",
           "year"
         ],
-        "value": "ant_syssel",
-        "resources": [
-          "ant_syssel--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
         "value": "arb_tim",
         "resources": [
           "arb_tim--by--sni_id--year"
@@ -4588,26 +4197,6 @@
           "sni_id",
           "year"
         ],
-        "value": "bnp_prod_fast",
-        "resources": [
-          "bnp_prod_fast--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "bnp_prod_lop",
-        "resources": [
-          "bnp_prod_lop--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
         "value": "brp",
         "resources": [
           "brp--by--sni_id--year"
@@ -4631,16 +4220,6 @@
         "value": "export",
         "resources": [
           "export--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "fastfaktor",
-        "resources": [
-          "fastfaktor--by--sni_id--year"
         ]
       },
       {
@@ -4948,6 +4527,16 @@
           "sni_id",
           "year"
         ],
+        "value": "kem_anv",
+        "resources": [
+          "kem_anv--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "kem_farl",
         "resources": [
           "kem_farl--by--sni_id--year"
@@ -5218,26 +4807,6 @@
           "sni_id",
           "year"
         ],
-        "value": "reg_foradl",
-        "resources": [
-          "reg_foradl--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "reg_foradl_ber_lop",
-        "resources": [
-          "reg_foradl_ber_lop--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
         "value": "res_rakn",
         "resources": [
           "res_rakn--by--sni_id--year"
@@ -5388,16 +4957,6 @@
           "sni_id",
           "year"
         ],
-        "value": "tot_syssel_ant",
-        "resources": [
-          "tot_syssel_ant--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
         "value": "tot_syssel_ex",
         "resources": [
           "tot_syssel_ex--by--sni_id--year"
@@ -5441,16 +5000,6 @@
         "value": "utsl_ghg",
         "resources": [
           "utsl_ghg--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "utsl_koldi",
-        "resources": [
-          "utsl_koldi--by--sni_id--year"
         ]
       },
       {

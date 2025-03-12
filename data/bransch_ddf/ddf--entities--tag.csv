@@ -1,15 +1,17 @@
 ﻿tag,name,parent
 handel,Handel,
-utslapp,Utsläpp,miljo_sek
+utslapp,Utsläpp,
 energi,Energi,
 ekonomi,Ekonomi,
-miljo_sek,Miljösektorn,
-bioek,Bioekonomi,
-transp,Transportsektorn,
+miljo_sek,Miljösektorn,spec_sek
+bioek,Bioekonomi,spec_sek
+transp,Transportsektorn,spec_sek
 natur,Naturresurser,
 farligt,Farligt avfall,natur
 ej_farligt,Icke-farligt avfall,natur
 eko_styr,Ekonomiska Styrmedel,
 kompetens,Kompetens,
-konsum,Konsumtion,
+konsum,Produkter,
+konsumtion,Konsumtion,
 invest,Investeringar,
+spec_sek,Särskilda sektorer,
