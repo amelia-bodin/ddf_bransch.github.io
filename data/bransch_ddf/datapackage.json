@@ -705,27 +705,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--brp--by--sni_id--year.csv",
-      "name": "brp--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "brp"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--co_skatt--by--sni_id--year.csv",
       "name": "co_skatt--by--sni_id--year",
       "schema": {
@@ -2280,48 +2259,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--tot_netto--by--sni_id--year.csv",
-      "name": "tot_netto--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_netto"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tot_syssels--by--sni_id--year.csv",
-      "name": "tot_syssels--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_syssels"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--tot_syssel_ex--by--sni_id--year.csv",
       "name": "tot_syssel_ex--by--sni_id--year",
       "schema": {
@@ -2977,16 +2914,6 @@
           "geog",
           "year"
         ],
-        "value": "brp",
-        "resources": [
-          "brp--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "co_skatt",
         "resources": [
           "co_skatt--by--sni_id--year"
@@ -3727,29 +3654,9 @@
           "geog",
           "year"
         ],
-        "value": "tot_netto",
-        "resources": [
-          "tot_netto--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "tot_syssel_ex",
         "resources": [
           "tot_syssel_ex--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "tot_syssels",
-        "resources": [
-          "tot_syssels--by--sni_id--year"
         ]
       },
       {
@@ -4197,16 +4104,6 @@
           "sni_id",
           "year"
         ],
-        "value": "brp",
-        "resources": [
-          "brp--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
         "value": "co_skatt",
         "resources": [
           "co_skatt--by--sni_id--year"
@@ -4947,29 +4844,9 @@
           "sni_id",
           "year"
         ],
-        "value": "tot_netto",
-        "resources": [
-          "tot_netto--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
         "value": "tot_syssel_ex",
         "resources": [
           "tot_syssel_ex--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "tot_syssels",
-        "resources": [
-          "tot_syssels--by--sni_id--year"
         ]
       },
       {
