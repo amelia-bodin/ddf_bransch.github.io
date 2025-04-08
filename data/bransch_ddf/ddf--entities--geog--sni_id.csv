@@ -1,179 +1,179 @@
 ﻿sni_id,is--sni_id,name
-bransch_a,TRUE,A (ZZ)
-jur_andra,TRUE,Andra Företag Inom Juridik: Ekonomi: Vetenskap Och Teknik (M74)
-icke_met_andra,TRUE,Andra Icke-Metalliska Mineraliska Produkter (C23)
-andra_kons,TRUE,Andra Konsumenttjänster (S96)
-annan_serv,TRUE,Andra Serviceföretag Och Personliga Tjänster (S94-U99)
-andra_till,TRUE,Andra Tillverkade Varor (C32)
-anlaggningar_for,TRUE,Anläggningar För Sanering. Efterbehandling Av Jord Och Vatten Samt Annan Verksamhet För Föroreningsbekämpning  (E39)
-anlaggningsentreprenorer,TRUE,Anläggningsarbeten (F42)
-annan_spec,TRUE,Annan Specialiserad Konsultverksamhet Och Veterinärtjänster (M74-M75)
-annan_indu,TRUE,Annan utvinning av mineral (B08)
-arbetsformedling_rese,TRUE,Arbetsförmedling: Resetjänster & Andra Stödtjänster (N78-N82)
-arbetsformedlingar_rekr,TRUE,Arbetsförmedlingar: Rekryteringsföretag & Personaluthyrningsföretag O.D. (N78)
-arkitekt,TRUE,Arkitekt- Och Tekniska Konsulttjänster: Teknisk Provning Och Analys (M71)
-arkitekt_tekn,TRUE,Arkitekt- Och Tekniska Tjänster. Vetenskaplig Forskning Och Utveckling (M71-M72)
-avfallshantering_ater,TRUE,Avfallshantering: Återvinning (E38)
-avloppsreningstjanster_avlo,TRUE,Avloppsrening (E37)
-banker,TRUE,Banker Och Andra Kreditinstitut (K64)
-bibliotek_arki,TRUE,Bibliotek: Arkiv Och Museer M.M. (R91)
-byggentreprenorer,TRUE,Byggande av hus (F41)
-bygg,TRUE,Byggverksamhet (F41-F43)
-bransch_d,TRUE,D (ZZ)
-datorer_elek,TRUE,Datorer: Elektronikvaror Och Optik (C26)
-detaljhandel_ut_mot,TRUE,Detaljhandel Utom Med Motordorfon (G47)
-dryckesvaru,TRUE,Dryckesvaru- Och Tobaksindustri (C11-C12)
-bransch_e,TRUE,E (ZZ)
-el_gas_avl,TRUE,El: Gas Och Värmeverk Samt Vatten: Avlopp Och Avfall (D35-D39)
-el_gas_vat,TRUE,El- Gas- Och Värmeverk: Vattenverk (35-36)
-elapparatur,TRUE,Elapparatur (C27)
-farmaceutiska_basp,TRUE,Farmaceutiska Basprodukter Och Läkemedel (C21)
-fastighetsbolag_g,TRUE,Fastighetsverksamhet (L68)
-film_vide,TRUE,Film- video- och tv-programverksamhet: ljudinspelningar och fonogramutgivning (J59)
-film_vide_j,TRUE,Film: Video: Ljud: Planering Och Sändning Av Program (J59-J60)
-finans,TRUE,Finans- Och Försäkringsverksamhet (K64-K66)
-finans_fast,TRUE,Finans- Fastighets- Och Företajgstjänster (K64-N82)
-finans_fors,TRUE,Finans- Försäkrings- Och Fastighetsverksamhet (K64-L68)
-fisk,TRUE,Fiske och vattenbruk (A03)
-flygbolag,TRUE,Flygbolag (H51)
-drycker,TRUE,Framställning av drycker (C11)
-foretag_for,TRUE,Företag För Fastighetsservice Samt Skötsel Och Underhåll Av Grönytor (N81)
-foretagstjanster_g,TRUE,Företagstjänster (M70-N82)
-forlag,TRUE,Förlag (J58)
-forlag_radi,TRUE,Förlag: Radio: Tv: Film Och Telekommunikation (J58-J61)
-forlagsverksamhet_film,TRUE,Förlagsverksamhet: Film: Video: Tv: Ljudinspelning: Fonogramutgivning: Planering Och Sändning Av Program (J58-J60)
-forsakrings,TRUE,Försäkrings- Och Återförsäkringsbolag: Pensionsfonder (K65)
-el_gas,TRUE,Försörjning Av El: Gas: Värme Och Kyla (D35)
-forvarvsarbete_ihu,TRUE,Förvärvsarbete I Hushåll (T97)
-grafisk,TRUE,Grafisk industri(18)
-gummi,TRUE,Gummi- Och Plastvaror (C22)
-gummi_icke_met,TRUE,Gummi- Och Plastvaruindustri och Andra Icke Metalliska Mineraliska Produkter (C22-C23)
-bransch_h,TRUE,H (ZZ)
-hand_g,TRUE,Handel (G45-G47)
-handel_med,TRUE,Handel Med Och Serviceverkstäder För Motorfordon Och Motorcyklar (G45)
-hotell_logi,TRUE,Hotell- Och Logiverksamhet (I55)
-hotell_rest_i,TRUE,Hotell- Och Restaurang (I55-I56)
-hushall_hh,TRUE,Hushåll (Hh)
-hushall,TRUE,Hushållens Icke-Vinstdrivande Organisationer (Y0115)
-hushallsproducenter_avd,TRUE,Hushållsproducenter Av Diverse Varor För Eget Bruk (T98)
-halso,TRUE,Hälso- Och Sjukvård (Q86)
-tillverkning_avd,TRUE,Industri För Datorer: Elektronikvaror: Optik Och Elapparatur (C26-C27)
-industri_for_met,TRUE,Industri För Metallvaror Utom Maskiner Och Apparater (C25)
-industri_for_mot,TRUE,Industri För Motorfordon: Släpfordon Och Påhängsvagnar (C29)
-industri_for_sten,TRUE,Industri För Stenkols- Och Raffinerade Petroleumprodukter (C19)
-rapetroleum,TRUE,Industri För Utvinning Av Råpetroleum Och Naturgas (B06)
-industrianlaggningar_samt,TRUE,Industrianläggningar Samt Leveranser Till Fartyg: Flygplan Och Off Shore-Anläggningar Avseende Varor  Ur Kn-Kapitel 1-26 Och 28-97 Personliga Flyttsaker M.M. (89)
-information_komm,TRUE,Information Och Kommunikation (J58-J63)
-informationstjanstforetag,TRUE,Informationstjänstföretag (J63)
-internationella_org,TRUE,Internationella Organisationer: Utländska Ambassader O.D. (U99)
-intresseorganisationer,TRUE,Intresseorganisationer Och Religiösa Samfund (S94)
-bransch_i_u,TRUE,I-U (ZZ)
-jord_skog,TRUE,Jord-: Skogsbruk Och Fiske (A01-A03)
-jordbruksforetag_serv,TRUE,Jordbruk och jakt samt service i anslutning härtill (A01)
-jordbruks,TRUE,Jordbruks- Och Jaktprodukter Och Tjänster I Anslutning Härtill (SPIN01)
-juridisk_ek,TRUE,Juridisk- Och Ekonomisk Konsultverksamhet (M69-M70)
-juridisk_ek_kons,TRUE,Juridisk Och Ekonomisk Konsultverksamhet: Huvudkontors- Och Konsulttjänster Till Företag: Arkitekt- Och Teknisk Konsultverksamhet Samt Fou (M69-M72)
-juridiska_ek_byr,TRUE,Juridiska Och Ekonomiska Konsultbyråer (M69)
-kemikalie_lake,TRUE,Kemikalie- Läkemedels- Gummi- Och Plastvarutillverkning (C20-C22)
-kemikalier,TRUE,Kemikalier Och Kemiska Produkter (C20)
-kemisk_indu,TRUE,Kemisk Industri: Petroleumprodukter Och Läkemedelsindustri (C19-C21)
-kolgruvor,TRUE,Kolutvinning (B05)
-kommunala_mynd,TRUE,Kommunala Myndigheter (Y016)
-enheter_for_konst,TRUE,Konstnärliga Och Kulturella Tjänster Samt Underhållningstjänster (R90)
-kontors,TRUE,Kontors- Och Andra Företagstjänstföretag (N82)
-kultur_noje,TRUE,Kultur: Nöje Och Fritid (R90-R93)
-landtransportforetag_rort,TRUE,Landtransportföretag: Rörtransportföretag (H49)
-livsmedel,TRUE,Livsmedel (C10)
-livsmedel_dryck_tob,TRUE,Livsmedel: Drycker Och Tobak (C10-C12)
-livsmedel_dryck_klad,TRUE,Livsmedel: Drycker Och Tobak: Tillverkning Av Textilier: Kläder Och Läderprodukter (C10-C15)
-industri_for_lad,TRUE,Läder: Läder- Och Skinnvaror (C15)
-magasin,TRUE,Magasin Och Serviceföretag Till Transport (H52)
-magasinering,TRUE,Magasinering Och Stödtjänster Till Transport: Post Och Kurirverksamhet (H52-H53)
-varuproducenter_a,TRUE,Marknadsproducenter: varor (A01-F43)
-marknadsproduktion_tjan,TRUE,Marknadsproduktion: Tjänster (G45-T98)
-marknadsproduktion_varo,TRUE,Marknadsproduktion: Varor (A01-F43)
-massa_papp,TRUE,Massa-: Pappers- Och Pappersvaruindustri (C17)
-metallmalmer,TRUE,Metallmalmer (B07)
-utvinning_malm,TRUE,Metallmalmer och service (B07-B09)
-mobelindustri,TRUE,Möbelindustri (31)
-mobeltillverkning_anna,TRUE,Möbeltillverkning: Annan Tillverkning: Reparation Och Installation Av Maskiner Och Apparater (C31-C33)
-nationell_tota_exk,TRUE,Nationell Total (Exklusive Lulucf: Exklusive Internationella Transporter)
-nationell_total,TRUE,Nationell Total (Exklusive Lulucf: Inklusive Internationella Transporter)
-nationell_tota_ink,TRUE,Nationell Total (Inklusive Lulucf: Inklusive Internationella Transporter)
-bransch_ospe,TRUE,Näringsgren Okänd (00)
-offentl_mynd,TRUE,Offentl. Myndigh. Samt Hushållens Icke-Vinstdrivande Org. (Ofmhio)
-offentlig_forv,TRUE,Offentlig Förvaltning och försvar (O84)
-offentlig_sekt,TRUE,Offentlig Sektor (Off)
-offentliga_mynd,TRUE,Offentliga Myndigheter (Y012)
-massa_papp_graf,TRUE,Pappers- Och Pappersvarutillverkning: Grafisk Industri (C17-C18)
-parti_prov,TRUE,Parti - Och Provisionshandel Utom Med Motorfordon (G46)
-partihandel_med,TRUE,Partihandel Med Avfallsprodukter Och Skrot (G46.77)
-kulturella,TRUE,Personliga Och Kulturella Tjänster (R90-T98)
-radio,TRUE,Planering och sändning av program (J60)
-post,TRUE,Post- Och Kurirföretag (H53)
-primarkommunala_mynd,TRUE,Primärkommunala Myndigheter Och Kommunalförbund (Y0485)
+bransch_a,TRUE,ZZ A 
+jur_andra,TRUE,M74 Andra Företag Inom Juridik: Ekonomi: Vetenskap Och Teknik 
+icke_met_andra,TRUE,C23 Andra Icke-Metalliska Mineraliska Produkter 
+andra_kons,TRUE,S96 Andra Konsumenttjänster 
+annan_serv,TRUE,S94-U99 Andra Serviceföretag Och Personliga Tjänster 
+andra_till,TRUE,C32 Andra Tillverkade Varor 
+anlaggningar_for,TRUE,E39 Anläggningar För Sanering. Efterbehandling Av Jord Och Vatten Samt Annan Verksamhet För Föroreningsbekämpning  
+anlaggningsentreprenorer,TRUE,F42 Anläggningsarbeten 
+annan_spec,TRUE,M74-M75 Annan Specialiserad Konsultverksamhet Och Veterinärtjänster 
+annan_indu,TRUE,B08 Annan utvinning av mineral 
+arbetsformedling_rese,TRUE,N78-N82 Arbetsförmedling: Resetjänster & Andra Stödtjänster 
+arbetsformedlingar_rekr,TRUE,N78 Arbetsförmedlingar: Rekryteringsföretag & Personaluthyrningsföretag O.D. 
+arkitekt,TRUE,M71 Arkitekt- Och Tekniska Konsulttjänster: Teknisk Provning Och Analys 
+arkitekt_tekn,TRUE,M71-M72 Arkitekt- Och Tekniska Tjänster. Vetenskaplig Forskning Och Utveckling 
+avfallshantering_ater,TRUE,E38 Avfallshantering: Återvinning 
+avloppsreningstjanster_avlo,TRUE,E37 Avloppsrening 
+banker,TRUE,K64 Banker Och Andra Kreditinstitut 
+bibliotek_arki,TRUE,R91 Bibliotek: Arkiv Och Museer M.M. 
+byggentreprenorer,TRUE,F41 Byggande av hus 
+bygg,TRUE,F41-F43 Byggverksamhet 
+bransch_d,TRUE,ZZ D 
+datorer_elek,TRUE,C26 Datorer: Elektronikvaror Och Optik 
+detaljhandel_ut_mot,TRUE,G47 Detaljhandel Utom Med Motordorfon 
+dryckesvaru,TRUE,C11-C12 Dryckesvaru- Och Tobaksindustri 
+bransch_e,TRUE,ZZ E 
+el_gas_avl,TRUE,D35-E39 El: Gas Och Värmeverk Samt Vatten: Avlopp Och Avfall 
+el_gas_vat,TRUE,D35-E36 El- Gas- Och Värmeverk: Vattenverk 
+elapparatur,TRUE,C27 Elapparatur 
+farmaceutiska_basp,TRUE,C21 Farmaceutiska Basprodukter Och Läkemedel 
+fastighetsbolag_g,TRUE,L68 Fastighetsverksamhet 
+film_vide,TRUE,J59 Film- video- och tv-programverksamhet: ljudinspelningar och fonogramutgivning 
+film_vide_j,TRUE,J59-J60 Film: Video: Ljud: Planering Och Sändning Av Program 
+finans,TRUE,K64-K66 Finans- Och Försäkringsverksamhet 
+finans_fast,TRUE,K64-N82 Finans- Fastighets- Och Företajgstjänster 
+finans_fors,TRUE,K64-L68 Finans- Försäkrings- Och Fastighetsverksamhet 
+fisk,TRUE,A03 Fiske och vattenbruk 
+flygbolag,TRUE,H51 Flygbolag 
+drycker,TRUE,C11 Framställning av drycker 
+foretag_for,TRUE,N81 Företag För Fastighetsservice Samt Skötsel Och Underhåll Av Grönytor 
+foretagstjanster_g,TRUE,M70-N82 Företagstjänster 
+forlag,TRUE,J58 Förlag 
+forlag_radi,TRUE,J58-J61 Förlag: Radio: Tv: Film Och Telekommunikation 
+forlagsverksamhet_film,TRUE,J58-J60 Förlagsverksamhet: Film: Video: Tv: Ljudinspelning: Fonogramutgivning: Planering Och Sändning Av Program 
+forsakrings,TRUE,K65 Försäkrings- Och Återförsäkringsbolag: Pensionsfonder 
+el_gas,TRUE,D35 Försörjning Av El: Gas: Värme Och Kyla 
+forvarvsarbete_ihu,TRUE,T97 Förvärvsarbete I Hushåll 
+grafisk,TRUE,C18 Grafisk industri
+gummi,TRUE,C22 Gummi- Och Plastvaror 
+gummi_icke_met,TRUE,C22-C23 Gummi- Och Plastvaruindustri och Andra Icke Metalliska Mineraliska Produkter 
+bransch_h,TRUE,ZZ H 
+hand_g,TRUE,G45-G47 Handel 
+handel_med,TRUE,G45 Handel Med Och Serviceverkstäder För Motorfordon Och Motorcyklar 
+hotell_logi,TRUE,I55 Hotell- Och Logiverksamhet 
+hotell_rest_i,TRUE,I55-I56 Hotell- Och Restaurang 
+hushall_hh,TRUE,Hh Hushåll 
+hushall,TRUE,Y0115 Hushållens Icke-Vinstdrivande Organisationer 
+hushallsproducenter_avd,TRUE,T98 Hushållsproducenter Av Diverse Varor För Eget Bruk 
+halso,TRUE,Q86 Hälso- Och Sjukvård 
+tillverkning_avd,TRUE,C26-C27 Industri För Datorer: Elektronikvaror: Optik Och Elapparatur 
+industri_for_met,TRUE,C25 Industri För Metallvaror Utom Maskiner Och Apparater 
+industri_for_mot,TRUE,C29 Industri För Motorfordon: Släpfordon Och Påhängsvagnar 
+industri_for_sten,TRUE,C19 Industri För Stenkols- Och Raffinerade Petroleumprodukter 
+rapetroleum,TRUE,B06 Industri För Utvinning Av Råpetroleum Och Naturgas 
+industrianlaggningar_samt,TRUE,89 Industrianläggningar Samt Leveranser Till Fartyg: Flygplan Och Off Shore-Anläggningar Avseende Varor  Ur Kn-Kapitel 1-26 Och 28-97 Personliga Flyttsaker M.M. 
+information_komm,TRUE,J58-J63 Information Och Kommunikation 
+informationstjanstforetag,TRUE,J63 Informationstjänstföretag 
+internationella_org,TRUE,U99 Internationella Organisationer: Utländska Ambassader O.D. 
+intresseorganisationer,TRUE,S94 Intresseorganisationer Och Religiösa Samfund 
+bransch_i_u,TRUE,ZZ I-U 
+jord_skog,TRUE,A01-A03 Jord-: Skogsbruk Och Fiske 
+jordbruksforetag_serv,TRUE,A01 Jordbruk och jakt samt service i anslutning härtill 
+jordbruks,TRUE,SPIN01 Jordbruks- Och Jaktprodukter Och Tjänster I Anslutning Härtill 
+juridisk_ek,TRUE,M69-M70 Juridisk- Och Ekonomisk Konsultverksamhet 
+juridisk_ek_kons,TRUE,M69-M72 Juridisk Och Ekonomisk Konsultverksamhet: Huvudkontors- Och Konsulttjänster Till Företag: Arkitekt- Och Teknisk Konsultverksamhet Samt Fou 
+juridiska_ek_byr,TRUE,M69 Juridiska Och Ekonomiska Konsultbyråer 
+kemikalie_lake,TRUE,C20-C22 Kemikalie- Läkemedels- Gummi- Och Plastvarutillverkning 
+kemikalier,TRUE,C20 Kemikalier Och Kemiska Produkter 
+kemisk_indu,TRUE,C19-C21 Kemisk Industri: Petroleumprodukter Och Läkemedelsindustri 
+kolgruvor,TRUE,B05 Kolutvinning 
+kommunala_mynd,TRUE,Y016 Kommunala Myndigheter 
+enheter_for_konst,TRUE,R90 Konstnärliga Och Kulturella Tjänster Samt Underhållningstjänster 
+kontors,TRUE,N82 Kontors- Och Andra Företagstjänstföretag 
+kultur_noje,TRUE,R90-R93 Kultur: Nöje Och Fritid 
+landtransportforetag_rort,TRUE,H49 Landtransportföretag: Rörtransportföretag 
+livsmedel,TRUE,C10 Livsmedel 
+livsmedel_dryck_tob,TRUE,C10-C12 Livsmedel: Drycker Och Tobak 
+livsmedel_dryck_klad,TRUE,C10-C15 Livsmedel: Drycker Och Tobak: Tillverkning Av Textilier: Kläder Och Läderprodukter 
+industri_for_lad,TRUE,C15 Läder: Läder- Och Skinnvaror 
+magasin,TRUE,H52 Magasin Och Serviceföretag Till Transport 
+magasinering,TRUE,H52-H53 Magasinering Och Stödtjänster Till Transport: Post Och Kurirverksamhet 
+varuproducenter_a,TRUE,A01-F43 Marknadsproducenter: varor 
+marknadsproduktion_tjan,TRUE,G45-T98 Marknadsproduktion: Tjänster 
+marknadsproduktion_varo,TRUE,A01-F43 Marknadsproduktion: Varor 
+massa_papp,TRUE,C17 Massa-: Pappers- Och Pappersvaruindustri 
+metallmalmer,TRUE,B07 Metallmalmer 
+utvinning_malm,TRUE,B07-B09 Metallmalmer och service 
+mobelindustri,TRUE,C31 Möbelindustri 
+mobeltillverkning_anna,TRUE,C31-C33 Möbeltillverkning: Annan Tillverkning: Reparation Och Installation Av Maskiner Och Apparater 
+nationell_tota_exk,TRUE,Nationell Total Exklusive Lulucf: Exklusive Internationella Transporter 
+nationell_total,TRUE,Nationell Total Exklusive Lulucf: Inklusive Internationella Transporter 
+nationell_tota_ink,TRUE,Nationell Total Inklusive Lulucf: Inklusive Internationella Transporter 
+bransch_ospe,TRUE,0 Näringsgren Okänd 
+offentl_mynd,TRUE,Ofmhio Offentl. Myndigh. Samt Hushållens Icke-Vinstdrivande Org. 
+offentlig_forv,TRUE,O84 Offentlig Förvaltning och försvar 
+offentlig_sekt,TRUE,Off Offentlig Sektor 
+offentliga_mynd,TRUE,Y012 Offentliga Myndigheter 
+massa_papp_graf,TRUE,C17-C18 Pappers- Och Pappersvarutillverkning: Grafisk Industri 
+parti_prov,TRUE,G46 Parti - Och Provisionshandel Utom Med Motorfordon 
+partihandel_med,TRUE,G46.77 Partihandel Med Avfallsprodukter Och Skrot 
+kulturella,TRUE,R90-T98 Personliga Och Kulturella Tjänster 
+radio,TRUE,J60 Planering och sändning av program 
+post,TRUE,H53 Post- Och Kurirföretag 
+primarkommunala_mynd,TRUE,Y0485 Primärkommunala Myndigheter Och Kommunalförbund 
 privat_kons,TRUE,Privat Konsumtion
-dataprogrammering_data,TRUE,Programmering Och Informationstjänster (J62-J63)
-programvaruproducenter_data,TRUE,Programvaruproducenter: Datakonsulter O.D. (J62)
-regionala_mynd,TRUE,Regionala Myndigheter (Y0605)
-reklam_und,TRUE,Reklam Och Marknadsundersökning: Annan Verksamhet Inom Juridik: Ekonomi: Vetenskap: Teknik: Veterinärverksamhet (M73-M75)
-reklam_mark,TRUE,Reklam Och Marknadsundersökningar (M73)
-reparationsverkstader_for,TRUE,Reparationsverkstäder För Datorer: Hushållsartiklar Och Personliga Artiklar (S95)
-reparationsverkstader,TRUE,Reparationsverkstäder Och Installationsföretag För Maskiner Och Apparater (C33)
-resebyraer,TRUE,Resebyråer Och Researrangörer: Turistbyråer (N79)
-restaurang_cate,TRUE,Restaurang-: Catering Och Barverksamhet (I56)
-serviceforetag_fin,TRUE,Serviceföretag Till Finans- Och Försäkringsverksamhet (K66)
-serviceforetag_utv,TRUE,Serviceföretag Till Utvinning (B09)
-rederier,TRUE,Sjötransport (H50)
-skogsbruksforetag,TRUE,Skogsbruk (A02)
-skogsbruksprodukter,TRUE,Skogsbruksprodukter Och Tjänster I Anslutning Till Skogsbruk (SPIN02)
-smahus_l,TRUE,Småhus (L68A)
-sociala_oppe,TRUE,Sociala Öppenvårdsenheter: Socialkontor (Q88)
-specialiserade_bygg,TRUE,Specialiserade Bygg- Och Anläggningsverksamhet (F43)
-spel,TRUE,Spel- Och Vadhållningsföretag (R92)
-sport_frit,TRUE,Sport-: Fritids- Och Nöjesanläggningar (R93)
-statliga_mynd,TRUE,Statliga Myndigheter Och Sociala Trygghetsfonder (Y0135)
-metaller,TRUE,Stål- och metallframställning (C24)
-stal_met_c,TRUE,Stål- Och Metallframställning: Metallvarutillverkning (C24-C25)
-foretag_for_bev,TRUE,Säkerhets- och bevakningsverksamhet (N80)
-telekommunikation_j,TRUE,Telekommunikation (J61)
-textil_bekl,TRUE,Textil-: Beklädnads-: Läder - Och Lädervaruindustri (13-15)
-textilindustri,TRUE,Textilindustri (C13)
-andra_tran,TRUE,Tillverkning av andra Transportmedel (C30)
-industri_for_bas,TRUE,Tillverkning Av Kemikalier Och Kemiska Produkter: Farmaceutiska Basprodukter Och Läkemedel (C20-C21)
-bekladnadsindustri,TRUE,Tillverkning av kläder (C14)
-transportmedelsindustri,TRUE,Tillverkning av motorfordon och andra transportmedel (C29-C30)
-tillverkning_mob,TRUE,Tillverkning Av Möbler Och annan tillverkning (C31-C32)
-tillverkning_avt,TRUE,Tillverkning Av Textilier: Kläder Och Läderprodukter (C13-C15)
-tillv_el_mot,TRUE,Tillverkning: Datorer: Elektronik: Optik: Elapparatur: Övriga Maskiner: Motorfordon: Andra Transportmedel (C26-30)
-tillverkningsindustrin_c,TRUE,Tillverkningsindustri (C10-C33)
-tobaksindustri,TRUE,Tobaksindustri (C12)
+dataprogrammering_data,TRUE,J62-J63 Programmering Och Informationstjänster 
+programvaruproducenter_data,TRUE,J62 Programvaruproducenter: Datakonsulter O.D. 
+regionala_mynd,TRUE,Y0605 Regionala Myndigheter 
+reklam_und,TRUE,M73-M75 Reklam Och Marknadsundersökning: Annan Verksamhet Inom Juridik: Ekonomi: Vetenskap: Teknik: Veterinärverksamhet 
+reklam_mark,TRUE,M73 Reklam Och Marknadsundersökningar 
+reparationsverkstader_for,TRUE,S95 Reparationsverkstäder För Datorer: Hushållsartiklar Och Personliga Artiklar 
+reparationsverkstader,TRUE,C33 Reparationsverkstäder Och Installationsföretag För Maskiner Och Apparater 
+resebyraer,TRUE,N79 Resebyråer Och Researrangörer: Turistbyråer 
+restaurang_cate,TRUE,I56 Restaurang-: Catering Och Barverksamhet 
+serviceforetag_fin,TRUE,K66 Serviceföretag Till Finans- Och Försäkringsverksamhet 
+serviceforetag_utv,TRUE,B09 Serviceföretag Till Utvinning 
+rederier,TRUE,H50 Sjötransport 
+skogsbruksforetag,TRUE,A02 Skogsbruk 
+skogsbruksprodukter,TRUE,SPIN02 Skogsbruksprodukter Och Tjänster I Anslutning Till Skogsbruk 
+smahus_l,TRUE,L68A Småhus 
+sociala_oppe,TRUE,Q88 Sociala Öppenvårdsenheter: Socialkontor 
+specialiserade_bygg,TRUE,F43 Specialiserade Bygg- Och Anläggningsverksamhet 
+spel,TRUE,R92 Spel- Och Vadhållningsföretag 
+sport_frit,TRUE,R93 Sport-: Fritids- Och Nöjesanläggningar 
+statliga_mynd,TRUE,Y0135 Statliga Myndigheter Och Sociala Trygghetsfonder 
+metaller,TRUE,C24 Stål- och metallframställning 
+stal_met_c,TRUE,C24-C25 Stål- Och Metallframställning: Metallvarutillverkning 
+foretag_for_bev,TRUE,N80 Säkerhets- och bevakningsverksamhet 
+telekommunikation_j,TRUE,J61 Telekommunikation 
+textil_bekl,TRUE,C13-C15 Textil-: Beklädnads-: Läder - Och Lädervaruindustri 
+textilindustri,TRUE,C13 Textilindustri 
+andra_tran,TRUE,C30 Tillverkning av andra Transportmedel 
+industri_for_bas,TRUE,C20-C21 Tillverkning Av Kemikalier Och Kemiska Produkter: Farmaceutiska Basprodukter Och Läkemedel 
+bekladnadsindustri,TRUE,C14 Tillverkning av kläder 
+transportmedelsindustri,TRUE,C29-C30 Tillverkning av motorfordon och andra transportmedel 
+tillverkning_mob,TRUE,C31-C32 Tillverkning Av Möbler Och annan tillverkning 
+tillverkning_avt,TRUE,C13-C15 Tillverkning Av Textilier: Kläder Och Läderprodukter 
+tillv_el_mot,TRUE,C26-C30 Tillverkning: Datorer: Elektronik: Optik: Elapparatur: Övriga Maskiner: Motorfordon: Andra Transportmedel 
+tillverkningsindustrin_c,TRUE,C10-C33 Tillverkningsindustri 
+tobaksindustri,TRUE,C12 Tobaksindustri 
 total_au,TRUE,A+U+US Total
 totalt_tota,TRUE,Totalt
-transport_mag,TRUE,Transport Och Magasinering (H49-H53)
-transportforetag_g,TRUE,Transportföretag (G06)
+transport_mag,TRUE,H49-H53 Transport Och Magasinering 
+transportforetag_g,TRUE,G06 Transportföretag 
 transport_ind,TRUE,Transportindustri
-industri_for_tra,TRUE,Trä- Och Trävarutillverkning (C16)
-travaru_mass,TRUE,Trävaru-: Massa-: Pappers- Och Grafisk Industri (C16-C18)
-utbildning,TRUE,Utbildning  (P85)
-utbildning_halso,TRUE,Utbildning: Hälso- Och Sjukvård: Övriga Personliga Tjänster (P85-U99)
-utbildning_halso_p,TRUE,Utbildning: Hälso- Och Sjukvård (P85-Q86)
-uthyrning_avf,TRUE,Uthyrning Av Fastighetsservice: Resetjänster Och Andra Stödtjänster (N77-N82)
-uthyrningsfirmor,TRUE,Uthyrningsfirmor (N77)
-utvinning_min,TRUE,Utvinning Av Mineral (B05-B09)
-tillverkning_utv,TRUE,Utvinning och Tillverkning (B05-C33)
-tillverkning,TRUE,Utvinning: Tillverkning: el: gas värme och avlopp (B05-E39)
-vattenforsorjning_e,TRUE,Vattenförsörjning (E36)
-vattenforsorjning_avlo,TRUE,Vattenförsörjning: avloppsrening: avfallshantering och sanering (E36-E39)
-vattenforsorjning_avlo_san,TRUE,Vattenförsörjning: Avloppsrening: Sanering: Efterbehandling Av Jord Och Vatten Samt Annan Verksamhet För Föroreningsbekämpning (E36-37.39)
-huvudkontor_kons,TRUE,Verksamheter som utövas av huvudkontor: konsulttjänster till företag (M70)
-forsknings,TRUE,Vetenskaplig forskning och utveckling (M72)
-veterinarkliniker,TRUE,Veterinärkliniker (M75)
-vard,TRUE,Vård Och Omsorg Med Boende: Öppna Sociala Insatser (Q87-Q88)
-vard_om,TRUE,Vård och omsorg: sociala tjänster (Q86-Q88)
-vardhem,TRUE,Vårdhem Och Bostäder Med Omsorg (Q87)
-ovrig_fast,TRUE,Övrig Fastighetsförvaltning (L68B)
-ovrig_mask,TRUE,Övrig Maskinindustri (C28)
+industri_for_tra,TRUE,C16 Trä- Och Trävarutillverkning 
+travaru_mass,TRUE,C16-C18 Trävaru-: Massa-: Pappers- Och Grafisk Industri 
+utbildning,TRUE,P85 Utbildning  
+utbildning_halso,TRUE,P85-U99 Utbildning: Hälso- Och Sjukvård: Övriga Personliga Tjänster 
+utbildning_halso_p,TRUE,P85-Q86 Utbildning: Hälso- Och Sjukvård 
+uthyrning_avf,TRUE,N77-N82 Uthyrning Av Fastighetsservice: Resetjänster Och Andra Stödtjänster 
+uthyrningsfirmor,TRUE,N77 Uthyrningsfirmor 
+utvinning_min,TRUE,B05-B09 Utvinning Av Mineral 
+tillverkning_utv,TRUE,B05-C33 Utvinning och Tillverkning 
+tillverkning,TRUE,B05-E39 Utvinning: Tillverkning: el: gas värme och avlopp 
+vattenforsorjning_e,TRUE,E36 Vattenförsörjning 
+vattenforsorjning_avlo,TRUE,E36-E39 Vattenförsörjning: avloppsrening: avfallshantering och sanering 
+vattenforsorjning_avlo_san,TRUE,E36-37.39 Vattenförsörjning: Avloppsrening: Sanering: Efterbehandling Av Jord Och Vatten Samt Annan Verksamhet För Föroreningsbekämpning 
+huvudkontor_kons,TRUE,M70 Verksamheter som utövas av huvudkontor: konsulttjänster till företag 
+forsknings,TRUE,M72 Vetenskaplig forskning och utveckling 
+veterinarkliniker,TRUE,M75 Veterinärkliniker 
+vard,TRUE,Q87-Q88 Vård Och Omsorg Med Boende: Öppna Sociala Insatser 
+vard_om,TRUE,Q86-Q88 Vård och omsorg: sociala tjänster 
+vardhem,TRUE,Q87 Vårdhem Och Bostäder Med Omsorg 
+ovrig_fast,TRUE,L68B Övrig Fastighetsförvaltning 
+ovrig_mask,TRUE,C28 Övrig Maskinindustri 
 ovriga_tjan,TRUE,Övriga Tjänster
 totalt_hio,TRUE,Total ink. HIO
-totalt_nar,TRUE,Totala näringslivet (A01-T98)
+totalt_nar,TRUE,A01-T98 Totala näringslivet 
