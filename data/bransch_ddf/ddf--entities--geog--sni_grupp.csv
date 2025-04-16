@@ -1,0 +1,24 @@
+﻿sni_grupp,is--sni_grupp,name,rank
+a,TRUE,Branscher A01-A03,1
+b,TRUE,Branscher B05-B09,2
+c,TRUE,Branscher C10-C33,3
+d,TRUE,Branscher D35,4
+e,TRUE,Branscher E36-E39,5
+f,TRUE,Branscher F41-F43,6
+g,TRUE,Branscher G45-G47,7
+h,TRUE,Branscher H49-H53,8
+i,TRUE,Branscher I55-I56,9
+j,TRUE,Branscher J58-J63,10
+k,TRUE,Branscher K64-K66,11
+l,TRUE,Branscher L68,12
+m,TRUE,Branscher M69-M75,13
+n,TRUE,Branscher N77-N82,14
+o,TRUE,Branscher O84,15
+other,TRUE,Annat,22
+p,TRUE,Branscher P85,16
+q,TRUE,Branscher Q86-Q88,17
+r,TRUE,Branscher R90-R93,18
+s,TRUE,Branscher S94-S96,19
+several,TRUE,Branschöverskridande grupper,23
+t,TRUE,Branscher T97-T98,20
+u,TRUE,Branscher U99,21
