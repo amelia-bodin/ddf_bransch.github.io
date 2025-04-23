@@ -89,7 +89,6 @@ livsmedel_dryck_klad,TRUE,C10-C15 Livsmedel: Drycker Och Tobak: Tillverkning Av 
 industri_for_lad,TRUE,C15 Läder: Läder- Och Skinnvaror ,c
 magasin,TRUE,H52 Magasin Och Serviceföretag Till Transport ,h
 magasinering,TRUE,H52-H53 Magasinering Och Stödtjänster Till Transport: Post Och Kurirverksamhet ,h
-varuproducenter_a,TRUE,A01-F43 Marknadsproducenter: varor ,several
 marknadsproduktion_tjan,TRUE,G45-T98 Marknadsproduktion: Tjänster ,several
 marknadsproduktion_varo,TRUE,A01-F43 Marknadsproduktion: Varor ,several
 massa_papp,TRUE,C17 Massa-: Pappers- Och Pappersvaruindustri ,c
@@ -144,7 +143,6 @@ industri_for_bas,TRUE,C20-C21 Tillverkning Av Kemikalier Och Kemiska Produkter: 
 bekladnadsindustri,TRUE,C14 Tillverkning av kläder ,c
 transportmedelsindustri,TRUE,C29-C30 Tillverkning av motorfordon och andra transportmedel ,c
 tillverkning_mob,TRUE,C31-C32 Tillverkning Av Möbler Och annan tillverkning ,c
-tillverkning_avt,TRUE,C13-C15 Tillverkning Av Textilier: Kläder Och Läderprodukter ,c
 tillv_el_mot,TRUE,C26-C30 Tillverkning: Datorer: Elektronik: Optik: Elapparatur: Övriga Maskiner: Motorfordon: Andra Transportmedel ,c
 tillverkningsindustrin_c,TRUE,C10-C33 Tillverkningsindustri ,c
 tobaksindustri,TRUE,C12 Tobaksindustri ,c
