@@ -2536,6 +2536,31 @@
       }
     },
     {
+      "path": "multidimensional/ddf--datapoints--ant_ny--by--sni_id--lan--year.csv",
+      "name": "ant_ny--by--sni_id--lan--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_ny"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "multidimensional/ddf--datapoints--forv_to--by--sni_id--gender--year.csv",
       "name": "forv_to--by--sni_id--gender--year-2",
       "schema": {
@@ -2679,6 +2704,21 @@
       }
     },
     {
+      "path": "ddf--entities--lan.csv",
+      "name": "lan-3",
+      "schema": {
+        "fields": [
+          {
+            "name": "lan"
+          },
+          {
+            "name": "name"
+          }
+        ],
+        "primaryKey": "lan"
+      }
+    },
+    {
       "path": "ddf--entities--tag.csv",
       "name": "tag-3",
       "schema": {
@@ -2763,6 +2803,17 @@
         "value": "forv_tot_bio",
         "resources": [
           "forv_tot_bio--by--sni_id--gender--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "lan",
+          "year"
+        ],
+        "value": "ant_ny",
+        "resources": [
+          "ant_ny--by--sni_id--lan--year-2"
         ]
       },
       {
@@ -3953,6 +4004,17 @@
         "value": "vege_icke_farl",
         "resources": [
           "vege_icke_farl--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "sni_id",
+          "year"
+        ],
+        "value": "ant_ny",
+        "resources": [
+          "ant_ny--by--sni_id--lan--year-2"
         ]
       },
       {
@@ -5200,6 +5262,15 @@
         "value": "sni_grupp",
         "resources": [
           "geog--sni_id-3"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan"
+        ],
+        "value": "name",
+        "resources": [
+          "lan-3"
         ]
       },
       {
