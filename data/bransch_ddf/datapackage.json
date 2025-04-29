@@ -1,6 +1,6 @@
 {
-  "name": "bransch_ddf",
-  "title": "bransch_ddf",
+  "name": "nytt_ddf",
+  "title": "nytt_ddf",
   "description": "",
   "version": "0.0.1",
   "language": {
@@ -453,6 +453,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--ant_kem--by--sni_id--year.csv",
+      "name": "ant_kem--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_kem"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--ant_kon--by--sni_id--year.csv",
       "name": "ant_kon--by--sni_id--year",
       "schema": {
@@ -621,6 +642,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--bidr_egen_fou--by--sni_id--year.csv",
+      "name": "bidr_egen_fou--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "bidr_egen_fou"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--bland_farl--by--sni_id--year.csv",
       "name": "bland_farl--by--sni_id--year",
       "schema": {
@@ -705,6 +747,69 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--bnp_fast--by--sni_id--year.csv",
+      "name": "bnp_fast--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "bnp_fast"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--bnp_lop--by--sni_id--year.csv",
+      "name": "bnp_lop--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "bnp_lop"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--bran_energi--by--sni_id--year.csv",
+      "name": "bran_energi--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "bran_energi"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--co_skatt--by--sni_id--year.csv",
       "name": "co_skatt--by--sni_id--year",
       "schema": {
@@ -726,6 +831,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--el_energi--by--sni_id--year.csv",
+      "name": "el_energi--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "el_energi"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--export--by--sni_id--year.csv",
       "name": "export--by--sni_id--year",
       "schema": {
@@ -738,6 +864,27 @@
           },
           {
             "name": "export"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--flygskatt--by--sni_id--year.csv",
+      "name": "flygskatt--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "flygskatt"
           }
         ],
         "primaryKey": [
@@ -864,6 +1011,27 @@
           },
           {
             "name": "forb_fos"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--fordonskatt--by--sni_id--year.csv",
+      "name": "fordonskatt--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "fordonskatt"
           }
         ],
         "primaryKey": [
@@ -1104,6 +1272,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--ghg_utslapp_prod--by--sni_id--year.csv",
+      "name": "ghg_utslapp_prod--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ghg_utslapp_prod"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--glas_farl--by--sni_id--year.csv",
       "name": "glas_farl--by--sni_id--year",
       "schema": {
@@ -1230,6 +1419,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--g_forsk--by--sni_id--year.csv",
+      "name": "g_forsk--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "g_forsk"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--hushall_farl--by--sni_id--year.csv",
       "name": "hushall_farl--by--sni_id--year",
       "schema": {
@@ -1263,6 +1473,27 @@
           },
           {
             "name": "hushall_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--inv_egen_fou--by--sni_id--year.csv",
+      "name": "inv_egen_fou--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "inv_egen_fou"
           }
         ],
         "primaryKey": [
@@ -1419,6 +1650,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--kem_skatt--by--sni_id--year.csv",
+      "name": "kem_skatt--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "kem_skatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--kem_tonne--by--sni_id--year.csv",
       "name": "kem_tonne--by--sni_id--year",
       "schema": {
@@ -1440,6 +1692,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--koldioxid_skatt--by--sni_id--year.csv",
+      "name": "koldioxid_skatt--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "koldioxid_skatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--koldi_skatt--by--sni_id--year.csv",
       "name": "koldi_skatt--by--sni_id--year",
       "schema": {
@@ -1452,6 +1725,27 @@
           },
           {
             "name": "koldi_skatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--koldi_utslapp--by--sni_id--year.csv",
+      "name": "koldi_utslapp--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "koldi_utslapp"
           }
         ],
         "primaryKey": [
@@ -1776,6 +2070,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--nox_avgift--by--sni_id--year.csv",
+      "name": "nox_avgift--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "nox_avgift"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--olje_farl--by--sni_id--year.csv",
       "name": "olje_farl--by--sni_id--year",
       "schema": {
@@ -1809,6 +2124,27 @@
           },
           {
             "name": "olje_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ovr_miljoskatt--by--sni_id--year.csv",
+      "name": "ovr_miljoskatt--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ovr_miljoskatt"
           }
         ],
         "primaryKey": [
@@ -1977,6 +2313,48 @@
           },
           {
             "name": "res_rakn"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ror_egen_fou--by--sni_id--year.csv",
+      "name": "ror_egen_fou--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ror_egen_fou"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--sjalvfin_egen_fou--by--sni_id--year.csv",
+      "name": "sjalvfin_egen_fou--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sjalvfin_egen_fou"
           }
         ],
         "primaryKey": [
@@ -2175,6 +2553,69 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--syss_bel_kv--by--sni_id--year.csv",
+      "name": "syss_bel_kv--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "syss_bel_kv"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--syss_bel_man--by--sni_id--year.csv",
+      "name": "syss_bel_man--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "syss_bel_man"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--syss_bel_tot--by--sni_id--year.csv",
+      "name": "syss_bel_tot--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "syss_bel_tot"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--textil_farl--by--sni_id--year.csv",
       "name": "textil_farl--by--sni_id--year",
       "schema": {
@@ -2208,6 +2649,69 @@
           },
           {
             "name": "textil_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--tillamp_forsk--by--sni_id--year.csv",
+      "name": "tillamp_forsk--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "tillamp_forsk"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ton_kem--by--sni_id--year.csv",
+      "name": "ton_kem--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ton_kem"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--tot_egen_fou--by--sni_id--year.csv",
+      "name": "tot_egen_fou--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "tot_egen_fou"
           }
         ],
         "primaryKey": [
@@ -2280,6 +2784,69 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--tot_vatten--by--sni_id--year.csv",
+      "name": "tot_vatten--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "tot_vatten"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--trafik_skatt--by--sni_id--year.csv",
+      "name": "trafik_skatt--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "trafik_skatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--trangselskatt--by--sni_id--year.csv",
+      "name": "trangselskatt--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "trangselskatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--tra_farl--by--sni_id--year.csv",
       "name": "tra_farl--by--sni_id--year",
       "schema": {
@@ -2322,6 +2889,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--uppd_egen_fou--by--sni_id--year.csv",
+      "name": "uppd_egen_fou--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "uppd_egen_fou"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--utsl_ghg--by--sni_id--year.csv",
       "name": "utsl_ghg--by--sni_id--year",
       "schema": {
@@ -2355,6 +2943,27 @@
           },
           {
             "name": "utsl_skatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--utv_verk--by--sni_id--year.csv",
+      "name": "utv_verk--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "utv_verk"
           }
         ],
         "primaryKey": [
@@ -2460,6 +3069,27 @@
           },
           {
             "name": "vaxthusg"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--vaxthus_inb_prod--by--sni_id--year.csv",
+      "name": "vaxthus_inb_prod--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "vaxthus_inb_prod"
           }
         ],
         "primaryKey": [
@@ -3031,6 +3661,16 @@
           "geog",
           "year"
         ],
+        "value": "ant_kem",
+        "resources": [
+          "ant_kem--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "ant_kon",
         "resources": [
           "ant_kon--by--sni_id--year"
@@ -3111,6 +3751,16 @@
           "geog",
           "year"
         ],
+        "value": "bidr_egen_fou",
+        "resources": [
+          "bidr_egen_fou--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "bland_farl",
         "resources": [
           "bland_farl--by--sni_id--year"
@@ -3151,6 +3801,36 @@
           "geog",
           "year"
         ],
+        "value": "bnp_fast",
+        "resources": [
+          "bnp_fast--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "bnp_lop",
+        "resources": [
+          "bnp_lop--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "bran_energi",
+        "resources": [
+          "bran_energi--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "co_skatt",
         "resources": [
           "co_skatt--by--sni_id--year"
@@ -3161,9 +3841,29 @@
           "geog",
           "year"
         ],
+        "value": "el_energi",
+        "resources": [
+          "el_energi--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "export",
         "resources": [
           "export--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "flygskatt",
+        "resources": [
+          "flygskatt--by--sni_id--year"
         ]
       },
       {
@@ -3251,6 +3951,16 @@
           "geog",
           "year"
         ],
+        "value": "fordonskatt",
+        "resources": [
+          "fordonskatt--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "foreb_inv",
         "resources": [
           "foreb_inv--by--sni_id--year"
@@ -3331,9 +4041,29 @@
           "geog",
           "year"
         ],
+        "value": "g_forsk",
+        "resources": [
+          "g_forsk--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "ghg_kilo",
         "resources": [
           "ghg_kilo--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ghg_utslapp_prod",
+        "resources": [
+          "ghg_utslapp_prod--by--sni_id--year"
         ]
       },
       {
@@ -3421,6 +4151,16 @@
           "geog",
           "year"
         ],
+        "value": "inv_egen_fou",
+        "resources": [
+          "inv_egen_fou--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "inv_miljo",
         "resources": [
           "inv_miljo--by--sni_id--year"
@@ -3491,6 +4231,16 @@
           "geog",
           "year"
         ],
+        "value": "kem_skatt",
+        "resources": [
+          "kem_skatt--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "kem_tonne",
         "resources": [
           "kem_tonne--by--sni_id--year"
@@ -3504,6 +4254,26 @@
         "value": "koldi_skatt",
         "resources": [
           "koldi_skatt--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "koldi_utslapp",
+        "resources": [
+          "koldi_utslapp--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "koldioxid_skatt",
+        "resources": [
+          "koldioxid_skatt--by--sni_id--year"
         ]
       },
       {
@@ -3661,6 +4431,16 @@
           "geog",
           "year"
         ],
+        "value": "nox_avgift",
+        "resources": [
+          "nox_avgift--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "olje_farl",
         "resources": [
           "olje_farl--by--sni_id--year"
@@ -3674,6 +4454,16 @@
         "value": "olje_icke_farl",
         "resources": [
           "olje_icke_farl--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ovr_miljoskatt",
+        "resources": [
+          "ovr_miljoskatt--by--sni_id--year"
         ]
       },
       {
@@ -3761,6 +4551,26 @@
           "geog",
           "year"
         ],
+        "value": "ror_egen_fou",
+        "resources": [
+          "ror_egen_fou--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "sjalvfin_egen_fou",
+        "resources": [
+          "sjalvfin_egen_fou--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "sjukv_avf_farl",
         "resources": [
           "sjukv_avf_farl--by--sni_id--year"
@@ -3841,6 +4651,36 @@
           "geog",
           "year"
         ],
+        "value": "syss_bel_kv",
+        "resources": [
+          "syss_bel_kv--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "syss_bel_man",
+        "resources": [
+          "syss_bel_man--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "syss_bel_tot",
+        "resources": [
+          "syss_bel_tot--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "syssels",
         "resources": [
           "syssels--by--sni_id--year"
@@ -3864,6 +4704,36 @@
         "value": "textil_icke_farl",
         "resources": [
           "textil_icke_farl--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "tillamp_forsk",
+        "resources": [
+          "tillamp_forsk--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "ton_kem",
+        "resources": [
+          "ton_kem--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "tot_egen_fou",
+        "resources": [
+          "tot_egen_fou--by--sni_id--year"
         ]
       },
       {
@@ -3901,6 +4771,16 @@
           "geog",
           "year"
         ],
+        "value": "tot_vatten",
+        "resources": [
+          "tot_vatten--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "tra_farl",
         "resources": [
           "tra_farl--by--sni_id--year"
@@ -3921,6 +4801,36 @@
           "geog",
           "year"
         ],
+        "value": "trafik_skatt",
+        "resources": [
+          "trafik_skatt--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "trangselskatt",
+        "resources": [
+          "trangselskatt--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "uppd_egen_fou",
+        "resources": [
+          "uppd_egen_fou--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "utsl_ghg",
         "resources": [
           "utsl_ghg--by--sni_id--year"
@@ -3934,6 +4844,16 @@
         "value": "utsl_skatt",
         "resources": [
           "utsl_skatt--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "utv_verk",
+        "resources": [
+          "utv_verk--by--sni_id--year"
         ]
       },
       {
@@ -3974,6 +4894,16 @@
         "value": "varuimp",
         "resources": [
           "varuimp--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "vaxthus_inb_prod",
+        "resources": [
+          "vaxthus_inb_prod--by--sni_id--year"
         ]
       },
       {
@@ -4232,6 +5162,16 @@
           "sni_id",
           "year"
         ],
+        "value": "ant_kem",
+        "resources": [
+          "ant_kem--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "ant_kon",
         "resources": [
           "ant_kon--by--sni_id--year"
@@ -4312,6 +5252,16 @@
           "sni_id",
           "year"
         ],
+        "value": "bidr_egen_fou",
+        "resources": [
+          "bidr_egen_fou--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "bland_farl",
         "resources": [
           "bland_farl--by--sni_id--year"
@@ -4352,6 +5302,36 @@
           "sni_id",
           "year"
         ],
+        "value": "bnp_fast",
+        "resources": [
+          "bnp_fast--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "bnp_lop",
+        "resources": [
+          "bnp_lop--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "bran_energi",
+        "resources": [
+          "bran_energi--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "co_skatt",
         "resources": [
           "co_skatt--by--sni_id--year"
@@ -4362,9 +5342,29 @@
           "sni_id",
           "year"
         ],
+        "value": "el_energi",
+        "resources": [
+          "el_energi--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "export",
         "resources": [
           "export--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "flygskatt",
+        "resources": [
+          "flygskatt--by--sni_id--year"
         ]
       },
       {
@@ -4452,6 +5452,16 @@
           "sni_id",
           "year"
         ],
+        "value": "fordonskatt",
+        "resources": [
+          "fordonskatt--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "foreb_inv",
         "resources": [
           "foreb_inv--by--sni_id--year"
@@ -4532,9 +5542,29 @@
           "sni_id",
           "year"
         ],
+        "value": "g_forsk",
+        "resources": [
+          "g_forsk--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "ghg_kilo",
         "resources": [
           "ghg_kilo--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "ghg_utslapp_prod",
+        "resources": [
+          "ghg_utslapp_prod--by--sni_id--year"
         ]
       },
       {
@@ -4622,6 +5652,16 @@
           "sni_id",
           "year"
         ],
+        "value": "inv_egen_fou",
+        "resources": [
+          "inv_egen_fou--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "inv_miljo",
         "resources": [
           "inv_miljo--by--sni_id--year"
@@ -4692,6 +5732,16 @@
           "sni_id",
           "year"
         ],
+        "value": "kem_skatt",
+        "resources": [
+          "kem_skatt--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "kem_tonne",
         "resources": [
           "kem_tonne--by--sni_id--year"
@@ -4705,6 +5755,26 @@
         "value": "koldi_skatt",
         "resources": [
           "koldi_skatt--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "koldi_utslapp",
+        "resources": [
+          "koldi_utslapp--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "koldioxid_skatt",
+        "resources": [
+          "koldioxid_skatt--by--sni_id--year"
         ]
       },
       {
@@ -4862,6 +5932,16 @@
           "sni_id",
           "year"
         ],
+        "value": "nox_avgift",
+        "resources": [
+          "nox_avgift--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "olje_farl",
         "resources": [
           "olje_farl--by--sni_id--year"
@@ -4875,6 +5955,16 @@
         "value": "olje_icke_farl",
         "resources": [
           "olje_icke_farl--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "ovr_miljoskatt",
+        "resources": [
+          "ovr_miljoskatt--by--sni_id--year"
         ]
       },
       {
@@ -4962,6 +6052,26 @@
           "sni_id",
           "year"
         ],
+        "value": "ror_egen_fou",
+        "resources": [
+          "ror_egen_fou--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "sjalvfin_egen_fou",
+        "resources": [
+          "sjalvfin_egen_fou--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "sjukv_avf_farl",
         "resources": [
           "sjukv_avf_farl--by--sni_id--year"
@@ -5042,6 +6152,36 @@
           "sni_id",
           "year"
         ],
+        "value": "syss_bel_kv",
+        "resources": [
+          "syss_bel_kv--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "syss_bel_man",
+        "resources": [
+          "syss_bel_man--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "syss_bel_tot",
+        "resources": [
+          "syss_bel_tot--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "syssels",
         "resources": [
           "syssels--by--sni_id--year"
@@ -5065,6 +6205,36 @@
         "value": "textil_icke_farl",
         "resources": [
           "textil_icke_farl--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "tillamp_forsk",
+        "resources": [
+          "tillamp_forsk--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "ton_kem",
+        "resources": [
+          "ton_kem--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "tot_egen_fou",
+        "resources": [
+          "tot_egen_fou--by--sni_id--year"
         ]
       },
       {
@@ -5102,6 +6272,16 @@
           "sni_id",
           "year"
         ],
+        "value": "tot_vatten",
+        "resources": [
+          "tot_vatten--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "tra_farl",
         "resources": [
           "tra_farl--by--sni_id--year"
@@ -5122,6 +6302,36 @@
           "sni_id",
           "year"
         ],
+        "value": "trafik_skatt",
+        "resources": [
+          "trafik_skatt--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "trangselskatt",
+        "resources": [
+          "trangselskatt--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "uppd_egen_fou",
+        "resources": [
+          "uppd_egen_fou--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
         "value": "utsl_ghg",
         "resources": [
           "utsl_ghg--by--sni_id--year"
@@ -5135,6 +6345,16 @@
         "value": "utsl_skatt",
         "resources": [
           "utsl_skatt--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "utv_verk",
+        "resources": [
+          "utv_verk--by--sni_id--year"
         ]
       },
       {
@@ -5175,6 +6395,16 @@
         "value": "varuimp",
         "resources": [
           "varuimp--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "vaxthus_inb_prod",
+        "resources": [
+          "vaxthus_inb_prod--by--sni_id--year"
         ]
       },
       {

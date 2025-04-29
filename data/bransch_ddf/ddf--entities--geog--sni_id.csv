@@ -24,8 +24,8 @@ datorer_elek,TRUE,C26 Datorer: Elektronikvaror Och Optik ,c
 detaljhandel_ut_mot,TRUE,G47 Detaljhandel Utom Med Motordorfon ,g
 dryckesvaru,TRUE,C11-C12 Dryckesvaru- Och Tobaksindustri ,c
 bransch_e,TRUE,ZZ E ,e
-el_gas_avl,TRUE,D35-E39 El: Gas Och Värmeverk Samt Vatten: Avlopp Och Avfall ,d
-el_gas_vat,TRUE,D35-E36 El- Gas- Och Värmeverk: Vattenverk ,other
+el_gas_avl,TRUE,D35-E39 El: Gas Och Värmeverk Samt Vatten: Avlopp Och Avfall ,several
+el_gas_vat,TRUE,D35-E36 El- Gas- Och Värmeverk: Vattenverk ,several
 elapparatur,TRUE,C27 Elapparatur ,c
 farmaceutiska_basp,TRUE,C21 Farmaceutiska Basprodukter Och Läkemedel ,c
 fastighetsbolag_g,TRUE,L68 Fastighetsverksamhet ,l
@@ -45,7 +45,7 @@ forlagsverksamhet_film,TRUE,J58-J60 Förlagsverksamhet: Film: Video: Tv: Ljudins
 forsakrings,TRUE,K65 Försäkrings- Och Återförsäkringsbolag: Pensionsfonder ,k
 el_gas,TRUE,D35 Försörjning Av El: Gas: Värme Och Kyla ,d
 forvarvsarbete_ihu,TRUE,T97 Förvärvsarbete I Hushåll ,t
-grafisk,TRUE,C18 Grafisk industri,other
+grafisk,TRUE,C18 Grafisk industri,c
 gummi,TRUE,C22 Gummi- Och Plastvaror ,c
 gummi_icke_met,TRUE,C22-C23 Gummi- Och Plastvaruindustri och Andra Icke Metalliska Mineraliska Produkter ,c
 bransch_h,TRUE,ZZ H ,h
@@ -94,7 +94,7 @@ marknadsproduktion_varo,TRUE,A01-F43 Marknadsproduktion: Varor ,several
 massa_papp,TRUE,C17 Massa-: Pappers- Och Pappersvaruindustri ,c
 metallmalmer,TRUE,B07 Metallmalmer ,b
 utvinning_malm,TRUE,B07-B09 Metallmalmer och service ,b
-mobelindustri,TRUE,C31 Möbelindustri ,other
+mobelindustri,TRUE,C31 Möbelindustri ,c
 mobeltillverkning_anna,TRUE,C31-C33 Möbeltillverkning: Annan Tillverkning: Reparation Och Installation Av Maskiner Och Apparater ,c
 nationell_tota_exk,TRUE,Nationell Total Exklusive Lulucf: Exklusive Internationella Transporter ,other
 nationell_total,TRUE,Nationell Total Exklusive Lulucf: Inklusive Internationella Transporter ,other
@@ -136,7 +136,7 @@ metaller,TRUE,C24 Stål- och metallframställning ,c
 stal_met_c,TRUE,C24-C25 Stål- Och Metallframställning: Metallvarutillverkning ,c
 foretag_for_bev,TRUE,N80 Säkerhets- och bevakningsverksamhet ,n
 telekommunikation_j,TRUE,J61 Telekommunikation ,j
-textil_bekl,TRUE,C13-C15 Textil-: Beklädnads-: Läder - Och Lädervaruindustri ,other
+textil_bekl,TRUE,C13-C15 Textil-: Beklädnads-: Läder - Och Lädervaruindustri ,c
 textilindustri,TRUE,C13 Textilindustri ,c
 andra_tran,TRUE,C30 Tillverkning av andra Transportmedel ,c
 industri_for_bas,TRUE,C20-C21 Tillverkning Av Kemikalier Och Kemiska Produkter: Farmaceutiska Basprodukter Och Läkemedel ,c
@@ -175,3 +175,20 @@ ovrig_mask,TRUE,C28 Övrig Maskinindustri ,c
 ovriga_tjan,TRUE,Övriga Tjänster,other
 totalt_hio,TRUE,Total ink. HIO,other
 totalt_nar,TRUE,A01-T98 Totala näringslivet ,several
+skog_gruv,TRUE,A01-B09 Jordbruk: Skogsbruk och friske: Gruvor och mineralutvinning,several
+tex_tra_graf,TRUE,C13-C16+C18 Textil- Beklädnads- Lädervaruindustri: Trä- Och Trävarutillverkning: Grafisk industri,c
+kol_pet_kem,TRUE,C19-C20 Industri För Stenkols- Och Raffinerade Petroleumprodukter: Kemisk industri,c
+metall_dator_elap,TRUE,C25-C28 Industri för metallvaror utom maskiner och apparater: Datorer: Elektronikvaror: Optik: Elapparatur samt andra maskiner och apparater,c
+metall_dator_elap_transp,TRUE,C25-C30 Industri för metallvaror utom maskiner och apparater: Datorer: Elektronikvaror: Optik: Elapparatur samt andra maskiner och apparater: Transportmedelsindustri,c
+service_motor_hotell,TRUE,G45-G47+I55-I56 Handel: Serviceverkstäder för motorfordon och motorcyklar: Hotell och restauranger,several
+fast_uthyr_rese,TRUE,L68+N77-N81 Fastighetsverksamhet: Uthyrning: Fastighetsservice: Resetjänster samt andra stödtjänster,several
+rek_vet_civ_int,TRUE,M73-M75+N82+O84-U99 Reklam och marknadsföring: Veterinärkliniker: Andra företagstjänster: Civila myndigheter och försvaret samt internationella organisationer och utländska ambassader o.d.,several
+exp_export,TRUE,Export,other
+ind_tot,TRUE,Totala industrin,several
+foradl_tot,TRUE,Totala ekonomins förädlingsvärde,other
+nar_foradl,TRUE,Näringslivets förädlingsvärde till baspris,other
+tillv_el_and,TRUE,C26-C28 Tillverkning av elektronikvaror och andra maskiner och apparater,c
+vatt_och_avl,TRUE,E36-E37 Vattenförsörjning och Avloppsrensning,e
+avfall_aterv_san,TRUE,E38-E39 Avfallshantering: Återvinning och sanering,e
+transp_mag,TRUE,H49-H52 Transport samt Magasinering och Stödtjänster till Transport,h
+res_bev_fast_kont,TRUE,N79-N82 Rese- Bevaknings- Fastighetsservice och Kontorstjänster M.M.,n
