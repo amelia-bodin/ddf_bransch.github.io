@@ -3191,6 +3191,81 @@
       }
     },
     {
+      "path": "multidimensional/ddf--datapoints--foradl_bio--by--sni_id--lan--year.csv",
+      "name": "foradl_bio--by--sni_id--lan--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "foradl_bio"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "multidimensional/ddf--datapoints--forv_kvn_bio--by--sni_id--lan--year.csv",
+      "name": "forv_kvn_bio--by--sni_id--lan--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_kvn_bio"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "multidimensional/ddf--datapoints--forv_man_bio--by--sni_id--lan--year.csv",
+      "name": "forv_man_bio--by--sni_id--lan--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_man_bio"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "multidimensional/ddf--datapoints--forv_to--by--sni_id--gender--year.csv",
       "name": "forv_to--by--sni_id--gender--year-2",
       "schema": {
@@ -3236,6 +3311,81 @@
         "primaryKey": [
           "sni_id",
           "gender",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "multidimensional/ddf--datapoints--forv_tot_bio--by--sni_id--lan--year.csv",
+      "name": "forv_tot_bio--by--sni_id--lan--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_tot_bio"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "multidimensional/ddf--datapoints--netto_bio--by--sni_id--lan--year.csv",
+      "name": "netto_bio--by--sni_id--lan--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "netto_bio"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "multidimensional/ddf--datapoints--vaxthusg--by--sni_id--lan--year.csv",
+      "name": "vaxthusg--by--sni_id--lan--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "vaxthusg"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "lan",
           "year"
         ]
       }
@@ -3444,6 +3594,72 @@
         "value": "ant_ny",
         "resources": [
           "ant_ny--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "lan",
+          "year"
+        ],
+        "value": "foradl_bio",
+        "resources": [
+          "foradl_bio--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "lan",
+          "year"
+        ],
+        "value": "forv_kvn_bio",
+        "resources": [
+          "forv_kvn_bio--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "lan",
+          "year"
+        ],
+        "value": "forv_man_bio",
+        "resources": [
+          "forv_man_bio--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "lan",
+          "year"
+        ],
+        "value": "forv_tot_bio",
+        "resources": [
+          "forv_tot_bio--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "lan",
+          "year"
+        ],
+        "value": "netto_bio",
+        "resources": [
+          "netto_bio--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "lan",
+          "year"
+        ],
+        "value": "vaxthusg",
+        "resources": [
+          "vaxthusg--by--sni_id--lan--year-2"
         ]
       },
       {
@@ -4945,6 +5161,72 @@
         "value": "ant_ny",
         "resources": [
           "ant_ny--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "sni_id",
+          "year"
+        ],
+        "value": "foradl_bio",
+        "resources": [
+          "foradl_bio--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "sni_id",
+          "year"
+        ],
+        "value": "forv_kvn_bio",
+        "resources": [
+          "forv_kvn_bio--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "sni_id",
+          "year"
+        ],
+        "value": "forv_man_bio",
+        "resources": [
+          "forv_man_bio--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "sni_id",
+          "year"
+        ],
+        "value": "forv_tot_bio",
+        "resources": [
+          "forv_tot_bio--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "sni_id",
+          "year"
+        ],
+        "value": "netto_bio",
+        "resources": [
+          "netto_bio--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "sni_id",
+          "year"
+        ],
+        "value": "vaxthusg",
+        "resources": [
+          "vaxthusg--by--sni_id--lan--year-2"
         ]
       },
       {
