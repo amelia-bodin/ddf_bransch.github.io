@@ -1,6 +1,6 @@
 {
-  "name": "nytt_ddf",
-  "title": "nytt_ddf",
+  "name": "bransch_senaste",
+  "title": "bransch_senaste",
   "description": "",
   "version": "0.0.1",
   "language": {
@@ -243,174 +243,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_en--by--sni_id--year.csv",
-      "name": "ant_for_en--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_for_en"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_fem--by--sni_id--year.csv",
-      "name": "ant_for_fem--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_for_fem"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_femtio--by--sni_id--year.csv",
-      "name": "ant_for_femtio--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_for_femtio"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_fem_hundra--by--sni_id--year.csv",
-      "name": "ant_for_fem_hundra--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_for_fem_hundra"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_hundra--by--sni_id--year.csv",
-      "name": "ant_for_hundra--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_for_hundra"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_noll--by--sni_id--year.csv",
-      "name": "ant_for_noll--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_for_noll"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_tio--by--sni_id--year.csv",
-      "name": "ant_for_tio--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_for_tio"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_tjugo--by--sni_id--year.csv",
-      "name": "ant_for_tjugo--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_for_tjugo"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--ant_for_tot--by--sni_id--year.csv",
       "name": "ant_for_tot--by--sni_id--year",
       "schema": {
@@ -423,27 +255,6 @@
           },
           {
             "name": "ant_for_tot"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_tva_hundra--by--sni_id--year.csv",
-      "name": "ant_for_tva_hundra--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_for_tva_hundra"
           }
         ],
         "primaryKey": [
@@ -3405,6 +3216,12 @@
             "name": "name"
           },
           {
+            "name": "name_short"
+          },
+          {
+            "name": "name_catalog"
+          },
+          {
             "name": "unit"
           },
           {
@@ -3747,99 +3564,9 @@
           "geog",
           "year"
         ],
-        "value": "ant_for_en",
-        "resources": [
-          "ant_for_en--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "ant_for_fem",
-        "resources": [
-          "ant_for_fem--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "ant_for_fem_hundra",
-        "resources": [
-          "ant_for_fem_hundra--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "ant_for_femtio",
-        "resources": [
-          "ant_for_femtio--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "ant_for_hundra",
-        "resources": [
-          "ant_for_hundra--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "ant_for_noll",
-        "resources": [
-          "ant_for_noll--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "ant_for_tio",
-        "resources": [
-          "ant_for_tio--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "ant_for_tjugo",
-        "resources": [
-          "ant_for_tjugo--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "ant_for_tot",
         "resources": [
           "ant_for_tot--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "ant_for_tva_hundra",
-        "resources": [
-          "ant_for_tva_hundra--by--sni_id--year"
         ]
       },
       {
@@ -5314,99 +5041,9 @@
           "sni_id",
           "year"
         ],
-        "value": "ant_for_en",
-        "resources": [
-          "ant_for_en--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_fem",
-        "resources": [
-          "ant_for_fem--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_fem_hundra",
-        "resources": [
-          "ant_for_fem_hundra--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_femtio",
-        "resources": [
-          "ant_for_femtio--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_hundra",
-        "resources": [
-          "ant_for_hundra--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_noll",
-        "resources": [
-          "ant_for_noll--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_tio",
-        "resources": [
-          "ant_for_tio--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_tjugo",
-        "resources": [
-          "ant_for_tjugo--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
         "value": "ant_for_tot",
         "resources": [
           "ant_for_tot--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_for_tva_hundra",
-        "resources": [
-          "ant_for_tva_hundra--by--sni_id--year"
         ]
       },
       {
@@ -6900,6 +6537,24 @@
           "concept"
         ],
         "value": "name",
+        "resources": [
+          "ddf--concepts-3"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "name_catalog",
+        "resources": [
+          "ddf--concepts-3"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "name_short",
         "resources": [
           "ddf--concepts-3"
         ]
