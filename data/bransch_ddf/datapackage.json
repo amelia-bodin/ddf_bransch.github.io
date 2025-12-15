@@ -1,6 +1,6 @@
 {
-  "name": "bransch_senaste",
-  "title": "bransch_senaste",
+  "name": "bransch_ddf",
+  "title": "bransch_ddf",
   "description": "",
   "version": "0.0.1",
   "language": {
@@ -2910,6 +2910,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--vaxthus_utslapp--by--sni_id--year.csv",
+      "name": "vaxthus_utslapp--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "vaxthus_utslapp"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--vege_farl--by--sni_id--year.csv",
       "name": "vege_farl--by--sni_id--year",
       "schema": {
@@ -4854,6 +4875,16 @@
           "geog",
           "year"
         ],
+        "value": "vaxthus_utslapp",
+        "resources": [
+          "vaxthus_utslapp--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
         "value": "vaxthusg",
         "resources": [
           "vaxthusg--by--sni_id--year"
@@ -6324,6 +6355,16 @@
         "value": "vaxthus_inb_prod",
         "resources": [
           "vaxthus_inb_prod--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "vaxthus_utslapp",
+        "resources": [
+          "vaxthus_utslapp--by--sni_id--year"
         ]
       },
       {

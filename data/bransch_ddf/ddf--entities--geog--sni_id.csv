@@ -192,3 +192,6 @@ vatt_och_avl,TRUE,E36-E37 Vattenförsörjning och Avloppsrensning,e
 avfall_aterv_san,TRUE,E38-E39 Avfallshantering: Återvinning och sanering,e
 transp_mag,TRUE,H49-H52 Transport samt Magasinering och Stödtjänster till Transport,h
 res_bev_fast_kont,TRUE,N79-N82 Rese- Bevaknings- Fastighetsservice och Kontorstjänster M.M.,n
+bnp_marknad,TRUE,BNP till marknadpris,other
+prod_skatt,TRUE,Produktskatter,other
+prod_subvenskatt,TRUE,Produktsubventioner,other
