@@ -6,13 +6,14 @@ ekonomi,Ekonomi,
 miljo_sek,Miljösektorn,spec_sek
 bioek,Bioekonomi,spec_sek
 transp,Transportsektorn,spec_sek
-natur,Naturresurser,
+natur,Naturresurser,ovrig_tag
 farligt,Farligt avfall,natur
 ej_farligt,Icke-farligt avfall,natur
 eko_styr,Ekonomiska Styrmedel,
 kompetens,Kompetens,
 produkter,Produkter,
 invest,Investeringar,
-spec_sek,Särskilda sektorer,
+spec_sek,Särskilda sektorer,ovrig_tag
 kategori,Kategorier,
 fou,Forskning och utveckling i Sverige (FoU),
+ovrig_tag,Övriga variabler,
