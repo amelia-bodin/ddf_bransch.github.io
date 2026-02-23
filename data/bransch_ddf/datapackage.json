@@ -2973,6 +2973,31 @@
       }
     },
     {
+      "path": "multidimensional/ddf--datapoints--ant_ans_kon--by--sni_id--lan--year.csv",
+      "name": "ant_ans_kon--by--sni_id--lan--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_ans_kon"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "lan",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "multidimensional/ddf--datapoints--ant_forv_tot_reg--by--sni_id--gender--year.csv",
       "name": "ant_forv_tot_reg--by--sni_id--gender--year-2",
       "schema": {
@@ -2993,6 +3018,31 @@
         "primaryKey": [
           "sni_id",
           "gender",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "multidimensional/ddf--datapoints--ant_kon--by--sni_id--lan--year.csv",
+      "name": "ant_kon--by--sni_id--lan--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "lan"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_kon"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "lan",
           "year"
         ]
       }
@@ -3421,6 +3471,28 @@
         "value": "forv_tot_bio",
         "resources": [
           "forv_tot_bio--by--sni_id--gender--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "lan",
+          "year"
+        ],
+        "value": "ant_ans_kon",
+        "resources": [
+          "ant_ans_kon--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "lan",
+          "year"
+        ],
+        "value": "ant_kon",
+        "resources": [
+          "ant_kon--by--sni_id--lan--year-2"
         ]
       },
       {
@@ -4908,6 +4980,28 @@
         "value": "vege_icke_farl",
         "resources": [
           "vege_icke_farl--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "sni_id",
+          "year"
+        ],
+        "value": "ant_ans_kon",
+        "resources": [
+          "ant_ans_kon--by--sni_id--lan--year-2"
+        ]
+      },
+      {
+        "primaryKey": [
+          "lan",
+          "sni_id",
+          "year"
+        ],
+        "value": "ant_kon",
+        "resources": [
+          "ant_kon--by--sni_id--lan--year-2"
         ]
       },
       {
