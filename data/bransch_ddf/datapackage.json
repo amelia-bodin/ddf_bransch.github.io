@@ -2721,6 +2721,27 @@
       }
     },
     {
+      "path": "ddf--datapoints/ddf--datapoints--utsl_ghg--by--sni_id--year.csv",
+      "name": "utsl_ghg--by--sni_id--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "utsl_ghg"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--datapoints/ddf--datapoints--utsl_skatt--by--sni_id--year.csv",
       "name": "utsl_skatt--by--sni_id--year",
       "schema": {
@@ -2952,31 +2973,6 @@
       }
     },
     {
-      "path": "multidimensional/ddf--datapoints--ant_ans_kon--by--sni_id--lan--year.csv",
-      "name": "ant_ans_kon--by--sni_id--lan--year-2",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_ans_kon"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "lan",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "multidimensional/ddf--datapoints--ant_forv_tot_reg--by--sni_id--gender--year.csv",
       "name": "ant_forv_tot_reg--by--sni_id--gender--year-2",
       "schema": {
@@ -2997,31 +2993,6 @@
         "primaryKey": [
           "sni_id",
           "gender",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "multidimensional/ddf--datapoints--ant_kon--by--sni_id--lan--year.csv",
-      "name": "ant_kon--by--sni_id--lan--year-2",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "lan"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_kon"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "lan",
           "year"
         ]
       }
@@ -3458,28 +3429,6 @@
           "lan",
           "year"
         ],
-        "value": "ant_ans_kon",
-        "resources": [
-          "ant_ans_kon--by--sni_id--lan--year-2"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "lan",
-          "year"
-        ],
-        "value": "ant_kon",
-        "resources": [
-          "ant_kon--by--sni_id--lan--year-2"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "lan",
-          "year"
-        ],
         "value": "ant_ny",
         "resources": [
           "ant_ny--by--sni_id--lan--year-2"
@@ -4839,6 +4788,16 @@
         "value": "uppd_egen_fou",
         "resources": [
           "uppd_egen_fou--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geog",
+          "year"
+        ],
+        "value": "utsl_ghg",
+        "resources": [
+          "utsl_ghg--by--sni_id--year"
         ]
       },
       {
@@ -4957,28 +4916,6 @@
           "sni_id",
           "year"
         ],
-        "value": "ant_ans_kon",
-        "resources": [
-          "ant_ans_kon--by--sni_id--lan--year-2"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "sni_id",
-          "year"
-        ],
-        "value": "ant_kon",
-        "resources": [
-          "ant_kon--by--sni_id--lan--year-2"
-        ]
-      },
-      {
-        "primaryKey": [
-          "lan",
-          "sni_id",
-          "year"
-        ],
         "value": "ant_ny",
         "resources": [
           "ant_ny--by--sni_id--lan--year-2"
@@ -6338,6 +6275,16 @@
         "value": "uppd_egen_fou",
         "resources": [
           "uppd_egen_fou--by--sni_id--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ],
+        "value": "utsl_ghg",
+        "resources": [
+          "utsl_ghg--by--sni_id--year"
         ]
       },
       {
