@@ -12,2969 +12,8 @@
   "author": "",
   "resources": [
     {
-      "path": "ddf--datapoints/ddf--datapoints--and_forb_inv--by--sni_id--year.csv",
-      "name": "and_forb_inv--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "and_forb_inv"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--and_milj_ex--by--sni_id--year.csv",
-      "name": "and_milj_ex--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "and_milj_ex"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--and_milj_tot--by--sni_id--year.csv",
-      "name": "and_milj_tot--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "and_milj_tot"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--anim_farl--by--sni_id--year.csv",
-      "name": "anim_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "anim_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--anim_icke_farl--by--sni_id--year.csv",
-      "name": "anim_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "anim_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--annat_farl--by--sni_id--year.csv",
-      "name": "annat_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "annat_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--annat_icke_farl--by--sni_id--year.csv",
-      "name": "annat_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "annat_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_ans_kon--by--sni_id--year.csv",
-      "name": "ant_ans_kon--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_ans_kon"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_forv_kvn_reg--by--sni_id--year.csv",
-      "name": "ant_forv_kvn_reg--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_forv_kvn_reg"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_forv_man_reg--by--sni_id--year.csv",
-      "name": "ant_forv_man_reg--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_forv_man_reg"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_forv_tot_reg--by--sni_id--year.csv",
-      "name": "ant_forv_tot_reg--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_forv_tot_reg"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_for_tot--by--sni_id--year.csv",
-      "name": "ant_for_tot--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_for_tot"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_kem--by--sni_id--year.csv",
-      "name": "ant_kem--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_kem"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_kon--by--sni_id--year.csv",
-      "name": "ant_kon--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_kon"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_ny--by--sni_id--year.csv",
-      "name": "ant_ny--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_ny"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ant_syss_miljo--by--sni_id--year.csv",
-      "name": "ant_syss_miljo--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ant_syss_miljo"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--arb_tim--by--sni_id--year.csv",
-      "name": "arb_tim--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "arb_tim"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--avlopp_farl--by--sni_id--year.csv",
-      "name": "avlopp_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "avlopp_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--avlopp_icke_farl--by--sni_id--year.csv",
-      "name": "avlopp_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "avlopp_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--batt_farl--by--sni_id--year.csv",
-      "name": "batt_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "batt_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--batt_icke_farl--by--sni_id--year.csv",
-      "name": "batt_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "batt_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--bidr_egen_fou--by--sni_id--year.csv",
-      "name": "bidr_egen_fou--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "bidr_egen_fou"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--bland_farl--by--sni_id--year.csv",
-      "name": "bland_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "bland_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--bland_icke_farl--by--sni_id--year.csv",
-      "name": "bland_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "bland_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--bland_met_farl--by--sni_id--year.csv",
-      "name": "bland_met_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "bland_met_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--bland_met_icke_farl--by--sni_id--year.csv",
-      "name": "bland_met_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "bland_met_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--bnp_fast--by--sni_id--year.csv",
-      "name": "bnp_fast--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "bnp_fast"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--bnp_lop--by--sni_id--year.csv",
-      "name": "bnp_lop--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "bnp_lop"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--bran_energi--by--sni_id--year.csv",
-      "name": "bran_energi--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "bran_energi"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--co_skatt--by--sni_id--year.csv",
-      "name": "co_skatt--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "co_skatt"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--el_energi--by--sni_id--year.csv",
-      "name": "el_energi--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "el_energi"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--export--by--sni_id--year.csv",
-      "name": "export--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "export"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--flygskatt--by--sni_id--year.csv",
-      "name": "flygskatt--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "flygskatt"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--foradl--by--sni_id--year.csv",
-      "name": "foradl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "foradl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--foradl_bio--by--sni_id--year.csv",
-      "name": "foradl_bio--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "foradl_bio"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forbrann_farl--by--sni_id--year.csv",
-      "name": "forbrann_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forbrann_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forbrann_icke_farl--by--sni_id--year.csv",
-      "name": "forbrann_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forbrann_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forbr_bio--by--sni_id--year.csv",
-      "name": "forbr_bio--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forbr_bio"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forb_fos--by--sni_id--year.csv",
-      "name": "forb_fos--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forb_fos"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--fordonskatt--by--sni_id--year.csv",
-      "name": "fordonskatt--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "fordonskatt"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--fordon_farl--by--sni_id--year.csv",
-      "name": "fordon_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "fordon_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--fordon_icke_farl--by--sni_id--year.csv",
-      "name": "fordon_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "fordon_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--foreb_inv--by--sni_id--year.csv",
-      "name": "foreb_inv--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "foreb_inv"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_kvn--by--sni_id--year.csv",
-      "name": "forv_kvn--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_kvn"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_kvn_bio--by--sni_id--year.csv",
-      "name": "forv_kvn_bio--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_kvn_bio"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_man--by--sni_id--year.csv",
-      "name": "forv_man--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_man"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_man_bio--by--sni_id--year.csv",
-      "name": "forv_man_bio--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_man_bio"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_to--by--sni_id--year.csv",
-      "name": "forv_to--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_to"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--forv_tot_bio--by--sni_id--year.csv",
-      "name": "forv_tot_bio--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "forv_tot_bio"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--fv--by--sni_id--year.csv",
-      "name": "fv--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "fv"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ghg_kilo--by--sni_id--year.csv",
-      "name": "ghg_kilo--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ghg_kilo"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ghg_utslapp_prod--by--sni_id--year.csv",
-      "name": "ghg_utslapp_prod--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ghg_utslapp_prod"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--glas_farl--by--sni_id--year.csv",
-      "name": "glas_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "glas_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--glas_icke_farl--by--sni_id--year.csv",
-      "name": "glas_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "glas_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--godsel_farl--by--sni_id--year.csv",
-      "name": "godsel_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "godsel_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--godsel_icke_farl--by--sni_id--year.csv",
-      "name": "godsel_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "godsel_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--gummi_farl--by--sni_id--year.csv",
-      "name": "gummi_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "gummi_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--gummi_icke_farl--by--sni_id--year.csv",
-      "name": "gummi_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "gummi_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--g_forsk--by--sni_id--year.csv",
-      "name": "g_forsk--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "g_forsk"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--hushall_farl--by--sni_id--year.csv",
-      "name": "hushall_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "hushall_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--hushall_icke_farl--by--sni_id--year.csv",
-      "name": "hushall_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "hushall_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--inv_egen_fou--by--sni_id--year.csv",
-      "name": "inv_egen_fou--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "inv_egen_fou"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--inv_miljo--by--sni_id--year.csv",
-      "name": "inv_miljo--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "inv_miljo"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--jord_farl--by--sni_id--year.csv",
-      "name": "jord_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "jord_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--jord_icke_farl--by--sni_id--year.csv",
-      "name": "jord_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "jord_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--kass_farl--by--sni_id--year.csv",
-      "name": "kass_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "kass_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--kass_icke_farl--by--sni_id--year.csv",
-      "name": "kass_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "kass_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--kem_farl--by--sni_id--year.csv",
-      "name": "kem_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "kem_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--kem_icke_farl--by--sni_id--year.csv",
-      "name": "kem_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "kem_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--kem_skatt--by--sni_id--year.csv",
-      "name": "kem_skatt--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "kem_skatt"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--kem_tonne--by--sni_id--year.csv",
-      "name": "kem_tonne--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "kem_tonne"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--koldioxid_skatt--by--sni_id--year.csv",
-      "name": "koldioxid_skatt--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "koldioxid_skatt"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--koldi_skatt--by--sni_id--year.csv",
-      "name": "koldi_skatt--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "koldi_skatt"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--koldi_utslapp--by--sni_id--year.csv",
-      "name": "koldi_utslapp--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "koldi_utslapp"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--losn_farl--by--sni_id--year.csv",
-      "name": "losn_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "losn_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--losn_icke_farl--by--sni_id--year.csv",
-      "name": "losn_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "losn_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--medel_syss--by--sni_id--year.csv",
-      "name": "medel_syss--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "medel_syss"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--met_avf_farl--by--sni_id--year.csv",
-      "name": "met_avf_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "met_avf_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--met_avf_icke_farl--by--sni_id--year.csv",
-      "name": "met_avf_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "met_avf_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--met_icke_fer_farl--by--sni_id--year.csv",
-      "name": "met_icke_fer_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "met_icke_fer_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--met_icke_fer_icke_farl--by--sni_id--year.csv",
-      "name": "met_icke_fer_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "met_icke_fer_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--min_avf_farl--by--sni_id--year.csv",
-      "name": "min_avf_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "min_avf_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--min_avf_icke_farl--by--sni_id--year.csv",
-      "name": "min_avf_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "min_avf_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--min_farl--by--sni_id--year.csv",
-      "name": "min_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "min_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--min_icke_farl--by--sni_id--year.csv",
-      "name": "min_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "min_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--mudder_farl--by--sni_id--year.csv",
-      "name": "mudder_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "mudder_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--mudder_icke_farl--by--sni_id--year.csv",
-      "name": "mudder_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "mudder_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--netto--by--sni_id--year.csv",
-      "name": "netto--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "netto"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--netto_bio--by--sni_id--year.csv",
-      "name": "netto_bio--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "netto_bio"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--nox_avgift--by--sni_id--year.csv",
-      "name": "nox_avgift--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "nox_avgift"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--olje_farl--by--sni_id--year.csv",
-      "name": "olje_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "olje_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--olje_icke_farl--by--sni_id--year.csv",
-      "name": "olje_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "olje_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ovr_miljoskatt--by--sni_id--year.csv",
-      "name": "ovr_miljoskatt--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ovr_miljoskatt"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--papp_farl--by--sni_id--year.csv",
-      "name": "papp_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "papp_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--papp_icke_farl--by--sni_id--year.csv",
-      "name": "papp_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "papp_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--pbc_icke_farl--by--sni_id--year.csv",
-      "name": "pbc_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "pbc_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--pcb_farl--by--sni_id--year.csv",
-      "name": "pcb_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "pcb_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--plast_farl--by--sni_id--year.csv",
-      "name": "plast_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "plast_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--plast_icke_farl--by--sni_id--year.csv",
-      "name": "plast_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "plast_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--prod--by--sni_id--year.csv",
-      "name": "prod--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "prod"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--res_rakn--by--sni_id--year.csv",
-      "name": "res_rakn--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "res_rakn"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ror_egen_fou--by--sni_id--year.csv",
-      "name": "ror_egen_fou--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ror_egen_fou"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--sjalvfin_egen_fou--by--sni_id--year.csv",
-      "name": "sjalvfin_egen_fou--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sjalvfin_egen_fou"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--sjukv_avf_farl--by--sni_id--year.csv",
-      "name": "sjukv_avf_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sjukv_avf_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--sjukv_avf_icke_farl--by--sni_id--year.csv",
-      "name": "sjukv_avf_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sjukv_avf_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--slam_farl--by--sni_id--year.csv",
-      "name": "slam_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "slam_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--slam_icke_farl--by--sni_id--year.csv",
-      "name": "slam_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "slam_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--sort_farl--by--sni_id--year.csv",
-      "name": "sort_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sort_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--sort_icke_farl--by--sni_id--year.csv",
-      "name": "sort_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "sort_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--surt_farl--by--sni_id--year.csv",
-      "name": "surt_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "surt_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--surt_icke_farl--by--sni_id--year.csv",
-      "name": "surt_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "surt_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--syssels--by--sni_id--year.csv",
-      "name": "syssels--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "syssels"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--syss_bel_kv--by--sni_id--year.csv",
-      "name": "syss_bel_kv--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "syss_bel_kv"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--syss_bel_man--by--sni_id--year.csv",
-      "name": "syss_bel_man--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "syss_bel_man"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--syss_bel_tot--by--sni_id--year.csv",
-      "name": "syss_bel_tot--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "syss_bel_tot"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--textil_farl--by--sni_id--year.csv",
-      "name": "textil_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "textil_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--textil_icke_farl--by--sni_id--year.csv",
-      "name": "textil_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "textil_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tillamp_forsk--by--sni_id--year.csv",
-      "name": "tillamp_forsk--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tillamp_forsk"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--ton_kem--by--sni_id--year.csv",
-      "name": "ton_kem--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "ton_kem"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tot_egen_fou--by--sni_id--year.csv",
-      "name": "tot_egen_fou--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_egen_fou"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tot_farl--by--sni_id--year.csv",
-      "name": "tot_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tot_icke_farl--by--sni_id--year.csv",
-      "name": "tot_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tot_syssel_ex--by--sni_id--year.csv",
-      "name": "tot_syssel_ex--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_syssel_ex"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tot_vatten--by--sni_id--year.csv",
-      "name": "tot_vatten--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tot_vatten"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--trafik_skatt--by--sni_id--year.csv",
-      "name": "trafik_skatt--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "trafik_skatt"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--trangselskatt--by--sni_id--year.csv",
-      "name": "trangselskatt--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "trangselskatt"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tra_farl--by--sni_id--year.csv",
-      "name": "tra_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tra_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--tra_icke_farl--by--sni_id--year.csv",
-      "name": "tra_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "tra_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--uppd_egen_fou--by--sni_id--year.csv",
-      "name": "uppd_egen_fou--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "uppd_egen_fou"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--utsl_ghg--by--sni_id--year.csv",
-      "name": "utsl_ghg--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "utsl_ghg"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--utsl_skatt--by--sni_id--year.csv",
-      "name": "utsl_skatt--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "utsl_skatt"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--utv_verk--by--sni_id--year.csv",
-      "name": "utv_verk--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "utv_verk"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vanlig_farl--by--sni_id--year.csv",
-      "name": "vanlig_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vanlig_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vanlig_icke_farl--by--sni_id--year.csv",
-      "name": "vanlig_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vanlig_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--varuexp--by--sni_id--year.csv",
-      "name": "varuexp--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "varuexp"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--varuimp--by--sni_id--year.csv",
-      "name": "varuimp--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "varuimp"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vaxthusg--by--sni_id--year.csv",
-      "name": "vaxthusg--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vaxthusg"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vaxthus_inb_prod--by--sni_id--year.csv",
-      "name": "vaxthus_inb_prod--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vaxthus_inb_prod"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vaxthus_utslapp--by--sni_id--year.csv",
-      "name": "vaxthus_utslapp--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vaxthus_utslapp"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vege_farl--by--sni_id--year.csv",
-      "name": "vege_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vege_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
-      "path": "ddf--datapoints/ddf--datapoints--vege_icke_farl--by--sni_id--year.csv",
-      "name": "vege_icke_farl--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "vege_icke_farl"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "multidimensional/ddf--datapoints--ant_forv_tot_reg--by--sni_id--gender--year.csv",
-      "name": "ant_forv_tot_reg--by--sni_id--gender--year-2",
+      "name": "ant_forv_tot_reg--by--sni_id--gender--year",
       "schema": {
         "fields": [
           {
@@ -2999,7 +38,7 @@
     },
     {
       "path": "multidimensional/ddf--datapoints--ant_ny--by--sni_id--lan--year.csv",
-      "name": "ant_ny--by--sni_id--lan--year-2",
+      "name": "ant_ny--by--sni_id--lan--year",
       "schema": {
         "fields": [
           {
@@ -3024,7 +63,7 @@
     },
     {
       "path": "multidimensional/ddf--datapoints--foradl_bio--by--sni_id--lan--year.csv",
-      "name": "foradl_bio--by--sni_id--lan--year-2",
+      "name": "foradl_bio--by--sni_id--lan--year",
       "schema": {
         "fields": [
           {
@@ -3049,7 +88,7 @@
     },
     {
       "path": "multidimensional/ddf--datapoints--forv_kvn_bio--by--sni_id--lan--year.csv",
-      "name": "forv_kvn_bio--by--sni_id--lan--year-2",
+      "name": "forv_kvn_bio--by--sni_id--lan--year",
       "schema": {
         "fields": [
           {
@@ -3074,7 +113,7 @@
     },
     {
       "path": "multidimensional/ddf--datapoints--forv_man_bio--by--sni_id--lan--year.csv",
-      "name": "forv_man_bio--by--sni_id--lan--year-2",
+      "name": "forv_man_bio--by--sni_id--lan--year",
       "schema": {
         "fields": [
           {
@@ -3099,7 +138,7 @@
     },
     {
       "path": "multidimensional/ddf--datapoints--forv_to--by--sni_id--gender--year.csv",
-      "name": "forv_to--by--sni_id--gender--year-2",
+      "name": "forv_to--by--sni_id--gender--year",
       "schema": {
         "fields": [
           {
@@ -3124,7 +163,7 @@
     },
     {
       "path": "multidimensional/ddf--datapoints--forv_tot_bio--by--sni_id--gender--year.csv",
-      "name": "forv_tot_bio--by--sni_id--gender--year-2",
+      "name": "forv_tot_bio--by--sni_id--gender--year",
       "schema": {
         "fields": [
           {
@@ -3149,7 +188,7 @@
     },
     {
       "path": "multidimensional/ddf--datapoints--forv_tot_bio--by--sni_id--lan--year.csv",
-      "name": "forv_tot_bio--by--sni_id--lan--year-2",
+      "name": "forv_tot_bio--by--sni_id--lan--year",
       "schema": {
         "fields": [
           {
@@ -3174,7 +213,7 @@
     },
     {
       "path": "multidimensional/ddf--datapoints--netto_bio--by--sni_id--lan--year.csv",
-      "name": "netto_bio--by--sni_id--lan--year-2",
+      "name": "netto_bio--by--sni_id--lan--year",
       "schema": {
         "fields": [
           {
@@ -3199,7 +238,7 @@
     },
     {
       "path": "multidimensional/ddf--datapoints--vaxthusg--by--sni_id--lan--year.csv",
-      "name": "vaxthusg--by--sni_id--lan--year-2",
+      "name": "vaxthusg--by--sni_id--lan--year",
       "schema": {
         "fields": [
           {
@@ -3218,6 +257,2946 @@
         "primaryKey": [
           "sni_id",
           "lan",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--and_forb_inv--by--sni_id--year.csv",
+      "name": "and_forb_inv--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "and_forb_inv"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--and_milj_ex--by--sni_id--year.csv",
+      "name": "and_milj_ex--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "and_milj_ex"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--and_milj_tot--by--sni_id--year.csv",
+      "name": "and_milj_tot--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "and_milj_tot"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--anim_farl--by--sni_id--year.csv",
+      "name": "anim_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "anim_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--anim_icke_farl--by--sni_id--year.csv",
+      "name": "anim_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "anim_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--annat_farl--by--sni_id--year.csv",
+      "name": "annat_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "annat_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--annat_icke_farl--by--sni_id--year.csv",
+      "name": "annat_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "annat_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ant_ans_kon--by--sni_id--year.csv",
+      "name": "ant_ans_kon--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_ans_kon"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ant_forv_kvn_reg--by--sni_id--year.csv",
+      "name": "ant_forv_kvn_reg--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_forv_kvn_reg"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ant_forv_man_reg--by--sni_id--year.csv",
+      "name": "ant_forv_man_reg--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_forv_man_reg"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ant_forv_tot_reg--by--sni_id--year.csv",
+      "name": "ant_forv_tot_reg--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_forv_tot_reg"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ant_for_tot--by--sni_id--year.csv",
+      "name": "ant_for_tot--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_for_tot"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ant_kem--by--sni_id--year.csv",
+      "name": "ant_kem--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_kem"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ant_kon--by--sni_id--year.csv",
+      "name": "ant_kon--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_kon"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ant_ny--by--sni_id--year.csv",
+      "name": "ant_ny--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_ny"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ant_syss_miljo--by--sni_id--year.csv",
+      "name": "ant_syss_miljo--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ant_syss_miljo"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--arb_tim--by--sni_id--year.csv",
+      "name": "arb_tim--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "arb_tim"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--avlopp_farl--by--sni_id--year.csv",
+      "name": "avlopp_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "avlopp_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--avlopp_icke_farl--by--sni_id--year.csv",
+      "name": "avlopp_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "avlopp_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--batt_farl--by--sni_id--year.csv",
+      "name": "batt_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "batt_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--batt_icke_farl--by--sni_id--year.csv",
+      "name": "batt_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "batt_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--bidr_egen_fou--by--sni_id--year.csv",
+      "name": "bidr_egen_fou--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "bidr_egen_fou"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--bland_farl--by--sni_id--year.csv",
+      "name": "bland_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "bland_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--bland_icke_farl--by--sni_id--year.csv",
+      "name": "bland_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "bland_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--bland_met_farl--by--sni_id--year.csv",
+      "name": "bland_met_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "bland_met_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--bland_met_icke_farl--by--sni_id--year.csv",
+      "name": "bland_met_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "bland_met_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--bnp_fast--by--sni_id--year.csv",
+      "name": "bnp_fast--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "bnp_fast"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--bnp_lop--by--sni_id--year.csv",
+      "name": "bnp_lop--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "bnp_lop"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--bran_energi--by--sni_id--year.csv",
+      "name": "bran_energi--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "bran_energi"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--co_skatt--by--sni_id--year.csv",
+      "name": "co_skatt--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "co_skatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--el_energi--by--sni_id--year.csv",
+      "name": "el_energi--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "el_energi"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--export--by--sni_id--year.csv",
+      "name": "export--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "export"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--flygskatt--by--sni_id--year.csv",
+      "name": "flygskatt--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "flygskatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--foradl--by--sni_id--year.csv",
+      "name": "foradl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "foradl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--foradl_bio--by--sni_id--year.csv",
+      "name": "foradl_bio--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "foradl_bio"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forbrann_farl--by--sni_id--year.csv",
+      "name": "forbrann_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forbrann_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forbrann_icke_farl--by--sni_id--year.csv",
+      "name": "forbrann_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forbrann_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forbr_bio--by--sni_id--year.csv",
+      "name": "forbr_bio--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forbr_bio"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forb_fos--by--sni_id--year.csv",
+      "name": "forb_fos--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forb_fos"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--fordonskatt--by--sni_id--year.csv",
+      "name": "fordonskatt--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "fordonskatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--fordon_farl--by--sni_id--year.csv",
+      "name": "fordon_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "fordon_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--fordon_icke_farl--by--sni_id--year.csv",
+      "name": "fordon_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "fordon_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--foreb_inv--by--sni_id--year.csv",
+      "name": "foreb_inv--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "foreb_inv"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_kvn--by--sni_id--year.csv",
+      "name": "forv_kvn--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_kvn"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_kvn_bio--by--sni_id--year.csv",
+      "name": "forv_kvn_bio--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_kvn_bio"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_man--by--sni_id--year.csv",
+      "name": "forv_man--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_man"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_man_bio--by--sni_id--year.csv",
+      "name": "forv_man_bio--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_man_bio"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_to--by--sni_id--year.csv",
+      "name": "forv_to--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_to"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--forv_tot_bio--by--sni_id--year.csv",
+      "name": "forv_tot_bio--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "forv_tot_bio"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--fv--by--sni_id--year.csv",
+      "name": "fv--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "fv"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ghg_kilo--by--sni_id--year.csv",
+      "name": "ghg_kilo--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ghg_kilo"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ghg_utslapp_prod--by--sni_id--year.csv",
+      "name": "ghg_utslapp_prod--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ghg_utslapp_prod"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--glas_farl--by--sni_id--year.csv",
+      "name": "glas_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "glas_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--glas_icke_farl--by--sni_id--year.csv",
+      "name": "glas_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "glas_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--godsel_farl--by--sni_id--year.csv",
+      "name": "godsel_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "godsel_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--godsel_icke_farl--by--sni_id--year.csv",
+      "name": "godsel_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "godsel_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--gummi_farl--by--sni_id--year.csv",
+      "name": "gummi_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "gummi_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--gummi_icke_farl--by--sni_id--year.csv",
+      "name": "gummi_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "gummi_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--g_forsk--by--sni_id--year.csv",
+      "name": "g_forsk--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "g_forsk"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--hushall_farl--by--sni_id--year.csv",
+      "name": "hushall_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "hushall_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--hushall_icke_farl--by--sni_id--year.csv",
+      "name": "hushall_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "hushall_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--inv_egen_fou--by--sni_id--year.csv",
+      "name": "inv_egen_fou--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "inv_egen_fou"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--inv_miljo--by--sni_id--year.csv",
+      "name": "inv_miljo--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "inv_miljo"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--jord_farl--by--sni_id--year.csv",
+      "name": "jord_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "jord_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--jord_icke_farl--by--sni_id--year.csv",
+      "name": "jord_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "jord_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--kass_farl--by--sni_id--year.csv",
+      "name": "kass_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "kass_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--kass_icke_farl--by--sni_id--year.csv",
+      "name": "kass_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "kass_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--kem_farl--by--sni_id--year.csv",
+      "name": "kem_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "kem_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--kem_icke_farl--by--sni_id--year.csv",
+      "name": "kem_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "kem_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--kem_skatt--by--sni_id--year.csv",
+      "name": "kem_skatt--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "kem_skatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--kem_tonne--by--sni_id--year.csv",
+      "name": "kem_tonne--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "kem_tonne"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--koldioxid_skatt--by--sni_id--year.csv",
+      "name": "koldioxid_skatt--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "koldioxid_skatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--koldi_skatt--by--sni_id--year.csv",
+      "name": "koldi_skatt--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "koldi_skatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--koldi_utslapp--by--sni_id--year.csv",
+      "name": "koldi_utslapp--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "koldi_utslapp"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--losn_farl--by--sni_id--year.csv",
+      "name": "losn_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "losn_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--losn_icke_farl--by--sni_id--year.csv",
+      "name": "losn_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "losn_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--medel_syss--by--sni_id--year.csv",
+      "name": "medel_syss--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "medel_syss"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--met_avf_farl--by--sni_id--year.csv",
+      "name": "met_avf_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "met_avf_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--met_avf_icke_farl--by--sni_id--year.csv",
+      "name": "met_avf_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "met_avf_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--met_icke_fer_farl--by--sni_id--year.csv",
+      "name": "met_icke_fer_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "met_icke_fer_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--met_icke_fer_icke_farl--by--sni_id--year.csv",
+      "name": "met_icke_fer_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "met_icke_fer_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--min_avf_farl--by--sni_id--year.csv",
+      "name": "min_avf_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "min_avf_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--min_avf_icke_farl--by--sni_id--year.csv",
+      "name": "min_avf_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "min_avf_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--min_farl--by--sni_id--year.csv",
+      "name": "min_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "min_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--min_icke_farl--by--sni_id--year.csv",
+      "name": "min_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "min_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--mudder_farl--by--sni_id--year.csv",
+      "name": "mudder_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "mudder_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--mudder_icke_farl--by--sni_id--year.csv",
+      "name": "mudder_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "mudder_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--netto--by--sni_id--year.csv",
+      "name": "netto--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "netto"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--netto_bio--by--sni_id--year.csv",
+      "name": "netto_bio--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "netto_bio"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--nox_avgift--by--sni_id--year.csv",
+      "name": "nox_avgift--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "nox_avgift"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--olje_farl--by--sni_id--year.csv",
+      "name": "olje_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "olje_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--olje_icke_farl--by--sni_id--year.csv",
+      "name": "olje_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "olje_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ovr_miljoskatt--by--sni_id--year.csv",
+      "name": "ovr_miljoskatt--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ovr_miljoskatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--papp_farl--by--sni_id--year.csv",
+      "name": "papp_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "papp_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--papp_icke_farl--by--sni_id--year.csv",
+      "name": "papp_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "papp_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--pbc_icke_farl--by--sni_id--year.csv",
+      "name": "pbc_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "pbc_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--pcb_farl--by--sni_id--year.csv",
+      "name": "pcb_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "pcb_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--plast_farl--by--sni_id--year.csv",
+      "name": "plast_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "plast_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--plast_icke_farl--by--sni_id--year.csv",
+      "name": "plast_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "plast_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--prod--by--sni_id--year.csv",
+      "name": "prod--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "prod"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--res_rakn--by--sni_id--year.csv",
+      "name": "res_rakn--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "res_rakn"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ror_egen_fou--by--sni_id--year.csv",
+      "name": "ror_egen_fou--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ror_egen_fou"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--sjalvfin_egen_fou--by--sni_id--year.csv",
+      "name": "sjalvfin_egen_fou--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sjalvfin_egen_fou"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--sjukv_avf_farl--by--sni_id--year.csv",
+      "name": "sjukv_avf_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sjukv_avf_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--sjukv_avf_icke_farl--by--sni_id--year.csv",
+      "name": "sjukv_avf_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sjukv_avf_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--slam_farl--by--sni_id--year.csv",
+      "name": "slam_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "slam_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--slam_icke_farl--by--sni_id--year.csv",
+      "name": "slam_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "slam_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--sort_farl--by--sni_id--year.csv",
+      "name": "sort_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sort_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--sort_icke_farl--by--sni_id--year.csv",
+      "name": "sort_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "sort_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--surt_farl--by--sni_id--year.csv",
+      "name": "surt_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "surt_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--surt_icke_farl--by--sni_id--year.csv",
+      "name": "surt_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "surt_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--syssels--by--sni_id--year.csv",
+      "name": "syssels--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "syssels"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--syss_bel_kv--by--sni_id--year.csv",
+      "name": "syss_bel_kv--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "syss_bel_kv"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--syss_bel_man--by--sni_id--year.csv",
+      "name": "syss_bel_man--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "syss_bel_man"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--syss_bel_tot--by--sni_id--year.csv",
+      "name": "syss_bel_tot--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "syss_bel_tot"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--textil_farl--by--sni_id--year.csv",
+      "name": "textil_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "textil_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--textil_icke_farl--by--sni_id--year.csv",
+      "name": "textil_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "textil_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--tillamp_forsk--by--sni_id--year.csv",
+      "name": "tillamp_forsk--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "tillamp_forsk"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--ton_kem--by--sni_id--year.csv",
+      "name": "ton_kem--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ton_kem"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--tot_egen_fou--by--sni_id--year.csv",
+      "name": "tot_egen_fou--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "tot_egen_fou"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--tot_farl--by--sni_id--year.csv",
+      "name": "tot_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "tot_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--tot_icke_farl--by--sni_id--year.csv",
+      "name": "tot_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "tot_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--tot_syssel_ex--by--sni_id--year.csv",
+      "name": "tot_syssel_ex--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "tot_syssel_ex"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--tot_vatten--by--sni_id--year.csv",
+      "name": "tot_vatten--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "tot_vatten"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--trafik_skatt--by--sni_id--year.csv",
+      "name": "trafik_skatt--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "trafik_skatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--trangselskatt--by--sni_id--year.csv",
+      "name": "trangselskatt--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "trangselskatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--tra_farl--by--sni_id--year.csv",
+      "name": "tra_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "tra_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--tra_icke_farl--by--sni_id--year.csv",
+      "name": "tra_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "tra_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--uppd_egen_fou--by--sni_id--year.csv",
+      "name": "uppd_egen_fou--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "uppd_egen_fou"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--utsl_skatt--by--sni_id--year.csv",
+      "name": "utsl_skatt--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "utsl_skatt"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--utv_verk--by--sni_id--year.csv",
+      "name": "utv_verk--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "utv_verk"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--vanlig_farl--by--sni_id--year.csv",
+      "name": "vanlig_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "vanlig_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--vanlig_icke_farl--by--sni_id--year.csv",
+      "name": "vanlig_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "vanlig_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--varuexp--by--sni_id--year.csv",
+      "name": "varuexp--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "varuexp"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--varuimp--by--sni_id--year.csv",
+      "name": "varuimp--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "varuimp"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--vaxthusg--by--sni_id--year.csv",
+      "name": "vaxthusg--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "vaxthusg"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--vaxthus_inb_prod--by--sni_id--year.csv",
+      "name": "vaxthus_inb_prod--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "vaxthus_inb_prod"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--vaxthus_utslapp--by--sni_id--year.csv",
+      "name": "vaxthus_utslapp--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "vaxthus_utslapp"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--vege_farl--by--sni_id--year.csv",
+      "name": "vege_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "vege_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--datapoints/ddf--datapoints--vege_icke_farl--by--sni_id--year.csv",
+      "name": "vege_icke_farl--by--sni_id--year-2",
+      "schema": {
+        "fields": [
+          {
+            "name": "sni_id"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "vege_icke_farl"
+          }
+        ],
+        "primaryKey": [
+          "sni_id",
           "year"
         ]
       }
@@ -3365,7 +3344,7 @@
         ],
         "value": "ant_forv_tot_reg",
         "resources": [
-          "ant_forv_tot_reg--by--sni_id--gender--year-2"
+          "ant_forv_tot_reg--by--sni_id--gender--year"
         ]
       },
       {
@@ -3376,7 +3355,7 @@
         ],
         "value": "forv_to",
         "resources": [
-          "forv_to--by--sni_id--gender--year-2"
+          "forv_to--by--sni_id--gender--year"
         ]
       },
       {
@@ -3387,7 +3366,7 @@
         ],
         "value": "forv_tot_bio",
         "resources": [
-          "forv_tot_bio--by--sni_id--gender--year-2"
+          "forv_tot_bio--by--sni_id--gender--year"
         ]
       },
       {
@@ -3398,7 +3377,7 @@
         ],
         "value": "ant_forv_tot_reg",
         "resources": [
-          "ant_forv_tot_reg--by--sni_id--gender--year-2"
+          "ant_forv_tot_reg--by--sni_id--gender--year"
         ]
       },
       {
@@ -3409,7 +3388,7 @@
         ],
         "value": "forv_to",
         "resources": [
-          "forv_to--by--sni_id--gender--year-2"
+          "forv_to--by--sni_id--gender--year"
         ]
       },
       {
@@ -3420,7 +3399,7 @@
         ],
         "value": "forv_tot_bio",
         "resources": [
-          "forv_tot_bio--by--sni_id--gender--year-2"
+          "forv_tot_bio--by--sni_id--gender--year"
         ]
       },
       {
@@ -3431,7 +3410,7 @@
         ],
         "value": "ant_ny",
         "resources": [
-          "ant_ny--by--sni_id--lan--year-2"
+          "ant_ny--by--sni_id--lan--year"
         ]
       },
       {
@@ -3442,7 +3421,7 @@
         ],
         "value": "foradl_bio",
         "resources": [
-          "foradl_bio--by--sni_id--lan--year-2"
+          "foradl_bio--by--sni_id--lan--year"
         ]
       },
       {
@@ -3453,7 +3432,7 @@
         ],
         "value": "forv_kvn_bio",
         "resources": [
-          "forv_kvn_bio--by--sni_id--lan--year-2"
+          "forv_kvn_bio--by--sni_id--lan--year"
         ]
       },
       {
@@ -3464,7 +3443,7 @@
         ],
         "value": "forv_man_bio",
         "resources": [
-          "forv_man_bio--by--sni_id--lan--year-2"
+          "forv_man_bio--by--sni_id--lan--year"
         ]
       },
       {
@@ -3475,7 +3454,7 @@
         ],
         "value": "forv_tot_bio",
         "resources": [
-          "forv_tot_bio--by--sni_id--lan--year-2"
+          "forv_tot_bio--by--sni_id--lan--year"
         ]
       },
       {
@@ -3486,7 +3465,7 @@
         ],
         "value": "netto_bio",
         "resources": [
-          "netto_bio--by--sni_id--lan--year-2"
+          "netto_bio--by--sni_id--lan--year"
         ]
       },
       {
@@ -3497,7 +3476,7 @@
         ],
         "value": "vaxthusg",
         "resources": [
-          "vaxthusg--by--sni_id--lan--year-2"
+          "vaxthusg--by--sni_id--lan--year"
         ]
       },
       {
@@ -3507,7 +3486,7 @@
         ],
         "value": "and_forb_inv",
         "resources": [
-          "and_forb_inv--by--sni_id--year"
+          "and_forb_inv--by--sni_id--year-2"
         ]
       },
       {
@@ -3517,7 +3496,7 @@
         ],
         "value": "and_milj_ex",
         "resources": [
-          "and_milj_ex--by--sni_id--year"
+          "and_milj_ex--by--sni_id--year-2"
         ]
       },
       {
@@ -3527,7 +3506,7 @@
         ],
         "value": "and_milj_tot",
         "resources": [
-          "and_milj_tot--by--sni_id--year"
+          "and_milj_tot--by--sni_id--year-2"
         ]
       },
       {
@@ -3537,7 +3516,7 @@
         ],
         "value": "anim_farl",
         "resources": [
-          "anim_farl--by--sni_id--year"
+          "anim_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3547,7 +3526,7 @@
         ],
         "value": "anim_icke_farl",
         "resources": [
-          "anim_icke_farl--by--sni_id--year"
+          "anim_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3557,7 +3536,7 @@
         ],
         "value": "annat_farl",
         "resources": [
-          "annat_farl--by--sni_id--year"
+          "annat_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3567,7 +3546,7 @@
         ],
         "value": "annat_icke_farl",
         "resources": [
-          "annat_icke_farl--by--sni_id--year"
+          "annat_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3577,7 +3556,7 @@
         ],
         "value": "ant_ans_kon",
         "resources": [
-          "ant_ans_kon--by--sni_id--year"
+          "ant_ans_kon--by--sni_id--year-2"
         ]
       },
       {
@@ -3587,7 +3566,7 @@
         ],
         "value": "ant_for_tot",
         "resources": [
-          "ant_for_tot--by--sni_id--year"
+          "ant_for_tot--by--sni_id--year-2"
         ]
       },
       {
@@ -3597,7 +3576,7 @@
         ],
         "value": "ant_forv_kvn_reg",
         "resources": [
-          "ant_forv_kvn_reg--by--sni_id--year"
+          "ant_forv_kvn_reg--by--sni_id--year-2"
         ]
       },
       {
@@ -3607,7 +3586,7 @@
         ],
         "value": "ant_forv_man_reg",
         "resources": [
-          "ant_forv_man_reg--by--sni_id--year"
+          "ant_forv_man_reg--by--sni_id--year-2"
         ]
       },
       {
@@ -3617,7 +3596,7 @@
         ],
         "value": "ant_forv_tot_reg",
         "resources": [
-          "ant_forv_tot_reg--by--sni_id--year"
+          "ant_forv_tot_reg--by--sni_id--year-2"
         ]
       },
       {
@@ -3627,7 +3606,7 @@
         ],
         "value": "ant_kem",
         "resources": [
-          "ant_kem--by--sni_id--year"
+          "ant_kem--by--sni_id--year-2"
         ]
       },
       {
@@ -3637,7 +3616,7 @@
         ],
         "value": "ant_kon",
         "resources": [
-          "ant_kon--by--sni_id--year"
+          "ant_kon--by--sni_id--year-2"
         ]
       },
       {
@@ -3647,7 +3626,7 @@
         ],
         "value": "ant_ny",
         "resources": [
-          "ant_ny--by--sni_id--year"
+          "ant_ny--by--sni_id--year-2"
         ]
       },
       {
@@ -3657,7 +3636,7 @@
         ],
         "value": "ant_syss_miljo",
         "resources": [
-          "ant_syss_miljo--by--sni_id--year"
+          "ant_syss_miljo--by--sni_id--year-2"
         ]
       },
       {
@@ -3667,7 +3646,7 @@
         ],
         "value": "arb_tim",
         "resources": [
-          "arb_tim--by--sni_id--year"
+          "arb_tim--by--sni_id--year-2"
         ]
       },
       {
@@ -3677,7 +3656,7 @@
         ],
         "value": "avlopp_farl",
         "resources": [
-          "avlopp_farl--by--sni_id--year"
+          "avlopp_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3687,7 +3666,7 @@
         ],
         "value": "avlopp_icke_farl",
         "resources": [
-          "avlopp_icke_farl--by--sni_id--year"
+          "avlopp_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3697,7 +3676,7 @@
         ],
         "value": "batt_farl",
         "resources": [
-          "batt_farl--by--sni_id--year"
+          "batt_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3707,7 +3686,7 @@
         ],
         "value": "batt_icke_farl",
         "resources": [
-          "batt_icke_farl--by--sni_id--year"
+          "batt_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3717,7 +3696,7 @@
         ],
         "value": "bidr_egen_fou",
         "resources": [
-          "bidr_egen_fou--by--sni_id--year"
+          "bidr_egen_fou--by--sni_id--year-2"
         ]
       },
       {
@@ -3727,7 +3706,7 @@
         ],
         "value": "bland_farl",
         "resources": [
-          "bland_farl--by--sni_id--year"
+          "bland_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3737,7 +3716,7 @@
         ],
         "value": "bland_icke_farl",
         "resources": [
-          "bland_icke_farl--by--sni_id--year"
+          "bland_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3747,7 +3726,7 @@
         ],
         "value": "bland_met_farl",
         "resources": [
-          "bland_met_farl--by--sni_id--year"
+          "bland_met_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3757,7 +3736,7 @@
         ],
         "value": "bland_met_icke_farl",
         "resources": [
-          "bland_met_icke_farl--by--sni_id--year"
+          "bland_met_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3767,7 +3746,7 @@
         ],
         "value": "bnp_fast",
         "resources": [
-          "bnp_fast--by--sni_id--year"
+          "bnp_fast--by--sni_id--year-2"
         ]
       },
       {
@@ -3777,7 +3756,7 @@
         ],
         "value": "bnp_lop",
         "resources": [
-          "bnp_lop--by--sni_id--year"
+          "bnp_lop--by--sni_id--year-2"
         ]
       },
       {
@@ -3787,7 +3766,7 @@
         ],
         "value": "bran_energi",
         "resources": [
-          "bran_energi--by--sni_id--year"
+          "bran_energi--by--sni_id--year-2"
         ]
       },
       {
@@ -3797,7 +3776,7 @@
         ],
         "value": "co_skatt",
         "resources": [
-          "co_skatt--by--sni_id--year"
+          "co_skatt--by--sni_id--year-2"
         ]
       },
       {
@@ -3807,7 +3786,7 @@
         ],
         "value": "el_energi",
         "resources": [
-          "el_energi--by--sni_id--year"
+          "el_energi--by--sni_id--year-2"
         ]
       },
       {
@@ -3817,7 +3796,7 @@
         ],
         "value": "export",
         "resources": [
-          "export--by--sni_id--year"
+          "export--by--sni_id--year-2"
         ]
       },
       {
@@ -3827,7 +3806,7 @@
         ],
         "value": "flygskatt",
         "resources": [
-          "flygskatt--by--sni_id--year"
+          "flygskatt--by--sni_id--year-2"
         ]
       },
       {
@@ -3837,7 +3816,7 @@
         ],
         "value": "foradl",
         "resources": [
-          "foradl--by--sni_id--year"
+          "foradl--by--sni_id--year-2"
         ]
       },
       {
@@ -3847,7 +3826,7 @@
         ],
         "value": "foradl_bio",
         "resources": [
-          "foradl_bio--by--sni_id--year"
+          "foradl_bio--by--sni_id--year-2"
         ]
       },
       {
@@ -3857,7 +3836,7 @@
         ],
         "value": "forb_fos",
         "resources": [
-          "forb_fos--by--sni_id--year"
+          "forb_fos--by--sni_id--year-2"
         ]
       },
       {
@@ -3867,7 +3846,7 @@
         ],
         "value": "forbr_bio",
         "resources": [
-          "forbr_bio--by--sni_id--year"
+          "forbr_bio--by--sni_id--year-2"
         ]
       },
       {
@@ -3877,7 +3856,7 @@
         ],
         "value": "forbrann_farl",
         "resources": [
-          "forbrann_farl--by--sni_id--year"
+          "forbrann_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3887,7 +3866,7 @@
         ],
         "value": "forbrann_icke_farl",
         "resources": [
-          "forbrann_icke_farl--by--sni_id--year"
+          "forbrann_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3897,7 +3876,7 @@
         ],
         "value": "fordon_farl",
         "resources": [
-          "fordon_farl--by--sni_id--year"
+          "fordon_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3907,7 +3886,7 @@
         ],
         "value": "fordon_icke_farl",
         "resources": [
-          "fordon_icke_farl--by--sni_id--year"
+          "fordon_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -3917,7 +3896,7 @@
         ],
         "value": "fordonskatt",
         "resources": [
-          "fordonskatt--by--sni_id--year"
+          "fordonskatt--by--sni_id--year-2"
         ]
       },
       {
@@ -3927,7 +3906,7 @@
         ],
         "value": "foreb_inv",
         "resources": [
-          "foreb_inv--by--sni_id--year"
+          "foreb_inv--by--sni_id--year-2"
         ]
       },
       {
@@ -3937,7 +3916,7 @@
         ],
         "value": "forv_kvn",
         "resources": [
-          "forv_kvn--by--sni_id--year"
+          "forv_kvn--by--sni_id--year-2"
         ]
       },
       {
@@ -3947,7 +3926,7 @@
         ],
         "value": "forv_kvn_bio",
         "resources": [
-          "forv_kvn_bio--by--sni_id--year"
+          "forv_kvn_bio--by--sni_id--year-2"
         ]
       },
       {
@@ -3957,7 +3936,7 @@
         ],
         "value": "forv_man",
         "resources": [
-          "forv_man--by--sni_id--year"
+          "forv_man--by--sni_id--year-2"
         ]
       },
       {
@@ -3967,7 +3946,7 @@
         ],
         "value": "forv_man_bio",
         "resources": [
-          "forv_man_bio--by--sni_id--year"
+          "forv_man_bio--by--sni_id--year-2"
         ]
       },
       {
@@ -3977,7 +3956,7 @@
         ],
         "value": "forv_to",
         "resources": [
-          "forv_to--by--sni_id--year"
+          "forv_to--by--sni_id--year-2"
         ]
       },
       {
@@ -3987,7 +3966,7 @@
         ],
         "value": "forv_tot_bio",
         "resources": [
-          "forv_tot_bio--by--sni_id--year"
+          "forv_tot_bio--by--sni_id--year-2"
         ]
       },
       {
@@ -3997,7 +3976,7 @@
         ],
         "value": "fv",
         "resources": [
-          "fv--by--sni_id--year"
+          "fv--by--sni_id--year-2"
         ]
       },
       {
@@ -4007,7 +3986,7 @@
         ],
         "value": "g_forsk",
         "resources": [
-          "g_forsk--by--sni_id--year"
+          "g_forsk--by--sni_id--year-2"
         ]
       },
       {
@@ -4017,7 +3996,7 @@
         ],
         "value": "ghg_kilo",
         "resources": [
-          "ghg_kilo--by--sni_id--year"
+          "ghg_kilo--by--sni_id--year-2"
         ]
       },
       {
@@ -4027,7 +4006,7 @@
         ],
         "value": "ghg_utslapp_prod",
         "resources": [
-          "ghg_utslapp_prod--by--sni_id--year"
+          "ghg_utslapp_prod--by--sni_id--year-2"
         ]
       },
       {
@@ -4037,7 +4016,7 @@
         ],
         "value": "glas_farl",
         "resources": [
-          "glas_farl--by--sni_id--year"
+          "glas_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4047,7 +4026,7 @@
         ],
         "value": "glas_icke_farl",
         "resources": [
-          "glas_icke_farl--by--sni_id--year"
+          "glas_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4057,7 +4036,7 @@
         ],
         "value": "godsel_farl",
         "resources": [
-          "godsel_farl--by--sni_id--year"
+          "godsel_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4067,7 +4046,7 @@
         ],
         "value": "godsel_icke_farl",
         "resources": [
-          "godsel_icke_farl--by--sni_id--year"
+          "godsel_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4077,7 +4056,7 @@
         ],
         "value": "gummi_farl",
         "resources": [
-          "gummi_farl--by--sni_id--year"
+          "gummi_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4087,7 +4066,7 @@
         ],
         "value": "gummi_icke_farl",
         "resources": [
-          "gummi_icke_farl--by--sni_id--year"
+          "gummi_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4097,7 +4076,7 @@
         ],
         "value": "hushall_farl",
         "resources": [
-          "hushall_farl--by--sni_id--year"
+          "hushall_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4107,7 +4086,7 @@
         ],
         "value": "hushall_icke_farl",
         "resources": [
-          "hushall_icke_farl--by--sni_id--year"
+          "hushall_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4117,7 +4096,7 @@
         ],
         "value": "inv_egen_fou",
         "resources": [
-          "inv_egen_fou--by--sni_id--year"
+          "inv_egen_fou--by--sni_id--year-2"
         ]
       },
       {
@@ -4127,7 +4106,7 @@
         ],
         "value": "inv_miljo",
         "resources": [
-          "inv_miljo--by--sni_id--year"
+          "inv_miljo--by--sni_id--year-2"
         ]
       },
       {
@@ -4137,7 +4116,7 @@
         ],
         "value": "jord_farl",
         "resources": [
-          "jord_farl--by--sni_id--year"
+          "jord_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4147,7 +4126,7 @@
         ],
         "value": "jord_icke_farl",
         "resources": [
-          "jord_icke_farl--by--sni_id--year"
+          "jord_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4157,7 +4136,7 @@
         ],
         "value": "kass_farl",
         "resources": [
-          "kass_farl--by--sni_id--year"
+          "kass_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4167,7 +4146,7 @@
         ],
         "value": "kass_icke_farl",
         "resources": [
-          "kass_icke_farl--by--sni_id--year"
+          "kass_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4177,7 +4156,7 @@
         ],
         "value": "kem_farl",
         "resources": [
-          "kem_farl--by--sni_id--year"
+          "kem_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4187,7 +4166,7 @@
         ],
         "value": "kem_icke_farl",
         "resources": [
-          "kem_icke_farl--by--sni_id--year"
+          "kem_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4197,7 +4176,7 @@
         ],
         "value": "kem_skatt",
         "resources": [
-          "kem_skatt--by--sni_id--year"
+          "kem_skatt--by--sni_id--year-2"
         ]
       },
       {
@@ -4207,7 +4186,7 @@
         ],
         "value": "kem_tonne",
         "resources": [
-          "kem_tonne--by--sni_id--year"
+          "kem_tonne--by--sni_id--year-2"
         ]
       },
       {
@@ -4217,7 +4196,7 @@
         ],
         "value": "koldi_skatt",
         "resources": [
-          "koldi_skatt--by--sni_id--year"
+          "koldi_skatt--by--sni_id--year-2"
         ]
       },
       {
@@ -4227,7 +4206,7 @@
         ],
         "value": "koldi_utslapp",
         "resources": [
-          "koldi_utslapp--by--sni_id--year"
+          "koldi_utslapp--by--sni_id--year-2"
         ]
       },
       {
@@ -4237,7 +4216,7 @@
         ],
         "value": "koldioxid_skatt",
         "resources": [
-          "koldioxid_skatt--by--sni_id--year"
+          "koldioxid_skatt--by--sni_id--year-2"
         ]
       },
       {
@@ -4247,7 +4226,7 @@
         ],
         "value": "losn_farl",
         "resources": [
-          "losn_farl--by--sni_id--year"
+          "losn_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4257,7 +4236,7 @@
         ],
         "value": "losn_icke_farl",
         "resources": [
-          "losn_icke_farl--by--sni_id--year"
+          "losn_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4267,7 +4246,7 @@
         ],
         "value": "medel_syss",
         "resources": [
-          "medel_syss--by--sni_id--year"
+          "medel_syss--by--sni_id--year-2"
         ]
       },
       {
@@ -4277,7 +4256,7 @@
         ],
         "value": "met_avf_farl",
         "resources": [
-          "met_avf_farl--by--sni_id--year"
+          "met_avf_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4287,7 +4266,7 @@
         ],
         "value": "met_avf_icke_farl",
         "resources": [
-          "met_avf_icke_farl--by--sni_id--year"
+          "met_avf_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4297,7 +4276,7 @@
         ],
         "value": "met_icke_fer_farl",
         "resources": [
-          "met_icke_fer_farl--by--sni_id--year"
+          "met_icke_fer_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4307,7 +4286,7 @@
         ],
         "value": "met_icke_fer_icke_farl",
         "resources": [
-          "met_icke_fer_icke_farl--by--sni_id--year"
+          "met_icke_fer_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4317,7 +4296,7 @@
         ],
         "value": "min_avf_farl",
         "resources": [
-          "min_avf_farl--by--sni_id--year"
+          "min_avf_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4327,7 +4306,7 @@
         ],
         "value": "min_avf_icke_farl",
         "resources": [
-          "min_avf_icke_farl--by--sni_id--year"
+          "min_avf_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4337,7 +4316,7 @@
         ],
         "value": "min_farl",
         "resources": [
-          "min_farl--by--sni_id--year"
+          "min_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4347,7 +4326,7 @@
         ],
         "value": "min_icke_farl",
         "resources": [
-          "min_icke_farl--by--sni_id--year"
+          "min_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4357,7 +4336,7 @@
         ],
         "value": "mudder_farl",
         "resources": [
-          "mudder_farl--by--sni_id--year"
+          "mudder_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4367,7 +4346,7 @@
         ],
         "value": "mudder_icke_farl",
         "resources": [
-          "mudder_icke_farl--by--sni_id--year"
+          "mudder_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4377,7 +4356,7 @@
         ],
         "value": "netto",
         "resources": [
-          "netto--by--sni_id--year"
+          "netto--by--sni_id--year-2"
         ]
       },
       {
@@ -4387,7 +4366,7 @@
         ],
         "value": "netto_bio",
         "resources": [
-          "netto_bio--by--sni_id--year"
+          "netto_bio--by--sni_id--year-2"
         ]
       },
       {
@@ -4397,7 +4376,7 @@
         ],
         "value": "nox_avgift",
         "resources": [
-          "nox_avgift--by--sni_id--year"
+          "nox_avgift--by--sni_id--year-2"
         ]
       },
       {
@@ -4407,7 +4386,7 @@
         ],
         "value": "olje_farl",
         "resources": [
-          "olje_farl--by--sni_id--year"
+          "olje_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4417,7 +4396,7 @@
         ],
         "value": "olje_icke_farl",
         "resources": [
-          "olje_icke_farl--by--sni_id--year"
+          "olje_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4427,7 +4406,7 @@
         ],
         "value": "ovr_miljoskatt",
         "resources": [
-          "ovr_miljoskatt--by--sni_id--year"
+          "ovr_miljoskatt--by--sni_id--year-2"
         ]
       },
       {
@@ -4437,7 +4416,7 @@
         ],
         "value": "papp_farl",
         "resources": [
-          "papp_farl--by--sni_id--year"
+          "papp_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4447,7 +4426,7 @@
         ],
         "value": "papp_icke_farl",
         "resources": [
-          "papp_icke_farl--by--sni_id--year"
+          "papp_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4457,7 +4436,7 @@
         ],
         "value": "pbc_icke_farl",
         "resources": [
-          "pbc_icke_farl--by--sni_id--year"
+          "pbc_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4467,7 +4446,7 @@
         ],
         "value": "pcb_farl",
         "resources": [
-          "pcb_farl--by--sni_id--year"
+          "pcb_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4477,7 +4456,7 @@
         ],
         "value": "plast_farl",
         "resources": [
-          "plast_farl--by--sni_id--year"
+          "plast_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4487,7 +4466,7 @@
         ],
         "value": "plast_icke_farl",
         "resources": [
-          "plast_icke_farl--by--sni_id--year"
+          "plast_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4497,7 +4476,7 @@
         ],
         "value": "prod",
         "resources": [
-          "prod--by--sni_id--year"
+          "prod--by--sni_id--year-2"
         ]
       },
       {
@@ -4507,7 +4486,7 @@
         ],
         "value": "res_rakn",
         "resources": [
-          "res_rakn--by--sni_id--year"
+          "res_rakn--by--sni_id--year-2"
         ]
       },
       {
@@ -4517,7 +4496,7 @@
         ],
         "value": "ror_egen_fou",
         "resources": [
-          "ror_egen_fou--by--sni_id--year"
+          "ror_egen_fou--by--sni_id--year-2"
         ]
       },
       {
@@ -4527,7 +4506,7 @@
         ],
         "value": "sjalvfin_egen_fou",
         "resources": [
-          "sjalvfin_egen_fou--by--sni_id--year"
+          "sjalvfin_egen_fou--by--sni_id--year-2"
         ]
       },
       {
@@ -4537,7 +4516,7 @@
         ],
         "value": "sjukv_avf_farl",
         "resources": [
-          "sjukv_avf_farl--by--sni_id--year"
+          "sjukv_avf_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4547,7 +4526,7 @@
         ],
         "value": "sjukv_avf_icke_farl",
         "resources": [
-          "sjukv_avf_icke_farl--by--sni_id--year"
+          "sjukv_avf_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4557,7 +4536,7 @@
         ],
         "value": "slam_farl",
         "resources": [
-          "slam_farl--by--sni_id--year"
+          "slam_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4567,7 +4546,7 @@
         ],
         "value": "slam_icke_farl",
         "resources": [
-          "slam_icke_farl--by--sni_id--year"
+          "slam_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4577,7 +4556,7 @@
         ],
         "value": "sort_farl",
         "resources": [
-          "sort_farl--by--sni_id--year"
+          "sort_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4587,7 +4566,7 @@
         ],
         "value": "sort_icke_farl",
         "resources": [
-          "sort_icke_farl--by--sni_id--year"
+          "sort_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4597,7 +4576,7 @@
         ],
         "value": "surt_farl",
         "resources": [
-          "surt_farl--by--sni_id--year"
+          "surt_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4607,7 +4586,7 @@
         ],
         "value": "surt_icke_farl",
         "resources": [
-          "surt_icke_farl--by--sni_id--year"
+          "surt_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4617,7 +4596,7 @@
         ],
         "value": "syss_bel_kv",
         "resources": [
-          "syss_bel_kv--by--sni_id--year"
+          "syss_bel_kv--by--sni_id--year-2"
         ]
       },
       {
@@ -4627,7 +4606,7 @@
         ],
         "value": "syss_bel_man",
         "resources": [
-          "syss_bel_man--by--sni_id--year"
+          "syss_bel_man--by--sni_id--year-2"
         ]
       },
       {
@@ -4637,7 +4616,7 @@
         ],
         "value": "syss_bel_tot",
         "resources": [
-          "syss_bel_tot--by--sni_id--year"
+          "syss_bel_tot--by--sni_id--year-2"
         ]
       },
       {
@@ -4647,7 +4626,7 @@
         ],
         "value": "syssels",
         "resources": [
-          "syssels--by--sni_id--year"
+          "syssels--by--sni_id--year-2"
         ]
       },
       {
@@ -4657,7 +4636,7 @@
         ],
         "value": "textil_farl",
         "resources": [
-          "textil_farl--by--sni_id--year"
+          "textil_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4667,7 +4646,7 @@
         ],
         "value": "textil_icke_farl",
         "resources": [
-          "textil_icke_farl--by--sni_id--year"
+          "textil_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4677,7 +4656,7 @@
         ],
         "value": "tillamp_forsk",
         "resources": [
-          "tillamp_forsk--by--sni_id--year"
+          "tillamp_forsk--by--sni_id--year-2"
         ]
       },
       {
@@ -4687,7 +4666,7 @@
         ],
         "value": "ton_kem",
         "resources": [
-          "ton_kem--by--sni_id--year"
+          "ton_kem--by--sni_id--year-2"
         ]
       },
       {
@@ -4697,7 +4676,7 @@
         ],
         "value": "tot_egen_fou",
         "resources": [
-          "tot_egen_fou--by--sni_id--year"
+          "tot_egen_fou--by--sni_id--year-2"
         ]
       },
       {
@@ -4707,7 +4686,7 @@
         ],
         "value": "tot_farl",
         "resources": [
-          "tot_farl--by--sni_id--year"
+          "tot_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4717,7 +4696,7 @@
         ],
         "value": "tot_icke_farl",
         "resources": [
-          "tot_icke_farl--by--sni_id--year"
+          "tot_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4727,7 +4706,7 @@
         ],
         "value": "tot_syssel_ex",
         "resources": [
-          "tot_syssel_ex--by--sni_id--year"
+          "tot_syssel_ex--by--sni_id--year-2"
         ]
       },
       {
@@ -4737,7 +4716,7 @@
         ],
         "value": "tot_vatten",
         "resources": [
-          "tot_vatten--by--sni_id--year"
+          "tot_vatten--by--sni_id--year-2"
         ]
       },
       {
@@ -4747,7 +4726,7 @@
         ],
         "value": "tra_farl",
         "resources": [
-          "tra_farl--by--sni_id--year"
+          "tra_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4757,7 +4736,7 @@
         ],
         "value": "tra_icke_farl",
         "resources": [
-          "tra_icke_farl--by--sni_id--year"
+          "tra_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4767,7 +4746,7 @@
         ],
         "value": "trafik_skatt",
         "resources": [
-          "trafik_skatt--by--sni_id--year"
+          "trafik_skatt--by--sni_id--year-2"
         ]
       },
       {
@@ -4777,7 +4756,7 @@
         ],
         "value": "trangselskatt",
         "resources": [
-          "trangselskatt--by--sni_id--year"
+          "trangselskatt--by--sni_id--year-2"
         ]
       },
       {
@@ -4787,17 +4766,7 @@
         ],
         "value": "uppd_egen_fou",
         "resources": [
-          "uppd_egen_fou--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
-        "value": "utsl_ghg",
-        "resources": [
-          "utsl_ghg--by--sni_id--year"
+          "uppd_egen_fou--by--sni_id--year-2"
         ]
       },
       {
@@ -4807,7 +4776,7 @@
         ],
         "value": "utsl_skatt",
         "resources": [
-          "utsl_skatt--by--sni_id--year"
+          "utsl_skatt--by--sni_id--year-2"
         ]
       },
       {
@@ -4817,7 +4786,7 @@
         ],
         "value": "utv_verk",
         "resources": [
-          "utv_verk--by--sni_id--year"
+          "utv_verk--by--sni_id--year-2"
         ]
       },
       {
@@ -4827,7 +4796,7 @@
         ],
         "value": "vanlig_farl",
         "resources": [
-          "vanlig_farl--by--sni_id--year"
+          "vanlig_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4837,7 +4806,7 @@
         ],
         "value": "vanlig_icke_farl",
         "resources": [
-          "vanlig_icke_farl--by--sni_id--year"
+          "vanlig_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4847,7 +4816,7 @@
         ],
         "value": "varuexp",
         "resources": [
-          "varuexp--by--sni_id--year"
+          "varuexp--by--sni_id--year-2"
         ]
       },
       {
@@ -4857,7 +4826,7 @@
         ],
         "value": "varuimp",
         "resources": [
-          "varuimp--by--sni_id--year"
+          "varuimp--by--sni_id--year-2"
         ]
       },
       {
@@ -4867,7 +4836,7 @@
         ],
         "value": "vaxthus_inb_prod",
         "resources": [
-          "vaxthus_inb_prod--by--sni_id--year"
+          "vaxthus_inb_prod--by--sni_id--year-2"
         ]
       },
       {
@@ -4877,7 +4846,7 @@
         ],
         "value": "vaxthus_utslapp",
         "resources": [
-          "vaxthus_utslapp--by--sni_id--year"
+          "vaxthus_utslapp--by--sni_id--year-2"
         ]
       },
       {
@@ -4887,7 +4856,7 @@
         ],
         "value": "vaxthusg",
         "resources": [
-          "vaxthusg--by--sni_id--year"
+          "vaxthusg--by--sni_id--year-2"
         ]
       },
       {
@@ -4897,7 +4866,7 @@
         ],
         "value": "vege_farl",
         "resources": [
-          "vege_farl--by--sni_id--year"
+          "vege_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4907,7 +4876,7 @@
         ],
         "value": "vege_icke_farl",
         "resources": [
-          "vege_icke_farl--by--sni_id--year"
+          "vege_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -4918,7 +4887,7 @@
         ],
         "value": "ant_ny",
         "resources": [
-          "ant_ny--by--sni_id--lan--year-2"
+          "ant_ny--by--sni_id--lan--year"
         ]
       },
       {
@@ -4929,7 +4898,7 @@
         ],
         "value": "foradl_bio",
         "resources": [
-          "foradl_bio--by--sni_id--lan--year-2"
+          "foradl_bio--by--sni_id--lan--year"
         ]
       },
       {
@@ -4940,7 +4909,7 @@
         ],
         "value": "forv_kvn_bio",
         "resources": [
-          "forv_kvn_bio--by--sni_id--lan--year-2"
+          "forv_kvn_bio--by--sni_id--lan--year"
         ]
       },
       {
@@ -4951,7 +4920,7 @@
         ],
         "value": "forv_man_bio",
         "resources": [
-          "forv_man_bio--by--sni_id--lan--year-2"
+          "forv_man_bio--by--sni_id--lan--year"
         ]
       },
       {
@@ -4962,7 +4931,7 @@
         ],
         "value": "forv_tot_bio",
         "resources": [
-          "forv_tot_bio--by--sni_id--lan--year-2"
+          "forv_tot_bio--by--sni_id--lan--year"
         ]
       },
       {
@@ -4973,7 +4942,7 @@
         ],
         "value": "netto_bio",
         "resources": [
-          "netto_bio--by--sni_id--lan--year-2"
+          "netto_bio--by--sni_id--lan--year"
         ]
       },
       {
@@ -4984,7 +4953,7 @@
         ],
         "value": "vaxthusg",
         "resources": [
-          "vaxthusg--by--sni_id--lan--year-2"
+          "vaxthusg--by--sni_id--lan--year"
         ]
       },
       {
@@ -4994,7 +4963,7 @@
         ],
         "value": "and_forb_inv",
         "resources": [
-          "and_forb_inv--by--sni_id--year"
+          "and_forb_inv--by--sni_id--year-2"
         ]
       },
       {
@@ -5004,7 +4973,7 @@
         ],
         "value": "and_milj_ex",
         "resources": [
-          "and_milj_ex--by--sni_id--year"
+          "and_milj_ex--by--sni_id--year-2"
         ]
       },
       {
@@ -5014,7 +4983,7 @@
         ],
         "value": "and_milj_tot",
         "resources": [
-          "and_milj_tot--by--sni_id--year"
+          "and_milj_tot--by--sni_id--year-2"
         ]
       },
       {
@@ -5024,7 +4993,7 @@
         ],
         "value": "anim_farl",
         "resources": [
-          "anim_farl--by--sni_id--year"
+          "anim_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5034,7 +5003,7 @@
         ],
         "value": "anim_icke_farl",
         "resources": [
-          "anim_icke_farl--by--sni_id--year"
+          "anim_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5044,7 +5013,7 @@
         ],
         "value": "annat_farl",
         "resources": [
-          "annat_farl--by--sni_id--year"
+          "annat_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5054,7 +5023,7 @@
         ],
         "value": "annat_icke_farl",
         "resources": [
-          "annat_icke_farl--by--sni_id--year"
+          "annat_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5064,7 +5033,7 @@
         ],
         "value": "ant_ans_kon",
         "resources": [
-          "ant_ans_kon--by--sni_id--year"
+          "ant_ans_kon--by--sni_id--year-2"
         ]
       },
       {
@@ -5074,7 +5043,7 @@
         ],
         "value": "ant_for_tot",
         "resources": [
-          "ant_for_tot--by--sni_id--year"
+          "ant_for_tot--by--sni_id--year-2"
         ]
       },
       {
@@ -5084,7 +5053,7 @@
         ],
         "value": "ant_forv_kvn_reg",
         "resources": [
-          "ant_forv_kvn_reg--by--sni_id--year"
+          "ant_forv_kvn_reg--by--sni_id--year-2"
         ]
       },
       {
@@ -5094,7 +5063,7 @@
         ],
         "value": "ant_forv_man_reg",
         "resources": [
-          "ant_forv_man_reg--by--sni_id--year"
+          "ant_forv_man_reg--by--sni_id--year-2"
         ]
       },
       {
@@ -5104,7 +5073,7 @@
         ],
         "value": "ant_forv_tot_reg",
         "resources": [
-          "ant_forv_tot_reg--by--sni_id--year"
+          "ant_forv_tot_reg--by--sni_id--year-2"
         ]
       },
       {
@@ -5114,7 +5083,7 @@
         ],
         "value": "ant_kem",
         "resources": [
-          "ant_kem--by--sni_id--year"
+          "ant_kem--by--sni_id--year-2"
         ]
       },
       {
@@ -5124,7 +5093,7 @@
         ],
         "value": "ant_kon",
         "resources": [
-          "ant_kon--by--sni_id--year"
+          "ant_kon--by--sni_id--year-2"
         ]
       },
       {
@@ -5134,7 +5103,7 @@
         ],
         "value": "ant_ny",
         "resources": [
-          "ant_ny--by--sni_id--year"
+          "ant_ny--by--sni_id--year-2"
         ]
       },
       {
@@ -5144,7 +5113,7 @@
         ],
         "value": "ant_syss_miljo",
         "resources": [
-          "ant_syss_miljo--by--sni_id--year"
+          "ant_syss_miljo--by--sni_id--year-2"
         ]
       },
       {
@@ -5154,7 +5123,7 @@
         ],
         "value": "arb_tim",
         "resources": [
-          "arb_tim--by--sni_id--year"
+          "arb_tim--by--sni_id--year-2"
         ]
       },
       {
@@ -5164,7 +5133,7 @@
         ],
         "value": "avlopp_farl",
         "resources": [
-          "avlopp_farl--by--sni_id--year"
+          "avlopp_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5174,7 +5143,7 @@
         ],
         "value": "avlopp_icke_farl",
         "resources": [
-          "avlopp_icke_farl--by--sni_id--year"
+          "avlopp_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5184,7 +5153,7 @@
         ],
         "value": "batt_farl",
         "resources": [
-          "batt_farl--by--sni_id--year"
+          "batt_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5194,7 +5163,7 @@
         ],
         "value": "batt_icke_farl",
         "resources": [
-          "batt_icke_farl--by--sni_id--year"
+          "batt_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5204,7 +5173,7 @@
         ],
         "value": "bidr_egen_fou",
         "resources": [
-          "bidr_egen_fou--by--sni_id--year"
+          "bidr_egen_fou--by--sni_id--year-2"
         ]
       },
       {
@@ -5214,7 +5183,7 @@
         ],
         "value": "bland_farl",
         "resources": [
-          "bland_farl--by--sni_id--year"
+          "bland_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5224,7 +5193,7 @@
         ],
         "value": "bland_icke_farl",
         "resources": [
-          "bland_icke_farl--by--sni_id--year"
+          "bland_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5234,7 +5203,7 @@
         ],
         "value": "bland_met_farl",
         "resources": [
-          "bland_met_farl--by--sni_id--year"
+          "bland_met_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5244,7 +5213,7 @@
         ],
         "value": "bland_met_icke_farl",
         "resources": [
-          "bland_met_icke_farl--by--sni_id--year"
+          "bland_met_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5254,7 +5223,7 @@
         ],
         "value": "bnp_fast",
         "resources": [
-          "bnp_fast--by--sni_id--year"
+          "bnp_fast--by--sni_id--year-2"
         ]
       },
       {
@@ -5264,7 +5233,7 @@
         ],
         "value": "bnp_lop",
         "resources": [
-          "bnp_lop--by--sni_id--year"
+          "bnp_lop--by--sni_id--year-2"
         ]
       },
       {
@@ -5274,7 +5243,7 @@
         ],
         "value": "bran_energi",
         "resources": [
-          "bran_energi--by--sni_id--year"
+          "bran_energi--by--sni_id--year-2"
         ]
       },
       {
@@ -5284,7 +5253,7 @@
         ],
         "value": "co_skatt",
         "resources": [
-          "co_skatt--by--sni_id--year"
+          "co_skatt--by--sni_id--year-2"
         ]
       },
       {
@@ -5294,7 +5263,7 @@
         ],
         "value": "el_energi",
         "resources": [
-          "el_energi--by--sni_id--year"
+          "el_energi--by--sni_id--year-2"
         ]
       },
       {
@@ -5304,7 +5273,7 @@
         ],
         "value": "export",
         "resources": [
-          "export--by--sni_id--year"
+          "export--by--sni_id--year-2"
         ]
       },
       {
@@ -5314,7 +5283,7 @@
         ],
         "value": "flygskatt",
         "resources": [
-          "flygskatt--by--sni_id--year"
+          "flygskatt--by--sni_id--year-2"
         ]
       },
       {
@@ -5324,7 +5293,7 @@
         ],
         "value": "foradl",
         "resources": [
-          "foradl--by--sni_id--year"
+          "foradl--by--sni_id--year-2"
         ]
       },
       {
@@ -5334,7 +5303,7 @@
         ],
         "value": "foradl_bio",
         "resources": [
-          "foradl_bio--by--sni_id--year"
+          "foradl_bio--by--sni_id--year-2"
         ]
       },
       {
@@ -5344,7 +5313,7 @@
         ],
         "value": "forb_fos",
         "resources": [
-          "forb_fos--by--sni_id--year"
+          "forb_fos--by--sni_id--year-2"
         ]
       },
       {
@@ -5354,7 +5323,7 @@
         ],
         "value": "forbr_bio",
         "resources": [
-          "forbr_bio--by--sni_id--year"
+          "forbr_bio--by--sni_id--year-2"
         ]
       },
       {
@@ -5364,7 +5333,7 @@
         ],
         "value": "forbrann_farl",
         "resources": [
-          "forbrann_farl--by--sni_id--year"
+          "forbrann_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5374,7 +5343,7 @@
         ],
         "value": "forbrann_icke_farl",
         "resources": [
-          "forbrann_icke_farl--by--sni_id--year"
+          "forbrann_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5384,7 +5353,7 @@
         ],
         "value": "fordon_farl",
         "resources": [
-          "fordon_farl--by--sni_id--year"
+          "fordon_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5394,7 +5363,7 @@
         ],
         "value": "fordon_icke_farl",
         "resources": [
-          "fordon_icke_farl--by--sni_id--year"
+          "fordon_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5404,7 +5373,7 @@
         ],
         "value": "fordonskatt",
         "resources": [
-          "fordonskatt--by--sni_id--year"
+          "fordonskatt--by--sni_id--year-2"
         ]
       },
       {
@@ -5414,7 +5383,7 @@
         ],
         "value": "foreb_inv",
         "resources": [
-          "foreb_inv--by--sni_id--year"
+          "foreb_inv--by--sni_id--year-2"
         ]
       },
       {
@@ -5424,7 +5393,7 @@
         ],
         "value": "forv_kvn",
         "resources": [
-          "forv_kvn--by--sni_id--year"
+          "forv_kvn--by--sni_id--year-2"
         ]
       },
       {
@@ -5434,7 +5403,7 @@
         ],
         "value": "forv_kvn_bio",
         "resources": [
-          "forv_kvn_bio--by--sni_id--year"
+          "forv_kvn_bio--by--sni_id--year-2"
         ]
       },
       {
@@ -5444,7 +5413,7 @@
         ],
         "value": "forv_man",
         "resources": [
-          "forv_man--by--sni_id--year"
+          "forv_man--by--sni_id--year-2"
         ]
       },
       {
@@ -5454,7 +5423,7 @@
         ],
         "value": "forv_man_bio",
         "resources": [
-          "forv_man_bio--by--sni_id--year"
+          "forv_man_bio--by--sni_id--year-2"
         ]
       },
       {
@@ -5464,7 +5433,7 @@
         ],
         "value": "forv_to",
         "resources": [
-          "forv_to--by--sni_id--year"
+          "forv_to--by--sni_id--year-2"
         ]
       },
       {
@@ -5474,7 +5443,7 @@
         ],
         "value": "forv_tot_bio",
         "resources": [
-          "forv_tot_bio--by--sni_id--year"
+          "forv_tot_bio--by--sni_id--year-2"
         ]
       },
       {
@@ -5484,7 +5453,7 @@
         ],
         "value": "fv",
         "resources": [
-          "fv--by--sni_id--year"
+          "fv--by--sni_id--year-2"
         ]
       },
       {
@@ -5494,7 +5463,7 @@
         ],
         "value": "g_forsk",
         "resources": [
-          "g_forsk--by--sni_id--year"
+          "g_forsk--by--sni_id--year-2"
         ]
       },
       {
@@ -5504,7 +5473,7 @@
         ],
         "value": "ghg_kilo",
         "resources": [
-          "ghg_kilo--by--sni_id--year"
+          "ghg_kilo--by--sni_id--year-2"
         ]
       },
       {
@@ -5514,7 +5483,7 @@
         ],
         "value": "ghg_utslapp_prod",
         "resources": [
-          "ghg_utslapp_prod--by--sni_id--year"
+          "ghg_utslapp_prod--by--sni_id--year-2"
         ]
       },
       {
@@ -5524,7 +5493,7 @@
         ],
         "value": "glas_farl",
         "resources": [
-          "glas_farl--by--sni_id--year"
+          "glas_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5534,7 +5503,7 @@
         ],
         "value": "glas_icke_farl",
         "resources": [
-          "glas_icke_farl--by--sni_id--year"
+          "glas_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5544,7 +5513,7 @@
         ],
         "value": "godsel_farl",
         "resources": [
-          "godsel_farl--by--sni_id--year"
+          "godsel_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5554,7 +5523,7 @@
         ],
         "value": "godsel_icke_farl",
         "resources": [
-          "godsel_icke_farl--by--sni_id--year"
+          "godsel_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5564,7 +5533,7 @@
         ],
         "value": "gummi_farl",
         "resources": [
-          "gummi_farl--by--sni_id--year"
+          "gummi_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5574,7 +5543,7 @@
         ],
         "value": "gummi_icke_farl",
         "resources": [
-          "gummi_icke_farl--by--sni_id--year"
+          "gummi_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5584,7 +5553,7 @@
         ],
         "value": "hushall_farl",
         "resources": [
-          "hushall_farl--by--sni_id--year"
+          "hushall_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5594,7 +5563,7 @@
         ],
         "value": "hushall_icke_farl",
         "resources": [
-          "hushall_icke_farl--by--sni_id--year"
+          "hushall_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5604,7 +5573,7 @@
         ],
         "value": "inv_egen_fou",
         "resources": [
-          "inv_egen_fou--by--sni_id--year"
+          "inv_egen_fou--by--sni_id--year-2"
         ]
       },
       {
@@ -5614,7 +5583,7 @@
         ],
         "value": "inv_miljo",
         "resources": [
-          "inv_miljo--by--sni_id--year"
+          "inv_miljo--by--sni_id--year-2"
         ]
       },
       {
@@ -5624,7 +5593,7 @@
         ],
         "value": "jord_farl",
         "resources": [
-          "jord_farl--by--sni_id--year"
+          "jord_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5634,7 +5603,7 @@
         ],
         "value": "jord_icke_farl",
         "resources": [
-          "jord_icke_farl--by--sni_id--year"
+          "jord_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5644,7 +5613,7 @@
         ],
         "value": "kass_farl",
         "resources": [
-          "kass_farl--by--sni_id--year"
+          "kass_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5654,7 +5623,7 @@
         ],
         "value": "kass_icke_farl",
         "resources": [
-          "kass_icke_farl--by--sni_id--year"
+          "kass_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5664,7 +5633,7 @@
         ],
         "value": "kem_farl",
         "resources": [
-          "kem_farl--by--sni_id--year"
+          "kem_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5674,7 +5643,7 @@
         ],
         "value": "kem_icke_farl",
         "resources": [
-          "kem_icke_farl--by--sni_id--year"
+          "kem_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5684,7 +5653,7 @@
         ],
         "value": "kem_skatt",
         "resources": [
-          "kem_skatt--by--sni_id--year"
+          "kem_skatt--by--sni_id--year-2"
         ]
       },
       {
@@ -5694,7 +5663,7 @@
         ],
         "value": "kem_tonne",
         "resources": [
-          "kem_tonne--by--sni_id--year"
+          "kem_tonne--by--sni_id--year-2"
         ]
       },
       {
@@ -5704,7 +5673,7 @@
         ],
         "value": "koldi_skatt",
         "resources": [
-          "koldi_skatt--by--sni_id--year"
+          "koldi_skatt--by--sni_id--year-2"
         ]
       },
       {
@@ -5714,7 +5683,7 @@
         ],
         "value": "koldi_utslapp",
         "resources": [
-          "koldi_utslapp--by--sni_id--year"
+          "koldi_utslapp--by--sni_id--year-2"
         ]
       },
       {
@@ -5724,7 +5693,7 @@
         ],
         "value": "koldioxid_skatt",
         "resources": [
-          "koldioxid_skatt--by--sni_id--year"
+          "koldioxid_skatt--by--sni_id--year-2"
         ]
       },
       {
@@ -5734,7 +5703,7 @@
         ],
         "value": "losn_farl",
         "resources": [
-          "losn_farl--by--sni_id--year"
+          "losn_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5744,7 +5713,7 @@
         ],
         "value": "losn_icke_farl",
         "resources": [
-          "losn_icke_farl--by--sni_id--year"
+          "losn_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5754,7 +5723,7 @@
         ],
         "value": "medel_syss",
         "resources": [
-          "medel_syss--by--sni_id--year"
+          "medel_syss--by--sni_id--year-2"
         ]
       },
       {
@@ -5764,7 +5733,7 @@
         ],
         "value": "met_avf_farl",
         "resources": [
-          "met_avf_farl--by--sni_id--year"
+          "met_avf_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5774,7 +5743,7 @@
         ],
         "value": "met_avf_icke_farl",
         "resources": [
-          "met_avf_icke_farl--by--sni_id--year"
+          "met_avf_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5784,7 +5753,7 @@
         ],
         "value": "met_icke_fer_farl",
         "resources": [
-          "met_icke_fer_farl--by--sni_id--year"
+          "met_icke_fer_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5794,7 +5763,7 @@
         ],
         "value": "met_icke_fer_icke_farl",
         "resources": [
-          "met_icke_fer_icke_farl--by--sni_id--year"
+          "met_icke_fer_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5804,7 +5773,7 @@
         ],
         "value": "min_avf_farl",
         "resources": [
-          "min_avf_farl--by--sni_id--year"
+          "min_avf_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5814,7 +5783,7 @@
         ],
         "value": "min_avf_icke_farl",
         "resources": [
-          "min_avf_icke_farl--by--sni_id--year"
+          "min_avf_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5824,7 +5793,7 @@
         ],
         "value": "min_farl",
         "resources": [
-          "min_farl--by--sni_id--year"
+          "min_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5834,7 +5803,7 @@
         ],
         "value": "min_icke_farl",
         "resources": [
-          "min_icke_farl--by--sni_id--year"
+          "min_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5844,7 +5813,7 @@
         ],
         "value": "mudder_farl",
         "resources": [
-          "mudder_farl--by--sni_id--year"
+          "mudder_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5854,7 +5823,7 @@
         ],
         "value": "mudder_icke_farl",
         "resources": [
-          "mudder_icke_farl--by--sni_id--year"
+          "mudder_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5864,7 +5833,7 @@
         ],
         "value": "netto",
         "resources": [
-          "netto--by--sni_id--year"
+          "netto--by--sni_id--year-2"
         ]
       },
       {
@@ -5874,7 +5843,7 @@
         ],
         "value": "netto_bio",
         "resources": [
-          "netto_bio--by--sni_id--year"
+          "netto_bio--by--sni_id--year-2"
         ]
       },
       {
@@ -5884,7 +5853,7 @@
         ],
         "value": "nox_avgift",
         "resources": [
-          "nox_avgift--by--sni_id--year"
+          "nox_avgift--by--sni_id--year-2"
         ]
       },
       {
@@ -5894,7 +5863,7 @@
         ],
         "value": "olje_farl",
         "resources": [
-          "olje_farl--by--sni_id--year"
+          "olje_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5904,7 +5873,7 @@
         ],
         "value": "olje_icke_farl",
         "resources": [
-          "olje_icke_farl--by--sni_id--year"
+          "olje_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5914,7 +5883,7 @@
         ],
         "value": "ovr_miljoskatt",
         "resources": [
-          "ovr_miljoskatt--by--sni_id--year"
+          "ovr_miljoskatt--by--sni_id--year-2"
         ]
       },
       {
@@ -5924,7 +5893,7 @@
         ],
         "value": "papp_farl",
         "resources": [
-          "papp_farl--by--sni_id--year"
+          "papp_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5934,7 +5903,7 @@
         ],
         "value": "papp_icke_farl",
         "resources": [
-          "papp_icke_farl--by--sni_id--year"
+          "papp_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5944,7 +5913,7 @@
         ],
         "value": "pbc_icke_farl",
         "resources": [
-          "pbc_icke_farl--by--sni_id--year"
+          "pbc_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5954,7 +5923,7 @@
         ],
         "value": "pcb_farl",
         "resources": [
-          "pcb_farl--by--sni_id--year"
+          "pcb_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5964,7 +5933,7 @@
         ],
         "value": "plast_farl",
         "resources": [
-          "plast_farl--by--sni_id--year"
+          "plast_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5974,7 +5943,7 @@
         ],
         "value": "plast_icke_farl",
         "resources": [
-          "plast_icke_farl--by--sni_id--year"
+          "plast_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -5984,7 +5953,7 @@
         ],
         "value": "prod",
         "resources": [
-          "prod--by--sni_id--year"
+          "prod--by--sni_id--year-2"
         ]
       },
       {
@@ -5994,7 +5963,7 @@
         ],
         "value": "res_rakn",
         "resources": [
-          "res_rakn--by--sni_id--year"
+          "res_rakn--by--sni_id--year-2"
         ]
       },
       {
@@ -6004,7 +5973,7 @@
         ],
         "value": "ror_egen_fou",
         "resources": [
-          "ror_egen_fou--by--sni_id--year"
+          "ror_egen_fou--by--sni_id--year-2"
         ]
       },
       {
@@ -6014,7 +5983,7 @@
         ],
         "value": "sjalvfin_egen_fou",
         "resources": [
-          "sjalvfin_egen_fou--by--sni_id--year"
+          "sjalvfin_egen_fou--by--sni_id--year-2"
         ]
       },
       {
@@ -6024,7 +5993,7 @@
         ],
         "value": "sjukv_avf_farl",
         "resources": [
-          "sjukv_avf_farl--by--sni_id--year"
+          "sjukv_avf_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6034,7 +6003,7 @@
         ],
         "value": "sjukv_avf_icke_farl",
         "resources": [
-          "sjukv_avf_icke_farl--by--sni_id--year"
+          "sjukv_avf_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6044,7 +6013,7 @@
         ],
         "value": "slam_farl",
         "resources": [
-          "slam_farl--by--sni_id--year"
+          "slam_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6054,7 +6023,7 @@
         ],
         "value": "slam_icke_farl",
         "resources": [
-          "slam_icke_farl--by--sni_id--year"
+          "slam_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6064,7 +6033,7 @@
         ],
         "value": "sort_farl",
         "resources": [
-          "sort_farl--by--sni_id--year"
+          "sort_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6074,7 +6043,7 @@
         ],
         "value": "sort_icke_farl",
         "resources": [
-          "sort_icke_farl--by--sni_id--year"
+          "sort_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6084,7 +6053,7 @@
         ],
         "value": "surt_farl",
         "resources": [
-          "surt_farl--by--sni_id--year"
+          "surt_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6094,7 +6063,7 @@
         ],
         "value": "surt_icke_farl",
         "resources": [
-          "surt_icke_farl--by--sni_id--year"
+          "surt_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6104,7 +6073,7 @@
         ],
         "value": "syss_bel_kv",
         "resources": [
-          "syss_bel_kv--by--sni_id--year"
+          "syss_bel_kv--by--sni_id--year-2"
         ]
       },
       {
@@ -6114,7 +6083,7 @@
         ],
         "value": "syss_bel_man",
         "resources": [
-          "syss_bel_man--by--sni_id--year"
+          "syss_bel_man--by--sni_id--year-2"
         ]
       },
       {
@@ -6124,7 +6093,7 @@
         ],
         "value": "syss_bel_tot",
         "resources": [
-          "syss_bel_tot--by--sni_id--year"
+          "syss_bel_tot--by--sni_id--year-2"
         ]
       },
       {
@@ -6134,7 +6103,7 @@
         ],
         "value": "syssels",
         "resources": [
-          "syssels--by--sni_id--year"
+          "syssels--by--sni_id--year-2"
         ]
       },
       {
@@ -6144,7 +6113,7 @@
         ],
         "value": "textil_farl",
         "resources": [
-          "textil_farl--by--sni_id--year"
+          "textil_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6154,7 +6123,7 @@
         ],
         "value": "textil_icke_farl",
         "resources": [
-          "textil_icke_farl--by--sni_id--year"
+          "textil_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6164,7 +6133,7 @@
         ],
         "value": "tillamp_forsk",
         "resources": [
-          "tillamp_forsk--by--sni_id--year"
+          "tillamp_forsk--by--sni_id--year-2"
         ]
       },
       {
@@ -6174,7 +6143,7 @@
         ],
         "value": "ton_kem",
         "resources": [
-          "ton_kem--by--sni_id--year"
+          "ton_kem--by--sni_id--year-2"
         ]
       },
       {
@@ -6184,7 +6153,7 @@
         ],
         "value": "tot_egen_fou",
         "resources": [
-          "tot_egen_fou--by--sni_id--year"
+          "tot_egen_fou--by--sni_id--year-2"
         ]
       },
       {
@@ -6194,7 +6163,7 @@
         ],
         "value": "tot_farl",
         "resources": [
-          "tot_farl--by--sni_id--year"
+          "tot_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6204,7 +6173,7 @@
         ],
         "value": "tot_icke_farl",
         "resources": [
-          "tot_icke_farl--by--sni_id--year"
+          "tot_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6214,7 +6183,7 @@
         ],
         "value": "tot_syssel_ex",
         "resources": [
-          "tot_syssel_ex--by--sni_id--year"
+          "tot_syssel_ex--by--sni_id--year-2"
         ]
       },
       {
@@ -6224,7 +6193,7 @@
         ],
         "value": "tot_vatten",
         "resources": [
-          "tot_vatten--by--sni_id--year"
+          "tot_vatten--by--sni_id--year-2"
         ]
       },
       {
@@ -6234,7 +6203,7 @@
         ],
         "value": "tra_farl",
         "resources": [
-          "tra_farl--by--sni_id--year"
+          "tra_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6244,7 +6213,7 @@
         ],
         "value": "tra_icke_farl",
         "resources": [
-          "tra_icke_farl--by--sni_id--year"
+          "tra_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6254,7 +6223,7 @@
         ],
         "value": "trafik_skatt",
         "resources": [
-          "trafik_skatt--by--sni_id--year"
+          "trafik_skatt--by--sni_id--year-2"
         ]
       },
       {
@@ -6264,7 +6233,7 @@
         ],
         "value": "trangselskatt",
         "resources": [
-          "trangselskatt--by--sni_id--year"
+          "trangselskatt--by--sni_id--year-2"
         ]
       },
       {
@@ -6274,17 +6243,7 @@
         ],
         "value": "uppd_egen_fou",
         "resources": [
-          "uppd_egen_fou--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "utsl_ghg",
-        "resources": [
-          "utsl_ghg--by--sni_id--year"
+          "uppd_egen_fou--by--sni_id--year-2"
         ]
       },
       {
@@ -6294,7 +6253,7 @@
         ],
         "value": "utsl_skatt",
         "resources": [
-          "utsl_skatt--by--sni_id--year"
+          "utsl_skatt--by--sni_id--year-2"
         ]
       },
       {
@@ -6304,7 +6263,7 @@
         ],
         "value": "utv_verk",
         "resources": [
-          "utv_verk--by--sni_id--year"
+          "utv_verk--by--sni_id--year-2"
         ]
       },
       {
@@ -6314,7 +6273,7 @@
         ],
         "value": "vanlig_farl",
         "resources": [
-          "vanlig_farl--by--sni_id--year"
+          "vanlig_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6324,7 +6283,7 @@
         ],
         "value": "vanlig_icke_farl",
         "resources": [
-          "vanlig_icke_farl--by--sni_id--year"
+          "vanlig_icke_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6334,7 +6293,7 @@
         ],
         "value": "varuexp",
         "resources": [
-          "varuexp--by--sni_id--year"
+          "varuexp--by--sni_id--year-2"
         ]
       },
       {
@@ -6344,7 +6303,7 @@
         ],
         "value": "varuimp",
         "resources": [
-          "varuimp--by--sni_id--year"
+          "varuimp--by--sni_id--year-2"
         ]
       },
       {
@@ -6354,7 +6313,7 @@
         ],
         "value": "vaxthus_inb_prod",
         "resources": [
-          "vaxthus_inb_prod--by--sni_id--year"
+          "vaxthus_inb_prod--by--sni_id--year-2"
         ]
       },
       {
@@ -6364,7 +6323,7 @@
         ],
         "value": "vaxthus_utslapp",
         "resources": [
-          "vaxthus_utslapp--by--sni_id--year"
+          "vaxthus_utslapp--by--sni_id--year-2"
         ]
       },
       {
@@ -6374,7 +6333,7 @@
         ],
         "value": "vaxthusg",
         "resources": [
-          "vaxthusg--by--sni_id--year"
+          "vaxthusg--by--sni_id--year-2"
         ]
       },
       {
@@ -6384,7 +6343,7 @@
         ],
         "value": "vege_farl",
         "resources": [
-          "vege_farl--by--sni_id--year"
+          "vege_farl--by--sni_id--year-2"
         ]
       },
       {
@@ -6394,7 +6353,7 @@
         ],
         "value": "vege_icke_farl",
         "resources": [
-          "vege_icke_farl--by--sni_id--year"
+          "vege_icke_farl--by--sni_id--year-2"
         ]
       }
     ],
