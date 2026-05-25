@@ -2721,27 +2721,6 @@
       }
     },
     {
-      "path": "ddf--datapoints/ddf--datapoints--utsl_ghg--by--sni_id--year.csv",
-      "name": "utsl_ghg--by--sni_id--year",
-      "schema": {
-        "fields": [
-          {
-            "name": "sni_id"
-          },
-          {
-            "name": "year"
-          },
-          {
-            "name": "utsl_ghg"
-          }
-        ],
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ]
-      }
-    },
-    {
       "path": "ddf--datapoints/ddf--datapoints--utsl_skatt--by--sni_id--year.csv",
       "name": "utsl_skatt--by--sni_id--year",
       "schema": {
@@ -4867,16 +4846,6 @@
           "geog",
           "year"
         ],
-        "value": "utsl_ghg",
-        "resources": [
-          "utsl_ghg--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geog",
-          "year"
-        ],
         "value": "utsl_skatt",
         "resources": [
           "utsl_skatt--by--sni_id--year"
@@ -6369,16 +6338,6 @@
         "value": "uppd_egen_fou",
         "resources": [
           "uppd_egen_fou--by--sni_id--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "sni_id",
-          "year"
-        ],
-        "value": "utsl_ghg",
-        "resources": [
-          "utsl_ghg--by--sni_id--year"
         ]
       },
       {
